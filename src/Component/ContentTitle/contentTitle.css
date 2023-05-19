@@ -1,0 +1,58 @@
+.imageContainer {
+    width: 100%;
+    height: 200px; 
+    overflow: hidden;
+    position: relative;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    object-position: center;
+}
+
+.imageContainer::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15px; /* 调整淡出效果的高度 */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+.imageTitle,
+.homeLink,
+.imageSubtitle {
+  position: relative;
+  color: #fff;
+}
+
+.imageTitle{
+    top: 60px;
+    left: 200px;
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.homeLink{
+    top: 80px;
+    left: 200px;
+    color: #fe5c24;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.imageSubtitle {
+    top: 60px;
+    left: 300px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}

@@ -1,0 +1,56 @@
+.rectangle1 {
+    width: auto;
+    height: 235px;
+    background-color: #272626;
+}
+
+.redLine {
+    margin-top: 15px;
+    width: auto;
+    height: 4px;
+    background-color: #f10303;
+}
+
+.OSULogo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 45px;
+    font-family: Trajan Pro, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: auto;
+    height: 32px;
+    padding-left: 80px;
+    flex-direction: column;
+}
+
+.labTitle {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 110px;
+    font-family: Trajan Pro, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    height: 110px;
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+.smallLogo{
+  width: 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+  float: left;
+}
+
+.labLogo{
+  width: 200px;
+}
+
+.labBlock{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+}
