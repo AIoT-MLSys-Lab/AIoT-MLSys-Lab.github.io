@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunklabwebsite=self.webpackChunklabwebsite||[]).push([[255],{2255:function(e,s,u){u.r(s);u(2791);var n=u(184);s.default=function(){return(0,n.jsx)("div",{children:"Courses"})}}}]);
+//# sourceMappingURL=255.a279cd57.chunk.js.map
