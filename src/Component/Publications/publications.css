@@ -1,0 +1,28 @@
+.pageNav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    min-height: 0vh;
+}
+
+.pageNavBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.formCard{
+    margin-bottom: 10px;
+}
+
+.publicationsTitle{
+    display: flex;
+}
+
+.searchBar{
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+}

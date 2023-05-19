@@ -1,0 +1,50 @@
+.talkTitle{
+    font-family: 'Poppins-R', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: #191D34;
+    margin-left: 200px;
+}
+
+.talkYear{
+    font-family: 'Poppins-R', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.talkContent{
+    margin-left: 250px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.talkItem{
+    display: flex;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+
+.talkStrong{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.talkIcon{
+    height: 32px;
+}
+
+.talkIcon_left{
+    height: 32px;
+    margin-left: 4px;
+}
+
+.talkItem a{
+    color: #1371ffd5;
+}

@@ -1,0 +1,36 @@
+@import './index.css';
+
+
+@mixin s{
+  background-color: gold;
+}
+
+.home {
+  background-color: pink;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item-center {
+  display: flex;
+  align-items: center;
+}
+
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.container{
+  width: 100%;
+  background-color: pink;
+  padding: 20PX ;
+}
+
