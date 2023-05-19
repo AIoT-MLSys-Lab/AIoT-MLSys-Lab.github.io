@@ -2,6 +2,7 @@
   "name": "defi",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://AIoT-MLSys-Lab.github.io",
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
     "@ethersproject/providers": "^5.7.2",
@@ -34,12 +35,12 @@
     "web3": "^1.9.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -62,9 +63,9 @@
   "devDependencies": {
     "@redux-devtools/core": "^3.13.1",
     "autoprefixer": "^9",
+    "gh-pages": "^5.0.0",
     "postcss": "^7",
     "sass-resources-loader": "^2.2.5",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
-  
