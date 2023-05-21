@@ -6,8 +6,8 @@ const initialState = {
 }
 
 const demoSlice = createSlice({
-  name:'demo',  //定义actions的头
-  initialState,  //state的初始值
+  name:'demo',  
+  initialState,  
   reducers:{ 
     setValue:(state)=>{
       console.log(state.value)

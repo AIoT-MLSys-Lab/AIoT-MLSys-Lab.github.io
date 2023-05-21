@@ -6,7 +6,6 @@ function Header() {
   return (
     <div>
         <div className='rectangle1'>
-            {/* <img src="./images/OSULogo.png" alt="" className='smallLogo' /> */}
             <div className='OSULogo'>The Ohio State University</div>
             <div className='redLine'></div>
             <div className='labBlock'>

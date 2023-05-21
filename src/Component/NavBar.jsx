@@ -43,20 +43,6 @@ const items = [
           },
         ],
       },
-      {
-        type: 'group',
-        label: 'Other',
-        children: [
-          {
-            label: 'Option 3',
-            key: 'setting:3',
-          },
-          {
-            label: 'Option 4',
-            key: 'setting:4',
-          },
-        ],
-      },
     ]
   },
   {
