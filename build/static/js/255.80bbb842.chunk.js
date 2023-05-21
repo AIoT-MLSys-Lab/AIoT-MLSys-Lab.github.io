@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkdefi=self.webpackChunkdefi||[]).push([[255],{2255:function(e,u,n){n.r(u);n(2791);var s=n(184);u.default=function(){return(0,s.jsx)("div",{children:"Courses"})}}}]);
-//# sourceMappingURL=255.80bbb842.chunk.js.map
