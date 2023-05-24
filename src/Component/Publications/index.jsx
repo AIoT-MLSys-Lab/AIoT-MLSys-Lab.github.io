@@ -10,9 +10,9 @@ function Publications() {
 
       <ContentTitle title = "Our Publications" subtitle = "Publications"></ContentTitle>
 
-      <div className='publicationsTitle'>
+      {/* <div className='publicationsTitle'>
         Publications
-      </div>
+      </div> */}
       
       <div className='publicationsYear'>
         Book

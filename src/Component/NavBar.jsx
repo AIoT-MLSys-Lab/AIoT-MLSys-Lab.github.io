@@ -70,6 +70,6 @@ const NavBar = () => {
       navigate(`${e.key}`);
     }
   };
-  return <Menu className='flex-center' onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />;
+  return <Menu className='flex-center' onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items}/>;
 };
 export default NavBar;

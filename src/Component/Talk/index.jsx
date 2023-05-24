@@ -6,9 +6,9 @@ function Talk() {
   return (
     <div>
       <ContentTitle title = "Our Talk" subtitle = "Talk"></ContentTitle>
-      <div className='talkTitle'>
+      {/* <div className='talkTitle'>
         Invited Talk
-      </div>
+      </div> */}
       <div className='talkYear'>
         2022
       </div>

@@ -26,15 +26,14 @@
 
 .labTitle {
     color: #fff;
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.4rem;
     line-height: 2rem;
-    font-family: Trajan Pro, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    font-weight: bold;
+    font-family: 'Poppins-L', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     height: 2rem;
-    padding-left: 30px;
+    margin-left: 40px;
     word-wrap: break-word;
-
     
 }
 
@@ -48,6 +47,7 @@
 .labLogo{
   width: auto;
   height: 80%;
+  margin-left: 10%;
 }
 
 .labBlock{
@@ -57,4 +57,17 @@
   justify-content: center;
   align-items: center;
   height: 110px;
+}
+
+.headerBox {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ant-menu {
+  height: 80px;
+  font-weight: bold;
 }

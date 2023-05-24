@@ -15,7 +15,7 @@ function Join() {
 
       <div className='joinContent'>
         <div className='openings'>
-          <div className='oepningsTitle'>Openings</div>
+          {/* <div className='oepningsTitle'>Openings</div> */}
           <button onClick={() => handleTabClick('Introduction')} className={`tab-button ${activeTab === 'Introduction' ? 'selectedButton' : ''}`}>Introduction</button>
           <hr />
           <button onClick={() => handleTabClick('Postdoc')} className={`tab-button ${activeTab === 'Postdoc' ? 'selectedButton' : ''}`}>Postdoc</button>
