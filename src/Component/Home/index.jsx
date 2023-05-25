@@ -2,10 +2,12 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Collection from '../Collection';
 import './home.css'
+import CanvasNest from '../CanvasNest';
 
 function Home() {
   return (
     <div className="homeContainer">
+      <CanvasNest></CanvasNest>
       <div className="mission">
         <h2 className='missionTitle'>Our Mission</h2>
         <div className='missionContent'>
@@ -89,6 +91,7 @@ function Home() {
           <div className='researchBlock'>research4</div>
         </div>
       </div>
+
     </div>
   )
 }

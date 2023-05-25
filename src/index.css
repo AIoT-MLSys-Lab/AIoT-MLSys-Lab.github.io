@@ -187,3 +187,18 @@ body {
 :root {
   font-size: 16px;
 }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../public/font/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-L';
+  src: url('../public/font/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-R';
+  src: url('../public/font/Poppins-Regular.ttf') format('truetype');
+}

@@ -1,18 +1,3 @@
-@font-face {
-    font-family: 'Poppins';
-    src: url('./Poppins-Medium.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Poppins-L';
-    src: url('./Poppins-Light.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Poppins-R';
-    src: url('./Poppins-Regular.ttf') format('truetype');
-}
-
 .homeContainer {
     display: grid;
     grid-template-columns: 10% 50% 20% 20%;

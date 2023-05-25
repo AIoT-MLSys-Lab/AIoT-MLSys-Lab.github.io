@@ -16,8 +16,8 @@ function Header() {
         </div> */}
         <div className='headerBox'>
           <img src="./images/LabLogo.png" alt="" className='labLogo'/>
-          <div className='labTitle'>AIoT And Machine Learning Systems Lab</div>
-          <img src="./images/OSULogo2.png" alt="" className='labLogo'/>
+          <div className='labTitle'>OSU AIoT And Machine Learning Systems Lab</div>
+          <img src="./images/OSUHeaderLogo.svg" alt="" className='headerOSULogo'/>
         </div>
         <NavBar></NavBar>
     </div>

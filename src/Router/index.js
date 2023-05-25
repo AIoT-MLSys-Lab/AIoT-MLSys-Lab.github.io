@@ -1,7 +1,6 @@
-import React, { lazy, Suspense } from 'react'
+import React, { lazy, Suspense, useEffect } from 'react'
 import { useRoutes } from 'react-router-dom';
 import Talk from '../Component/Talk';
-
 
 const Main = lazy(
   async () => await import('@/Page/Main.jsx')
@@ -80,6 +79,7 @@ function Index() {
       ]
     },
   ])
+
   return (
     <div>
       <Suspense fallback={<p>loading</p>}>

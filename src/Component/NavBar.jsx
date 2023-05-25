@@ -1,4 +1,4 @@
-import { Button } from 'antd'
+import { Button, Affix } from 'antd'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
@@ -59,6 +59,7 @@ const items = [
   },
 ];
 const NavBar = () => {
+  const [top, setTop] = useState(0);
   const [current, setCurrent] = useState('/');
   const navigate = useNavigate();
   const onClick = (e) => {
@@ -70,6 +71,9 @@ const NavBar = () => {
       navigate(`${e.key}`);
     }
   };
-  return <Menu className='flex-center' onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items}/>;
+  return <Affix offsetTop={top}>
+    <Menu className='flex-center' onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items}/>
+  </Affix>
+  ;
 };
 export default NavBar;

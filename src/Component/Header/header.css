@@ -65,9 +65,19 @@
   width: 100%;
   display: flex;
   align-items: center;
+  overflow: hidden;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .ant-menu {
   height: 80px;
   font-weight: bold;
+  background-color: rgb(242, 242, 242);
+}
+
+.headerOSULogo {
+  height: 150px;
+  margin-left: auto;
+  margin-right: 10%;
 }

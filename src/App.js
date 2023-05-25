@@ -13,6 +13,8 @@ import Header from './Component/Header';
 import Footer from './Component/Footer';
 import Index from './Router/index';
 import NavBar from './Component/NavBar';
+
+
 function App() {
   const {lang}  = useSelector(store=>store.demo);
   console.log(lang);
