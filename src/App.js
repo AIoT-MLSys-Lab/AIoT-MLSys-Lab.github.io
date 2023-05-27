@@ -4,7 +4,7 @@ import enUS from './locales/en-US.json'
 import zhCN from './locales/zh-CN.json'
 
 //路由
-import { BrowserRouter as Routes,useNavigate,useRoutes } from 'react-router-dom';
+import { BrowserRouter as Router,useNavigate,useRoutes } from 'react-router-dom';
 
 //redux
 import { useDispatch,useSelector } from 'react-redux';
@@ -20,11 +20,13 @@ function App() {
   console.log(lang);
   return (
     <IntlProvider locale={lang} messages={lang === 'en-US' ? enUS : zhCN}>
-      <Routes>
+      
+      <Router>
         <Header></Header>
         <Index></Index>
-        <Footer></Footer>
-      </Routes>
+        
+      </Router>
+      <Footer></Footer>
     </IntlProvider>
   );
 }

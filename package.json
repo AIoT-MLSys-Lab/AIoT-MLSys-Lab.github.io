@@ -69,6 +69,7 @@
     "gh-pages": "^5.0.0",
     "postcss": "^7",
     "sass-resources-loader": "^2.2.5",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "webpack-cli": "^5.1.1"
   }
 }
