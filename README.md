@@ -1,1 +1,1 @@
-# AIoT & Machine Learning Lab Website
+# OSU AIoT & Machine Learning Systems Lab Website
