@@ -5,7 +5,7 @@ import './talk.css'
 function Talk() {
   return (
     <div>
-      <ContentTitle title = "Our Talk" subtitle = "Talk"></ContentTitle>
+      <ContentTitle title = "Talks" subtitle = "Talk"></ContentTitle>
       {/* <div className='talkTitle'>
         Invited Talk
       </div> */}

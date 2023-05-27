@@ -12,7 +12,7 @@ const MemberCard = ( props ) => (
         src={props.imageURL}
         style={{
           width: '100%',
-          height: '250px',
+          height: '300px',
           objectFit: 'cover'
         }}
       />

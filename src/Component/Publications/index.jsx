@@ -14,15 +14,24 @@ function Publications() {
         Publications
       </div> */}
       
+      <div className='publicationsInfo'>
+        For a complete list of my publications, please visit the <a href="https://scholar.google.com/citations?user=r3A90uAAAAAJ&hl=en">Google Scholar Profile</a> .
+        <br />
+        * indicates equal contributions.
+      </div>
+
       <div className='publicationsYear'>
         Book
       </div>
       <div className='publicationsContent'>
-        <div className='publicationsItem'>
-          <div className='publicationsStrong'>创新工场讲AI课：从知识到实践 (Chinese) </div>
-					李开复, 王咏刚, 张潼, 宋彦, 屠可伟, 张发恩, 唐剑, 张弥, 吴佳洪, 刘宁. <br />
-          电子工业出版社, 2021. <br />
-          [ <a href="https://item.jd.com/12830375.html">Purchase Link</a> ] 
+        <div className='publicationsBook'>
+          <div className='bookItem'>
+            <div className='publicationsStrong'>创新工场讲AI课：从知识到实践 (Chinese) </div>
+            <div>李开复, 王咏刚, 张潼, 宋彦, 屠可伟, 张发恩, 唐剑, 张弥, 吴佳洪, 刘宁. <br />
+            电子工业出版社, 2021. <br />
+            [ <a href="https://item.jd.com/12830375.html">Purchase Link</a> ] </div>
+          </div>
+          <img src="./images/book.jpg" alt="" className='bookImg'/>
         </div>
       </div>
 
@@ -811,7 +820,7 @@ function Publications() {
         </div>
       </div>
 
-      <div className='publicationsYear'>
+      {/* <div className='publicationsYear'>
         2013 and Earlier
       </div>
       <div className='publicationsContent'>
@@ -931,7 +940,7 @@ function Publications() {
 					International Symposium on Applied Sciences in Biomedical and Communication Technologies (ISABEL), 2009.
         </div>
 
-      </div>
+      </div> */}
     </div>
   )
 }

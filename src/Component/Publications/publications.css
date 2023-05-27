@@ -57,3 +57,34 @@
 .publicationsItem a{
     color: #1371ffd5;
 }
+
+.bookItem {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.bookImg {
+    width: 200px;
+    margin-left: auto;
+}
+
+.publicationsBook {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.publicationsInfo{
+    font-family: 'Poppins-R', sans-serif;
+    font-size: 1.5rem; 
+    line-height: 2rem;
+    color: #191D34;
+    margin-left: 15%;
+}
+
+.publicationsInfo a{
+    color: #1371ffd5;
+}

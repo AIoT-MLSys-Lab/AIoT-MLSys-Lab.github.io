@@ -46,7 +46,7 @@ const items = [
     ]
   },
   {
-    label: 'Talk',
+    label: 'Talks',
     key: 'Talk',
   },
   {
