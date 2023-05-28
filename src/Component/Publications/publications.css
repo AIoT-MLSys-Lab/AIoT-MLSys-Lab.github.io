@@ -61,11 +61,11 @@
 .bookItem {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .bookImg {
-    width: 200px;
+    width: 250px;
     margin-left: auto;
 }
 

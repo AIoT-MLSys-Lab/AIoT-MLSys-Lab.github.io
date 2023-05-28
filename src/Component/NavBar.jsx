@@ -1,6 +1,6 @@
 import { Button, Affix } from 'antd'
 import React from 'react'
-import { useNavigate, NavLink } from 'react-router-dom'
+import { useNavigate, NavLink, useLocation } from 'react-router-dom'
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
 import { useState } from 'react';
@@ -60,7 +60,8 @@ const items = [
 ];
 const NavBar = () => {
   const [top, setTop] = useState(0);
-  const [current, setCurrent] = useState('/');
+  const location = useLocation();
+  const [current, setCurrent] = useState(location.pathname.split("/")[1]);
   const navigate = useNavigate();
   const onClick = (e) => {
     console.log('click ', e);

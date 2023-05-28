@@ -8,16 +8,14 @@ function Publications() {
   return (
     <div>
 
-      <ContentTitle title = "Our Publications" subtitle = "Publications"></ContentTitle>
+      <ContentTitle title = "Publications" subtitle = "Publications"></ContentTitle>
 
       {/* <div className='publicationsTitle'>
         Publications
       </div> */}
       
       <div className='publicationsInfo'>
-        For a complete list of my publications, please visit the <a href="https://scholar.google.com/citations?user=r3A90uAAAAAJ&hl=en">Google Scholar Profile</a> .
-        <br />
-        * indicates equal contributions.
+      Please visit <a href="https://scholar.google.com/citations?user=r3A90uAAAAAJ&hl=en">Google Scholar</a> for a complete list of publications.
       </div>
 
       <div className='publicationsYear'>

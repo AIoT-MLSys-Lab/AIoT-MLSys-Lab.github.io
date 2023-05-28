@@ -3,39 +3,39 @@ import { useRoutes } from 'react-router-dom';
 import Talk from '../Component/Talk';
 
 const Main = lazy(
-  async () => await import('@/Page/Main.jsx')
+  async () => await import('../Page/Main.jsx')
 );
 
 
 const Home = lazy(
-  async () => await import('@/Component/Home')
+  async () => await import('../Component/Home')
 );
 const Research = lazy(
-  async () => await import('@/Component/Research')
+  async () => await import('../Component/Research')
 );
 
 const Members = lazy(
-  async () => await import('@/Component/Members')
+  async () => await import('../Component/Members')
 );
 
 const News = lazy(
-  async () => await import('@/Component/News')
+  async () => await import('../Component/News')
 );
 
 const Publications = lazy(
-  async () => await import('@/Component/Publications')
+  async () => await import('../Component/Publications')
 );
 
 const Courses = lazy(
-  async () => await import('@/Component/Courses')
+  async () => await import('../Component/Courses')
 );
 
 const GroupCalendar = lazy(
-  async () => await import('@/Component/Talk')
+  async () => await import('../Component/Talk')
 );
 
 const Join = lazy(
-  async () => await import('@/Component/Join')
+  async () => await import('../Component/Join')
 );
 
 function Index() {

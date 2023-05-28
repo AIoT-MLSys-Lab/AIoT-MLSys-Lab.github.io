@@ -1,16 +1,18 @@
-// config-overrides.js文件内容： 
-const { override, addPostcssPlugins } = require('customize-cra')
-const path = require('path');
-module.exports = override(
-  config =>{
-    config.resolve.alias = {
-        "@": path.resolve(__dirname, "src")
-    };
-
+module.exports = {
+  webpack: function (config, env) {
     return config;
-},
-  addPostcssPlugins([
-    require('tailwindcss'),
-    require('autoprefixer')
-  ])
-)
+  },
+  jest: function (config) {
+    return config;
+  },
+  devServer: function (configFunction) {
+    return function (proxy, allowedHost) {
+        const config = configFunction(proxy, allowedHost);
+        config.historyApiFallback = true;
+        return config;
+    };
+  },
+  paths: function (paths, env) {
+    return paths;
+  },
+}
