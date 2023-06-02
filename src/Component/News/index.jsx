@@ -15,9 +15,7 @@ function News() {
             { value: '<span style="font-weight: bold;">01/2023:</span> Congratulations Samiul for being awarded the highly competitive OSU College Allocated Fellowship!'},
             { value: '<span style="font-weight: bold;">12/2022:</span> Thanks Meta Reality Labs for the generous faculty award for supporting our research!'},
             { value: '<span style="font-weight: bold;">09/2022:</span> <a href="https://arxiv.org/abs/2212.01548" style="color: blue;">FedRolex</a>, our work on model-heterogeneous federated learning is accepted to NeurIPS\'22.'},
-            { value: '<span style="font-weight: bold;">08/2022:</span> After eight amazing years at MSU, our group has joined Department of Computer Science and Engineering at OSU. '},
-            { value: '<span style="font-weight: bold;">08/2022:</span> Congratulations Shen for denfending his PhD thesis! Wish you all the best at Google Research! '},
-          ]
+            ]
         }
         ></PageNav>
       </div>

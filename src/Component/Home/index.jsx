@@ -51,34 +51,21 @@ function Home() {
           </div>
         </div>
 
-        <div className='new'>
-          <div className='newDate'>
-            Aug 2022
-          </div>
-          <div className='newContent'>
-          After eight amazing years at MSU, our group has joined Department of Computer Science and Engineering at OSU.
-          </div>
-        </div>
-        
-        <div className='new'>
-          <div className='newDate'>
-            Aug 2022
-          </div>
-          <div className='newContent'>
-          Congratulations Shen for denfending his PhD thesis! Wish you all the best at Google Research!
-          </div>
-        </div>
-
-
         <div className='homeNewsLink'>
-          <a href="">...See All News</a>
+          <a href="./#/News">...See All News</a>
         </div>
       </div>
       
 
-      <div className='collection'>
-        <Collection className="collection"></Collection>
+      <div className='homeAchievement'>
+        <h2 className='homeAchievementTitle'>Our Achievements</h2>
+        <div className='homeAchievementContent'>
+        I have received a number of awards for my work. I am the 4th Place Winner (1st Place in U.S. and Canada) of 2019 Google MicroNet Challenge (CIFAR-100 Track), the Third Place Winner of 2017 NSF Hearables Challenge, and the champion of 2016 NIH Pill Image Recognition Challenge. I am the recipient of seven best paper awards and nominations. I am also the recipient of NSF CRII Award, Facebook Faculty Research Award, Amazon Machine Learning Research Award, MSU Innovation of the Year Award, and the inaugural USC ECE SIPI Distinguished Alumni Award in the Junior/Academia category for my contributions to mobile/edge computing in my early career.
+        </div>
       </div>
+      {/* <div className='collection'>
+        <Collection className="collection"></Collection>
+      </div> */}
       
       <div className="homeResearch">
         <div className='homeResearchTitle'>Research</div>
