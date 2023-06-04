@@ -138,16 +138,45 @@
 
 .homeResearchTitle{
     font-family: 'Poppins-R', sans-serif;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 2rem;
     margin-top: 20px;
     margin-bottom: 40px;
     text-align: center;
-    /* color: #191D34; */
     color: crimson;
 }
 
 .collection {
     grid-column: 2;
     grid-row: 2;
+}
+
+.homeSponsor {
+    grid-column: 2/ span 3;
+    grid-row: 4;
+}
+
+.homeSponsorTitle {
+    font-family: 'Poppins-R', sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: crimson;
+}
+
+.homeSponsorIntro {
+    font-size: 1.2rem;
+}
+
+.homeSponsorItem {
+    height: 100px;
+    margin: 20px;
+}
+
+.homeSponsorImages {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
 }
