@@ -79,7 +79,7 @@ function Home() {
 
       <div className='homeSponsor'>
         <div className='homeSponsorTitle'>Sponsor</div>
-        <div className='homeSponsorIntro'>Our research is generously sponsored by the following federal agencies and industry partners. We express our sincere gratitude to their support.</div>
+        {/* <div className='homeSponsorIntro'>Our research is generously sponsored by the following federal agencies and industry partners. We express our sincere gratitude to their support.</div> */}
         <div className='homeSponsorImages'>
           <img src="./images/Sponsor_NSF.jpeg" alt="" className='homeSponsorItem'/>
           <img src="./images/Sponsor_facebook.png" alt="" className='homeSponsorItem'/>
@@ -88,7 +88,7 @@ function Home() {
           <img src="./images/Sponsor_DoT.png" alt="" className='homeSponsorItem'/>
           <img src="./images/Sponsor_Microsoft.jpg" alt="" className='homeSponsorItem'/>
           <img src="./images/Sponsor_Google.png" alt="" className='homeSponsorItem'/>
-          <img src="./images/Sponsor_Amazon.jpeg" alt="" className='homeSponsorItem'/>
+          <img src="./images/Sponsor_amazon.jpeg" alt="" className='homeSponsorItem'/>
         </div>
       </div>
 

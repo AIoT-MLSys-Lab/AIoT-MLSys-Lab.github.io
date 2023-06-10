@@ -7,7 +7,7 @@ function Research() {
     <div>
       <ContentTitle title = "Our Research" subtitle = "Research"></ContentTitle>
       <div className='contentBG'>
-        <a href="">
+        <a href="./#/project/project1">
           <div className='researchItem'>
             <div className='contentText'>
               <div className='itemTitle'>Project Name</div>

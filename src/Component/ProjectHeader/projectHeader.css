@@ -1,0 +1,24 @@
+.projectHeaderContainer {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.projectHeaderTitle {
+    margin-top: 50px;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+    display: flex;
+}
+
+.projectHeaderSubTitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2.3rem;
+    line-height: 3rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+    display: flex;
+    color:darkgray;
+}

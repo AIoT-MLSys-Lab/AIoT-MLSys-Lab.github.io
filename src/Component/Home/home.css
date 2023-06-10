@@ -171,12 +171,18 @@
 }
 
 .homeSponsorItem {
-    height: 100px;
+    height: 60px;
     margin: 20px;
 }
 
 .homeSponsorImages {
     margin-top: 60px;
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
 }
+
+@media (max-width: 1500px) {
+    .homeSponsorItem {
+      height: 40px; /* 缩小为80% */
+    }
+  }

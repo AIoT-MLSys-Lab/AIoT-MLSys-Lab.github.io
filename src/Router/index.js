@@ -38,6 +38,10 @@ const Join = lazy(
   async () => await import('../Component/Join')
 );
 
+const Project1 = lazy(
+  async () => await import('../Component/Projects/Project1')
+);
+
 function Index() {
   const element = useRoutes([
     {
@@ -76,6 +80,10 @@ function Index() {
           path: '/join',
           element: <Join></Join>,
         },
+        {
+          path: '/project/project1',
+          element: <Project1></Project1>,
+        }
       ]
     },
   ])

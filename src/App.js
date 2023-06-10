@@ -4,7 +4,7 @@ import enUS from './locales/en-US.json'
 import zhCN from './locales/zh-CN.json'
 
 //路由
-import { HashRouter as Router,useNavigate,useRoutes } from 'react-router-dom';
+import { HashRouter as Router,useNavigate,useRoutes, Route, Routes} from 'react-router-dom';
 
 //redux
 import { useDispatch,useSelector } from 'react-redux';
@@ -14,6 +14,8 @@ import Footer from './Component/Footer';
 import Index from './Router/index';
 import NavBar from './Component/NavBar';
 import CanvasNest from './Component/CanvasNest';
+import ProjectHeader from './Component/ProjectHeader';
+import ProjectFooter from './Component/ProjectFooter';
 
 function App() {
   const {lang}  = useSelector(store=>store.demo);
@@ -22,11 +24,20 @@ function App() {
     <IntlProvider locale={lang} messages={lang === 'en-US' ? enUS : zhCN}>
       <CanvasNest></CanvasNest>
       <Router>
-        <Header></Header>
+        <Routes>
+          <Route exact path="/project/*" element={<ProjectHeader></ProjectHeader>} />
+          <Route path="/*" element={<Header></Header>}/>
+        </Routes>
+
         <Index></Index>
-        
+
+        <Routes>
+          <Route path="/project/*" element={<ProjectFooter></ProjectFooter>} />
+          <Route path="/*" element={<Footer></Footer>}/>
+        </Routes>
+       
       </Router>
-      <Footer></Footer>
+      
     </IntlProvider>
   );
 }
