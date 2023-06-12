@@ -25,7 +25,6 @@
 }
 
 .missionContent {
-    text-indent: 2em;
     border: 1px solid #e7e7e7;
     box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05);
     border-radius: 4px;
@@ -53,7 +52,6 @@
 }
 
 .homeAchievementContent {
-    text-indent: 2em;
     border: 1px solid #e7e7e7;
     box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05);
     border-radius: 4px;
@@ -179,6 +177,11 @@
     margin-top: 60px;
     display: flex;
     width: 100%;
+}
+
+.missionHighLight {
+    display: inline;
+    font-weight: bold;
 }
 
 @media (max-width: 1500px) {

@@ -9,7 +9,8 @@ function Home() {
       <div className="mission">
         <h2 className='missionTitle'>Our Mission</h2>
         <div className='missionContent'>
-        The proliferation of edge devices such as mobile phones and Internet of Things as well as the gigantic amount of data they generate make it no longer feasible to transmit all the data to the cloud for processing. Such constraint fuels the need to move the intelligence from the cloud to the edge where data reside. The key mission of my lab is to bring the power of AI, in particular, deep learning, to Empowering Billions of Everyday Devices with AI to realize the vision of Artificial Intelligence of Things (AIoT). To achieve this mission, my group focuses on its core challenges related to sensing, intelligence, connectivity, efficiency, automation, scalability, privacy, inclusiveness and important applications such as healthcare and sustainability. Achieving such goal requires a combination of approaches. My work draws insights from a broad set of disciplines including mobile & embedded systems, AI/machine learning, wireless networking, distributed systems, and human-centered computing.
+        The proliferation of edge devices such as mobile phones and Internet of Things as well as the gigantic amount of data they generate make it no longer feasible to transmit all the data to the cloud for processing. Such constraint fuels the need to move the intelligence from the cloud to the edge where data reside. Our mission is to bring the power of AI, in particular, deep learning, to <div className='missionHighLight'>Empowering Billions of Everyday Devices with AI</div>. To achieve this mission, we focus on its core challenges related to sensing, intelligence, connectivity, efficiency, automation, scalability, privacy, inclusiveness and important applications such as healthcare and sustainability. Achieving such a goal requires a combination of approaches. Our work draws insights from a broad set of disciplines including mobile & embedded systems, AI/machine learning, wireless networking, distributed systems, and human-centered computing.
+
         </div>        
       </div>
 
@@ -78,7 +79,7 @@ function Home() {
       </div>
 
       <div className='homeSponsor'>
-        <div className='homeSponsorTitle'>Sponsor</div>
+        <div className='homeSponsorTitle'>Sponsers</div>
         {/* <div className='homeSponsorIntro'>Our research is generously sponsored by the following federal agencies and industry partners. We express our sincere gratitude to their support.</div> */}
         <div className='homeSponsorImages'>
           <img src="./images/Sponsor_NSF.jpeg" alt="" className='homeSponsorItem'/>

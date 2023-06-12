@@ -1,6 +1,7 @@
 import React from 'react'
 import './members.css'
 import MemberCard from '../MemberCard'
+import NoPhotoCard from '../NoPhotoCard'
 import ContentTitle from '../ContentTitle'
 import { useState } from 'react';
 
@@ -15,6 +16,59 @@ function Members() {
     <div>
       <ContentTitle title = "Our Member" subtitle = "Member"></ContentTitle>
       <div className='memberContent'>
+          <div className='memberType'>
+              <div className="memberTitle">Faculty</div>
+              <div className='cardSet'>
+                <div className='card'><MemberCard imageURL="./images/MiZhang.png" title="Mi Zhang" description="Principle Investigator   mizhang.1@osu.edu"></MemberCard></div>
+              </div>
+          </div>
+
+          <div className='memberType'>
+            <div className="memberTitle">Ph.D. Student</div>
+              <div className='cardSet'>
+                <div className='card'><MemberCard imageURL="./images/SamiulAlam.jpg" title="Samiul Alam" description="Ph.D. Student   shen.1780@osu.edu"></MemberCard></div>
+                <div className='card'><MemberCard imageURL="./images/" title="Zhongwei Wan" description="Ph.D. Student   shen.1780@osu.edu"></MemberCard></div>
+                <div className='card'><MemberCard imageURL="./images/" title="Shakhrul Iman Siam" description="Ph.D. Student   shen.1780@osu.edu"></MemberCard></div>
+                <div className='card'><MemberCard imageURL="./images/HyunhoAhn.jpg" title="Hyunho Ahn" description="Ph.D. Student   shen.1780@osu.edu"></MemberCard></div>
+              </div>
+          </div>
+
+          <div className='memberType'>
+            <div className="memberTitle">Master Student</div>
+              <div className='cardSet'>
+                <div className='card'><MemberCard imageURL="./images/XinWang.jpg" title="Xin Wang" description="Master Student   wang.15980@osu.edu"></MemberCard></div>  
+              </div>
+          </div>
+
+          <div className='memberType'>
+            <div className="memberTitle">Undergrads Student</div>
+              <div className='cardSet'>
+                <div className='card'><MemberCard imageURL="./images/MarcusShen.jpg" title="Marcus Shen" description="CSE Department   shen.1780@osu.edu"></MemberCard></div>
+              </div>
+          </div>
+
+          <div className='memberType'>
+              <div className="memberTitle">Alumi</div>
+              <div className='cardSet'>
+                <div className='card'><NoPhotoCard title="Shen Yan" description="Ph.D., Research Scientist @ Google Research"></NoPhotoCard></div>
+                <div className='card'><NoPhotoCard title="Xiao Zeng" description="Ph.D., Applied Scientist @ Amazon Lab126"></NoPhotoCard></div>
+                <div className='card'><NoPhotoCard title="Biyi Fang" description="Ph.D., Machine Learning Scientist and Software Engineer @ Microsoft Machine Learning Cloud Services"></NoPhotoCard></div>
+                <div className='card'><NoPhotoCard title="Yun Lou" description="Master"></NoPhotoCard></div>
+                <div className='card'><NoPhotoCard title="Fazlay Rabbi" description="Master"></NoPhotoCard></div>
+                <div className='card'><NoPhotoCard title="Brian Wang" description="B.S."></NoPhotoCard></div>
+                <div className='card'><NoPhotoCard title="Jordan Wagner" description="B.S."></NoPhotoCard></div>
+                <div className='card'><NoPhotoCard title="Collin Dillinger" description="B.S."></NoPhotoCard></div>
+                <div className='card'><NoPhotoCard title="Nathan Bagnall" description="B.S."></NoPhotoCard></div>
+                <div className='card'><NoPhotoCard title="Stevers William" description="B.S."></NoPhotoCard></div>
+                <div className='card'><NoPhotoCard title="Philip Dooley" description="B.S."></NoPhotoCard></div>
+                <div className='card'><NoPhotoCard title="Polimante Sergio" description="B.S."></NoPhotoCard></div>
+                <div className='card'><NoPhotoCard title="Haochen Sun" description="B.S."></NoPhotoCard></div>
+                <div className='card'><NoPhotoCard title="Jillian Co" description="B.S."></NoPhotoCard></div>
+              </div>
+          </div>
+      </div>
+
+      {/* <div className='memberContent'>
       <div className='memberType'>
           <button onClick={() => handleTabClick('Faculty')} className={`tab-button ${activeTab === 'Faculty' ? 'selectedButton' : ''}`}>Faculty</button>
           <hr />
@@ -85,9 +139,7 @@ function Members() {
             </div>
           )}
         </div>
-      </div>
-      
-      
+      </div> */}
     </div>
   )
 }

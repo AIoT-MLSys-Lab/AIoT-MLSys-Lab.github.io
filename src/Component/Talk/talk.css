@@ -1,20 +1,9 @@
-.talkTitle{
-    font-family: 'Poppins-R', sans-serif;
-    font-size: 32px;
-    line-height: 40px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    color: #191D34;
-    margin-left: 200px;
-}
-
 .talkYear{
     font-family: 'Poppins-R', sans-serif;
     font-size: 28px;
     font-weight: bold;
     line-height: 40px;
     margin-left: 200px;
-    margin-top: 80px;
 }
 
 .talkContent{
