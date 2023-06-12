@@ -27,20 +27,21 @@
     margin-left: 15%;
 }
 
+.publicationsBlock{
+    display: flex;
+}
+
 .publicationsYear{
     font-family: 'Poppins-R', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.5rem;
     margin-left: 15%;
-    margin-top: 80px;
 }
 
 .publicationsContent{
-    margin-left: 20%;
+    margin-left: 50px;
     margin-right: 20%;
-    margin-top: 3%;
-    margin-bottom: 3%;
 }
 
 .publicationsItem{
@@ -61,28 +62,27 @@
 .bookItem {
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
+    margin-right: 200px;
 }
 
 .bookImg {
     width: 250px;
-    margin-left: auto;
 }
 
 .publicationsBook {
     font-size: 1rem;
     line-height: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 40px;
     display: flex;
 }
 
 .publicationsInfo{
     font-family: 'Poppins-R', sans-serif;
-    font-size: 1.5rem; 
+    font-size: 1.2rem; 
     line-height: 2rem;
     color: #191D34;
     margin-left: 15%;
+    margin-bottom: 40px;
 }
 
 .publicationsInfo a{

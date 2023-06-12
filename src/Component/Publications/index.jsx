@@ -14,10 +14,11 @@ function Publications() {
         Publications
       </div> */}
       
-      <div className='publicationsInfo'>
+      {/* <div className='publicationsInfo'>
       Please visit <a href="https://scholar.google.com/citations?user=r3A90uAAAAAJ&hl=en">Google Scholar</a> for a complete list of publications.
-      </div>
+      </div> */}
 
+      <div className='publicationsBlock'>
       <div className='publicationsYear'>
         Book
       </div>
@@ -32,7 +33,9 @@ function Publications() {
           <img src="./images/book.jpg" alt="" className='bookImg'/>
         </div>
       </div>
+      </div>
 
+      <div className='publicationsBlock'>
       <div className='publicationsYear'>
         2023
       </div>
@@ -56,7 +59,9 @@ function Publications() {
           [ <a href="papers/2023_ICASSP_FedAudio.pdf">Paper</a>  |  <a href="papers/2023_ICASSP_FedAudio.bib">BibTex</a> ]
         </div>
       </div>
+      </div>
 
+      <div className='publicationsBlock'>
       <div className='publicationsYear'>
         2022
       </div>
@@ -139,7 +144,9 @@ function Publications() {
         </div>
 
       </div>
+      </div>
 
+      <div className='publicationsBlock'>
       <div className='publicationsYear'>
         2021
       </div>
@@ -224,7 +231,9 @@ function Publications() {
 
 
       </div>
+      </div>
 
+      <div className='publicationsBlock'>
       <div className='publicationsYear'>
         2020
       </div>
@@ -340,7 +349,9 @@ function Publications() {
         </div>
 
       </div>
+      </div>
 
+      <div className='publicationsBlock'>
       <div className='publicationsYear'>
         2019
       </div>
@@ -425,7 +436,9 @@ function Publications() {
         </div>
 
       </div>
+      </div>
 
+      <div className='publicationsBlock'>
       <div className='publicationsYear'>
         2018
       </div>
@@ -505,7 +518,9 @@ function Publications() {
         </div>
 
       </div>
+      </div>
 
+      <div className='publicationsBlock'>
       <div className='publicationsYear'>
         2017
       </div>
@@ -606,7 +621,9 @@ function Publications() {
                     <a href="https://www.ecampusnews.com/news/smart-college-counseling/"> eCampusNews </a>]
         </div>
       </div>
+      </div>
 
+      <div className='publicationsBlock'>
       <div className='publicationsYear'>
         2016
       </div>
@@ -665,7 +682,9 @@ function Publications() {
         </div>
 
       </div>
+      </div>
 
+      <div className='publicationsBlock'>
       <div className='publicationsYear'>
         2015
       </div>
@@ -783,7 +802,9 @@ function Publications() {
                       <a href="papers/2015_WH_FoodLabel.bib"> BibTex </a>]
         </div>
       </div>
+      </div>
 
+      <div className='publicationsBlock'>
       <div className='publicationsYear'>
         2014
       </div>
@@ -817,6 +838,9 @@ function Publications() {
                     [<a href="papers/2014_PervasiveHealth.pdf"> Paper</a> | <a href="papers/2014_PervasiveHealth.bib"> BibTex </a>]
         </div>
       </div>
+      </div>
+
+      
 
       {/* <div className='publicationsYear'>
         2013 and Earlier
