@@ -1,47 +1,31 @@
-.joinContent{
-    display: grid;
-    grid-template-columns: 10% 20% 50% 20%;
-    grid-gap: 60px;
-    margin-top: 20px;
-    margin-bottom: 300px;
+.JoinContent {
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 400px;
 }
 
-.openings{
-    grid-column: 2;
-}
-
-.oepningsTitle{
-    font-family: 'Poppins-L', sans-serif;
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 40px;
-    margin-bottom: 90px;
-    color: #001D38;
-}
-
-.tab-button{
-    font-family: 'Poppins-R', sans-serif;
-    font-size: 16px;
-    line-height: 80px;
-    color: #001D38;
-}
-
-.application{
-    grid-column: 3;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #596672;
-    font-size: 17px;
-    line-height: 20px;
-    word-spacing: 0.2em;
-}
-
-.applicationTitle{
+.JoinTitle {
     font-family: 'Poppins', sans-serif;
-    font-size: 26px;
-    line-height: 40px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #001D38;
+    margin-bottom: 10px;
+}
+
+.JoinDesc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 60px;
+}
+
+.JoinSubTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
     color: #001D38;
 }
 
-.selectedButton{
-    color: #FF3414;
+.JoinHighLight {
+    display: inline;
+    font-weight: bold;
 }

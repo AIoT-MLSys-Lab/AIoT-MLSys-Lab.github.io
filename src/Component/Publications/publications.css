@@ -62,7 +62,7 @@
 .bookItem {
     display: flex;
     flex-direction: column;
-    margin-right: 200px;
+    margin-right: 280px;
 }
 
 .bookImg {

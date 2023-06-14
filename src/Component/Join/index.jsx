@@ -1,74 +1,32 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './join.css'
 import ContentTitle from '../ContentTitle'
 
 function Join() {
-  const [activeTab, setActiveTab] = useState('Introduction');
-
-  const handleTabClick = (tabId) => {
-    setActiveTab(tabId);
-  };
 
   return (
     <div>
-      <ContentTitle title = "Our Openings" subtitle = "Join The Lab"></ContentTitle>
+      <ContentTitle title = "Joining Us" subtitle = "Join The Lab"></ContentTitle>
 
-      <div className='joinContent'>
-        <div className='openings'>
-          {/* <div className='oepningsTitle'>Openings</div> */}
-          <button onClick={() => handleTabClick('Introduction')} className={`tab-button ${activeTab === 'Introduction' ? 'selectedButton' : ''}`}>Introduction</button>
-          <hr />
-          <button onClick={() => handleTabClick('Postdoc')} className={`tab-button ${activeTab === 'Postdoc' ? 'selectedButton' : ''}`}>Postdoc</button>
-          <hr />
-          <button onClick={() => handleTabClick('Ph.D.')} className={`tab-button ${activeTab === 'Ph.D.' ? 'selectedButton' : ''}`}>Ph.D.</button>
-          <hr />
-          <button onClick={() => handleTabClick('Master & Undergraduate')} className={`tab-button ${activeTab === 'Master & Undergraduate' ? 'selectedButton' : ''}`}>Master & Undergraduate</button>
-          <hr />
-          <button onClick={() => handleTabClick('Remote Research Intern')} className={`tab-button ${activeTab === 'Remote Research Intern' ? 'selectedButton' : ''}`}>Remote Research Intern</button>
+      <div className='JoinContent'>
+        <div className='JoinTitle'>
+          Prospective Students
+        </div>
+        <div className='JoinDesc'>
+        For prospective Postdoc, PhD, Master, undergraduate students, and remote research interns who want to join my group, please email me your CV, transcripts, and GitHub repository. I may not be able to reply to your emails if those documents are incomplete.
         </div>
 
-        <div className="application">
-          {activeTab === 'Introduction' && (
-            <div>
-              <div className="applicationTitle">Introduction</div>
-              <div>
-                Research Topics: Specifically, my students and I work on the following topics:
-                {/* 内容 */}
-              </div>
+        <div className='JoinTitle'>
+          Current Opportunities
+        </div>
+        <div className='JoinDesc'>
+          <li>
+            <div className='JoinHighLight'>
+            Position 1: &nbsp;
             </div>
-          )}
-          {activeTab === 'Postdoc' && (
-            <div>
-              <div className="applicationTitle">Postdoc</div>
-              <div>
-                {/* Postdoc内容 */}
-              </div>
-            </div>
-          )}
-          {activeTab === 'Ph.D.' && (
-            <div>
-              <div className="applicationTitle">Ph.D.</div>
-              <div>
-                {/* Ph.D.内容 */}
-              </div>
-            </div>
-          )}
-          {activeTab === 'Master & Undergraduate' && (
-            <div>
-              <div className="applicationTitle">Master & Undergraduate</div>
-              <div>
-                {/* Master & Undergraduate内容 */}
-              </div>
-            </div>
-          )}
-          {activeTab === 'Remote Research Intern' && (
-            <div>
-              <div className="applicationTitle">Remote Research Intern</div>
-              <div>
-                {/* Remote Research Intern内容 */}
-              </div>
-            </div>
-          )}
+           We are looking for a Master/Undergraduate student to work on a project on developing a chatbot. Please see the ads for more information.
+          
+          </li>
         </div>
       </div>
     </div>

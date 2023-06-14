@@ -14,12 +14,14 @@ function Members() {
 
   return (
     <div>
-      <ContentTitle title = "Our Member" subtitle = "Member"></ContentTitle>
+      <ContentTitle title = "Members" subtitle = "Member"></ContentTitle>
       <div className='memberContent'>
           <div className='memberType'>
               <div className="memberTitle">Faculty</div>
               <div className='cardSet'>
-                <div className='card'><MemberCard imageURL="./images/MiZhang.png" title="Mi Zhang" description="Principle Investigator   mizhang.1@osu.edu"></MemberCard></div>
+                <a href="./#/members/MiZhang">
+                  <div className='card'><MemberCard imageURL="./images/MiZhang.png" title="Mi Zhang" description="Principle Investigator   mizhang.1@osu.edu"></MemberCard></div>
+                </a>
               </div>
           </div>
 

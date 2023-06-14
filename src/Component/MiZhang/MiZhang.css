@@ -1,0 +1,64 @@
+.mizhang {
+    margin: 80px auto;
+    max-width: 1000px;
+    display: flex;
+}
+
+.mizhangProfile{
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.mizhangImg {
+    width: 300px;
+}
+
+.googleButton {
+    height: 50px;
+    width: 170px;
+    margin: 30px auto;
+}
+
+.modern-button {
+    height: 50px;
+    width: 170px;
+    font-size: 1rem;
+    color: #209D50;
+    background-color: #209D5000;
+    border: 3px #209D50;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background-color 0.3s;
+}
+  
+.modern-button:hover {
+    background-color: #209D50;
+    color: #fff;
+}
+
+.outsideProfile {
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mizhangTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #001D38;
+    margin-bottom: 40px;
+}
+
+.mizhangBio {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 80px;
+}
+
+.mizhangHonor {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}

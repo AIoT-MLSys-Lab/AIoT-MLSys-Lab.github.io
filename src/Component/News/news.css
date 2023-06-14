@@ -19,9 +19,8 @@
 
 .newsContent{
     display: grid;
-    grid-template-columns: 10% 15% 55% 20%;
-    grid-gap: 60px;
-    margin-top: 20px;
+    grid-template-columns: 10% 8% 62% 20%;
+    grid-gap: 30px;
     margin-bottom: 300px;
 }
 
@@ -53,10 +52,19 @@
 .tab-button{
     font-family: 'Poppins-R', sans-serif;
     font-size: 16px;
+    font-weight: bold;
     line-height: 80px;
     color: #001D38;
 }
 
 .selectedButton{
     color: #FF3414;
+}
+
+.newsInfo {
+    padding-top: 25px;
+}
+
+.newsCard {
+    font-size: 10;
 }

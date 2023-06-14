@@ -38,6 +38,10 @@ const Join = lazy(
   async () => await import('../Component/Join')
 );
 
+const MiZhang = lazy(
+  async () => await import('../Component/MiZhang')
+);
+
 const Project1 = lazy(
   async () => await import('../Component/Projects/Project1')
 );
@@ -59,6 +63,10 @@ function Index() {
         {
           path: '/members',
           element: <Members></Members>,
+        },
+        {
+          path: '/members/MiZhang',
+          element: <MiZhang></MiZhang>,
         },
         {
           path: '/news',

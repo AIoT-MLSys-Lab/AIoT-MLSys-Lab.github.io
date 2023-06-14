@@ -28,22 +28,6 @@ const items = [
   {
     label: 'Courses',
     key: 'Courses',
-    children: [
-      {
-        type: 'group',
-        label: 'OSU',
-        children: [
-          {
-            label: 'CSE 5469: Artificial Intelligence of Things',
-            key: 'setting:1',
-          },
-          {
-            label: 'CSE 3461: Computer Networking and Internet Technologies',
-            key: 'setting:2',
-          },
-        ],
-      },
-    ]
   },
   {
     label: 'Talks',

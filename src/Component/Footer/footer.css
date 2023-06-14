@@ -10,7 +10,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     display: grid;
-    grid-template-columns: 10% 30% 25% 25% 10%;
+    grid-template-columns: 10% 40% 25% 20% 5%;
 }
 
 .footerContent a{

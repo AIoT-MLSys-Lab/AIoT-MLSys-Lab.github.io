@@ -61,7 +61,7 @@ function Home() {
       <div className='homeAchievement'>
         <h2 className='homeAchievementTitle'>Our Achievements</h2>
         <div className='homeAchievementContent'>
-        I have received a number of awards for my work. I am the 4th Place Winner (1st Place in U.S. and Canada) of 2019 Google MicroNet Challenge (CIFAR-100 Track), the Third Place Winner of 2017 NSF Hearables Challenge, and the champion of 2016 NIH Pill Image Recognition Challenge. I am the recipient of seven best paper awards and nominations. I am also the recipient of NSF CRII Award, Facebook Faculty Research Award, Amazon Machine Learning Research Award, MSU Innovation of the Year Award, and the inaugural USC ECE SIPI Distinguished Alumni Award in the Junior/Academia category for my contributions to mobile/edge computing in my early career.
+        The OSU AIoT and MLSys Lab has been conducting world-class research at the intersection of systems and AI/ML. Our research has been published at top-tier venues in both mobile/wireless/embedded sensor systems (MobiCom, MobiSys, SenSys, IPSN, UbiComp) and AI/ML (NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV). Our work has received seven best paper awards and nominations, and won the 4th Place Winner (1st Place in U.S. and Canada) of 2019 Google MicroNet Challenge (CIFAR-100 Track), the Third Place Winner of 2017 NSF Hearables Challenge, and the champion of 2016 NIH Pill Image Recognition Challenge. Many of our work have been reported by NSF, NIH, IEEE, ACM, and media such as TIME, MIT Technology Review, WIRED, TechCrunch, and Smithsonian magazine more than one hundred times.
         </div>
       </div>
       {/* <div className='collection'>
@@ -79,7 +79,7 @@ function Home() {
       </div>
 
       <div className='homeSponsor'>
-        <div className='homeSponsorTitle'>Sponsers</div>
+        <div className='homeSponsorTitle'>Sponsors</div>
         {/* <div className='homeSponsorIntro'>Our research is generously sponsored by the following federal agencies and industry partners. We express our sincere gratitude to their support.</div> */}
         <div className='homeSponsorImages'>
           <img src="./images/Sponsor_NSF.jpeg" alt="" className='homeSponsorItem'/>

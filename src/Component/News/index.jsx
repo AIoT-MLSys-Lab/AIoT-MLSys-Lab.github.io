@@ -2,6 +2,7 @@ import {React, useState} from 'react'
 import PageNav from '../PageNav'
 import './news.css'
 import ContentTitle from '../ContentTitle'
+import NewsCard from '../NewsCard'
 
 function News() {
   const [activeTab, setActiveTab] = useState('2023');
@@ -25,13 +26,20 @@ function News() {
         <div className='newsInfo'>
           {activeTab === '2023' && (
             <div className='newsAll'>
-              <div className='newsItem'>
+              {/* <div className='newsItem'>
                 <div className='newsStrong'>01/2023:</div>
                 Feel extremely honored and excited to receive the inaugural <a href="https://minghsiehece.usc.edu/groups-and-institutes-sipi-sipi-50th-anniversary-awardees/">USC ECE SIPI Distinguished Alumni Award</a> in the Junior/Academia category for my contributions to mobile/edge computing in my early career.
               </div>
-
               <div className='newsItem'>
                 <div className='newsStrong'>01/2023:</div> Congratulations Samiul for being awarded the highly competitive OSU College Allocated Fellowship
+              </div> */}
+
+              <div className='newsItem'>
+                <NewsCard imageURL="./images/OSU.jpg" title="01/2023:" description="Feel extremely honored and excited to receive the inaugural USC ECE SIPI Distinguished Alumni Award in the Junior/Academia category for my contributions to mobile/edge computing in my early career."></NewsCard>
+              </div>
+
+              <div className='newsItem'>
+                <NewsCard imageURL="./images/OSU.jpg" title="Samiul Alam" description="Ph.D. Student   shen.1780@osu.edu"></NewsCard>
               </div>
               
             </div>
