@@ -76,6 +76,11 @@
   background-color: rgb(242, 242, 242);
 }
 
+.ant-menu-submenu-popup .ant-menu { 
+  overflow: hidden !important; 
+  height: 225px;
+}
+
 .headerOSULogo {
   height: 150px;
   margin-left: auto;

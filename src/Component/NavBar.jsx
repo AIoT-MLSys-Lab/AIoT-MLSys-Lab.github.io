@@ -1,9 +1,9 @@
 import { Button, Affix } from 'antd'
 import React from 'react'
 import { useNavigate, NavLink, useLocation } from 'react-router-dom'
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
 import { useState } from 'react';
+
 const items = [
   {
     label: 'Home',
@@ -12,6 +12,28 @@ const items = [
   {
     label: 'Research',
     key: 'Research',
+    children: [
+      {
+        label: 'Edge AI',
+        key: 'EdgeAI',
+      },
+      {
+        label: 'Federated Learning and Systems',
+        key: 'FederatedLearningandSystems',
+      },
+      {
+        label: 'AutoML',
+        key: 'AutoML',
+      },
+      {
+        label: 'AI for Wireless Sensing and Networking',
+        key: 'AIforWirelessSensingandNetworking',
+      },
+      {
+        label: 'Mobile Health',
+        key: 'MobileHealth',
+      },
+    ]
   },
   {
     label: 'Members',
@@ -57,7 +79,7 @@ const NavBar = () => {
     }
   };
   return <Affix offsetTop={top}>
-    <Menu className='flex-center' onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items}/>
+    <Menu className='flex-center' onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} overflowedIndicator/>
   </Affix>
   ;
 };

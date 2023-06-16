@@ -61,7 +61,7 @@ function Home() {
       <div className='homeAchievement'>
         <h2 className='homeAchievementTitle'>Our Achievements</h2>
         <div className='homeAchievementContent'>
-        The OSU AIoT and MLSys Lab has been conducting world-class research at the intersection of systems and AI/ML. Our research has been published at top-tier venues in both mobile/wireless/embedded sensor systems (MobiCom, MobiSys, SenSys, IPSN, UbiComp) and AI/ML (NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV). Our work has received seven best paper awards and nominations, and won the 4th Place Winner (1st Place in U.S. and Canada) of 2019 Google MicroNet Challenge (CIFAR-100 Track), the Third Place Winner of 2017 NSF Hearables Challenge, and the champion of 2016 NIH Pill Image Recognition Challenge. Many of our work have been reported by NSF, NIH, IEEE, ACM, and media such as TIME, MIT Technology Review, WIRED, TechCrunch, and Smithsonian magazine more than one hundred times.
+        The OSU AIoT and MLSys Lab has been conducting world-class research at the intersection of systems and AI/ML. Our research has been published at top-tier venues in both mobile/wireless/embedded sensor systems (MobiCom, MobiSys, SenSys, UbiComp) and AI/ML (NeurIPS, ICML, ICLR). Our work has received seven best paper awards and nominations, and won the 4th Place Winner (1st Place in U.S. and Canada) of 2019 Google MicroNet Challenge (CIFAR-100 Track), the Third Place Winner of 2017 NSF Hearables Challenge, and the champion of 2016 NIH Pill Image Recognition Challenge. Many of our work have been reported by NSF, NIH, IEEE, ACM, and media such as TIME, MIT Technology Review, WIRED, TechCrunch, and Smithsonian magazine more than one hundred times.
         </div>
       </div>
       {/* <div className='collection'>
@@ -69,19 +69,20 @@ function Home() {
       </div> */}
       
       <div className="homeResearch">
-        <div className='homeResearchTitle'>Research</div>
+        <div className='homeResearchTitle'>Research Areas</div>
         <div className='researchBlocks'>
-          <div className='researchBlock'>research1</div>
-          <div className='researchBlock'>research2</div>
-          <div className='researchBlock'>research3</div>
-          <div className='researchBlock'>research4</div>
+          <div className='researchBlock'><div className='researchBlockTitle'>Edge AI</div><img src="./images/mhealth.png" alt="" /></div>
+          <div className='researchBlock'><div className='researchBlockTitle'>Federated Learning and Systems</div><img src="./images/mhealth2.webp" alt="" /></div>
+          <div className='researchBlock'><div className='researchBlockTitle'>AutoML</div><img src="./images/mhealth.png" alt="" /></div>
+          <div className='researchBlock'><div className='researchBlockTitle'>AI for Wireless Sensing and Networking</div><img src="./images/mhealth2.webp" alt="" /></div>
+          <div className='researchBlock'><div className='researchBlockTitle'>Mobile Health</div><img src="./images/mhealth.png" alt="" /></div>
         </div>
       </div>
 
       <div className='homeSponsor'>
         <div className='homeSponsorTitle'>Sponsors</div>
-        {/* <div className='homeSponsorIntro'>Our research is generously sponsored by the following federal agencies and industry partners. We express our sincere gratitude to their support.</div> */}
-        <div className='homeSponsorImages'>
+        <img src="./images/Sponsors.png" alt="" />
+        {/* <div className='homeSponsorImages'>
           <img src="./images/Sponsor_NSF.jpeg" alt="" className='homeSponsorItem'/>
           <img src="./images/Sponsor_facebook.png" alt="" className='homeSponsorItem'/>
           <img src="./images/Sponsor_realitylabs.png" alt="" className='homeSponsorItem'/>
@@ -90,7 +91,7 @@ function Home() {
           <img src="./images/Sponsor_Microsoft.jpg" alt="" className='homeSponsorItem'/>
           <img src="./images/Sponsor_Google.png" alt="" className='homeSponsorItem'/>
           <img src="./images/Sponsor_amazon.jpeg" alt="" className='homeSponsorItem'/>
-        </div>
+        </div> */}
       </div>
 
     </div>

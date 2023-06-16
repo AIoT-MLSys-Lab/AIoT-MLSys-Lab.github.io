@@ -26,16 +26,18 @@ function Members() {
           </div>
 
           <div className='memberType'>
-            <div className="memberTitle">Ph.D. Student</div>
+            <div className="memberTitle">Current Student</div>
               <div className='cardSet'>
                 <div className='card'><MemberCard imageURL="./images/SamiulAlam.jpg" title="Samiul Alam" description="Ph.D. Student   shen.1780@osu.edu"></MemberCard></div>
-                <div className='card'><MemberCard imageURL="./images/" title="Zhongwei Wan" description="Ph.D. Student   shen.1780@osu.edu"></MemberCard></div>
-                <div className='card'><MemberCard imageURL="./images/" title="Shakhrul Iman Siam" description="Ph.D. Student   shen.1780@osu.edu"></MemberCard></div>
+                <div className='card'><MemberCard imageURL="./images/ZhongweiWan.jpg" title="Zhongwei Wan" description="Ph.D. Student   shen.1780@osu.edu"></MemberCard></div>
+                <div className='card'><MemberCard imageURL="./images/ShakhrulImanSiam.jpg" title="Shakhrul Iman Siam" description="Ph.D. Student   shen.1780@osu.edu"></MemberCard></div>
                 <div className='card'><MemberCard imageURL="./images/HyunhoAhn.jpg" title="Hyunho Ahn" description="Ph.D. Student   shen.1780@osu.edu"></MemberCard></div>
+                <div className='card'><MemberCard imageURL="./images/XinWang.jpg" title="Xin Wang" description="Master Student   wang.15980@osu.edu"></MemberCard></div>
+                <div className='card'><MemberCard imageURL="./images/MarcusShen.jpg" title="Marcus Shen" description="CSE Department   shen.1780@osu.edu"></MemberCard></div>
               </div>
           </div>
 
-          <div className='memberType'>
+          {/* <div className='memberType'>
             <div className="memberTitle">Master Student</div>
               <div className='cardSet'>
                 <div className='card'><MemberCard imageURL="./images/XinWang.jpg" title="Xin Wang" description="Master Student   wang.15980@osu.edu"></MemberCard></div>  
@@ -47,16 +49,28 @@ function Members() {
               <div className='cardSet'>
                 <div className='card'><MemberCard imageURL="./images/MarcusShen.jpg" title="Marcus Shen" description="CSE Department   shen.1780@osu.edu"></MemberCard></div>
               </div>
+          </div> */}
+
+          <div className='memberType'>
+              <div className="memberTitle">Former Ph.D. Students</div>
+              <div className='cardSet'>
+                <div className='card'><MemberCard imageURL="./images/YanShen.jpg" title="Shen Yan" description="Ph.D., Research Scientist @ Google Research"></MemberCard></div>
+                <div className='card'><MemberCard imageURL="./images/XiaoZeng.jpg" title="Xiao Zeng" description="Ph.D., Applied Scientist @ Amazon Lab126"></MemberCard></div>
+                <div className='card'><MemberCard imageURL="./images/BiyiFang.png" title="Biyi Fang" description="Ph.D., Machine Learning Scientist and Software Engineer @ Microsoft Machine Learning Cloud Services"></MemberCard></div>
+              </div>
           </div>
 
           <div className='memberType'>
-              <div className="memberTitle">Alumi</div>
+            <div className="memberTitle">Former Master Students</div>
               <div className='cardSet'>
-                <div className='card'><NoPhotoCard title="Shen Yan" description="Ph.D., Research Scientist @ Google Research"></NoPhotoCard></div>
-                <div className='card'><NoPhotoCard title="Xiao Zeng" description="Ph.D., Applied Scientist @ Amazon Lab126"></NoPhotoCard></div>
-                <div className='card'><NoPhotoCard title="Biyi Fang" description="Ph.D., Machine Learning Scientist and Software Engineer @ Microsoft Machine Learning Cloud Services"></NoPhotoCard></div>
                 <div className='card'><NoPhotoCard title="Yun Lou" description="Master"></NoPhotoCard></div>
                 <div className='card'><NoPhotoCard title="Fazlay Rabbi" description="Master"></NoPhotoCard></div>
+              </div>
+          </div>
+
+          <div className='memberType'>
+            <div className="memberTitle">Former Undergraduates</div>
+              <div className='cardSet'>
                 <div className='card'><NoPhotoCard title="Brian Wang" description="B.S."></NoPhotoCard></div>
                 <div className='card'><NoPhotoCard title="Jordan Wagner" description="B.S."></NoPhotoCard></div>
                 <div className='card'><NoPhotoCard title="Collin Dillinger" description="B.S."></NoPhotoCard></div>
