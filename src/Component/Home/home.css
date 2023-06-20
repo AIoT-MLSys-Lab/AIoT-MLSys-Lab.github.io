@@ -20,7 +20,7 @@
     margin-top: 70px;
     margin-bottom: 20px;
     text-align: center;
-    /* color: #191D34; */
+    font-weight: bold;
     color: crimson;
 }
 
@@ -47,7 +47,7 @@
     line-height: 40px;
     margin-bottom: 20px;
     text-align: center;
-    /* color: #191D34; */
+    font-weight: bold;
     color: crimson;
 }
 
@@ -87,7 +87,7 @@
     margin-top: 20px;
     margin-bottom: 30px;
     text-align: center;
-    /* color: #191D34; */
+    font-weight: bold;
     color: crimson;
 }
 
@@ -178,21 +178,12 @@
     margin-bottom: 40px;
     text-align: center;
     color: crimson;
+    font-weight: bold;
 }
 
-.homeSponsorIntro {
-    font-size: 1.2rem;
-}
-
-.homeSponsorItem {
-    height: 60px;
-    margin: 20px;
-}
-
-.homeSponsorImages {
-    margin-top: 60px;
-    display: flex;
-    width: 100%;
+.homeSponsor img{
+    width: 80%;
+    margin: 0 auto;
 }
 
 .missionHighLight {

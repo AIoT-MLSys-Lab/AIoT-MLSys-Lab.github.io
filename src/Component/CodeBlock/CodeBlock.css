@@ -1,0 +1,29 @@
+.CodeBlockBtn {
+    cursor: pointer;
+}
+
+.BibTex {
+    color: #1371ffd5;
+    display: inline;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-x: auto;
+    white-space: pre;
+    border-radius: 4px;
+}
+
+.codeBlock {
+    color: #1371ffd5;
+    cursor: pointer;
+}
+
+.pubHighlight {
+    display: inline;
+    font-weight: bold;
+}

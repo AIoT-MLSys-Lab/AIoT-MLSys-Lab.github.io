@@ -47,7 +47,8 @@ function Footer() {
           <div className='footerContactContent'>
             <a href="https://cse.osu.edu/">Department of Computer Science and Engineering</a> <br />
             <a href="https://icdt.osu.edu/">Institute for Cybersecurity and Digital Trust</a> <br />
-            <a href="https://tdai.osu.edu/">Translational Data Analytics Institute</a>
+            <a href="https://tdai.osu.edu/">Translational Data Analytics Institute</a> <br />
+            <a href="https://5g-oh.osu.edu/">5G and Broadband Connectivity Center</a>
           </div>
         </div>
       </div>

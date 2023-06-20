@@ -1,22 +1,28 @@
-import React from 'react'
-import PageNav from '../PageNav'
-import SearchPaper from '../SearchPaper'
+import { React, useState } from 'react'
 import './publications.css'
 import ContentTitle from '../ContentTitle'
+import CodeBlock from '../CodeBlock'
+
 
 function Publications() {
+
+  const FedAudio = `@inproceedings{fedaudio2023icassp,
+    title = {{FedAudio: A Federated Learning Benchmark for Audio Tasks}},
+    author = {Tuo, Zhang and Feng, Tiantian and Alam, Samiul and Lee, Sunwoo and Zhang, Mi and Narayanan, Shrikanth and Avestimehr, Salman},
+    booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+    year = {2023}
+}`;
+
+  const FedRolex = `@inproceedings{fedrolex2022neurips,
+    title={{FedRolex: Model-Heterogeneous Federated Learning with Rolling Sub-Model Extraction}},
+    author={Alam, Samiul and Liu, Luyang and Yan, Ming and Zhang, Mi},
+    booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
+    year={2022}
+}`;
+
   return (
     <div>
-
       <ContentTitle title = "Publications" subtitle = "Publications"></ContentTitle>
-
-      {/* <div className='publicationsTitle'>
-        Publications
-      </div> */}
-      
-      {/* <div className='publicationsInfo'>
-      Please visit <a href="https://scholar.google.com/citations?user=r3A90uAAAAAJ&hl=en">Google Scholar</a> for a complete list of publications.
-      </div> */}
 
       <div className='publicationsBlock'>
       <div className='publicationsYear'>
@@ -52,12 +58,15 @@ function Publications() {
           IEEE Conference on Computer Vision and Pattern Recognition (<font style={{ fontWeight: 'bold' }}>CVPR'23</font>) Workshop on Federated Learning for Computer Vision.
         </div>
 
-        <div className='publicationsItem'>
-          <div className="publicationsStrong">FedAudio: A Federated Learning Benchmark for Audio Tasks</div>
-					Tuo Zhang, Tiantian Feng, Samiul Alam, Sunwoo Lee, Mi Zhang, Shrikanth S. Narayanan, and Salman Avestimehr. <br />
-          IEEE International Conference on Acoustics, Speech and Signal Processing (<font style={{ fontWeight: 'bold' }}>ICASSP'23</font>). <br />
-          [ <a href="papers/2023_ICASSP_FedAudio.pdf">Paper</a>  |  <a href="papers/2023_ICASSP_FedAudio.bib">BibTex</a> ]
-        </div>
+        <CodeBlock
+          title = "FedAudio: A Federated Learning Benchmark for Audio Tasks"
+          authors = "Tuo Zhang, Tiantian Feng, Samiul Alam, Sunwoo Lee, Mi Zhang, Shrikanth S. Narayanan, and Salman Avestimehr."
+          conference = "IEEE International Conference on Acoustics, Speech and Signal Processing (<div class='pubHighlight'>ICASSP'23</div>)."
+          paper = "https://mi-zhang.github.io/papers/2023_ICASSP_FedAudio.pdf"
+          bibtex = {FedAudio}
+        >
+        </CodeBlock>
+        
       </div>
       </div>
 
@@ -66,23 +75,25 @@ function Publications() {
         2022
       </div>
       <div className='publicationsContent'>
-        <div className='publicationsItem'>
-          <div className='publicationsStrong'>FedRolex: Model-Heterogeneous Federated Learning with Rolling Sub-Model Extraction</div>
-          Samiul Alam, Luyang Liu, Ming Yan, and Mi Zhang. <br />
-          Conference on Neural Information Processing Systems (<font style={{ fontWeight: 'bold' }}>NeurIPS'22</font>). <br />
-          Acceptance Rate: 2665/10411 = 25.6%  <br />
-          [ <a href="https://arxiv.org/abs/2212.01548">Paper</a> |   
-                     <a href="papers/2022_NeurIPS_FedRolex.bib"> BibTex</a> |
-                     <a href="https://github.com/MSU-MLSys-Lab/FedRolex"> Code</a>｜    
-                     <a href="papers/2022_NeurIPS_FedRolex_Poster.pdf">Poster </a>] 
-        </div>
+        
+        <CodeBlock
+          title = "FedRolex: Model-Heterogeneous Federated Learning with Rolling Sub-Model Extraction"
+          authors = "Samiul Alam, Luyang Liu, Ming Yan, and Mi Zhang."
+          conference = "Conference on Neural Information Processing Systems (<div class='pubHighlight'>NeurIPS'22</div>)."
+          rate = "Acceptance Rate: 2665/10411 = 25.6%"
+          paper = "https://arxiv.org/abs/2212.01548"
+          bibtex = {FedRolex}
+          code = "https://github.com/MSU-MLSys-Lab/FedRolex"
+          poster = "https://mi-zhang.github.io/papers/2022_NeurIPS_FedRolex_Poster.pdf"
+        >
+        </CodeBlock>
 
         <div className='publicationsItem'>
           <div class="publicationsStrong">PyramidFL: A Fine-grained Client Selection Framework for Efficient Federated Learning</div>
 					Chenning Li, Xiao Zeng, Mi Zhang, and Zhichao Cao. <br />
           ACM International Conference on Mobile Computing and Networking (<font style={{ fontWeight: 'bold' }}>MobiCom'22</font>).   <br />
           Acceptance Rate: 56/314 = 17.8%  <br />
-                    [<a href="papers/2022_MobiCom_PyramidFL.pdf"> Paper</a> |
+                    [<a href="https://mi-zhang.github.io/papers/2022_MobiCom_PyramidFL.pdf"> Paper</a> |
                      <a href="papers/2022_MobiCom_PyramidFL.bib"> BibTex </a>]
 
         </div>
@@ -92,7 +103,7 @@ function Publications() {
 					Jingwei Sun, Ang Li, Lin Duan, Samiul Alam, Xuliang Deng, Xin Guo, Haiming Wang, Maria Gorlatova, Mi Zhang, Hai Li, Yiran Chen. <br />
                     ACM Conference on Embedded Networked Sensor Systems (<font style={{ fontWeight: 'bold' }}>SenSys'22</font>). <br />
                     Acceptance Rate: 52/208 = 25%  <br />
-                    [<a href="papers/2022_SenSys_FedSEA.pdf"> Paper</a> |
+                    [<a href="https://mi-zhang.github.io/papers/2022_SenSys_FedSEA.pdf"> Paper</a> |
                      <a href="papers/2022_SenSys_FedSEA.bib"> BibTex </a>]    
         </div>
 
@@ -100,7 +111,7 @@ function Publications() {
           <div class="publicationsStrong">FedTune: Automatic Tuning of Federated Learning Hyper-Parameters from System Perspective</div>
 					Huanle Zhang, Mi Zhang, Xin Liu, Prasant Mohapatra, and Michael Delucia. <br />
                     IEEE Military Communications Conference (<font style={{ fontWeight: 'bold' }}>MILCOM'22</font>). <br />
-                    [<a href="https://arxiv.org/abs/2110.03061"> Paper</a> |
+                    [<a href="https://mi-zhang.github.io/https://arxiv.org/abs/2110.03061"> Paper</a> |
                      <a href="papers/2022_MilCom_FedTune.bib"> BibTex </a>]  
         </div>
 
@@ -108,7 +119,7 @@ function Publications() {
           <div class="publicationsStrong">Federated Learning for Internet of Things: Applications, Challenges, and Opportunities</div>
 					Tuo Zhang, Lei Gao, Chaoyang He, Mi Zhang, Bhaskar Krishnamachari, and Salman Avestimehr. <br />
                     IEEE Internet of Things Magazine (<font style={{ fontWeight: 'bold' }}>IEEE IoTM</font>), 2022.   <br />
-                    [<a href="papers/2022_IEEEIoTM_FLIoTVision.pdf"> Paper</a> |
+                    [<a href="https://mi-zhang.github.io/papers/2022_IEEEIoTM_FLIoTVision.pdf"> Paper</a> |
                      <a href="papers/2022_IEEEIoTM_FLIoTVision.bib"> BibTex </a>] 
         </div>
 
@@ -117,12 +128,12 @@ function Publications() {
 					Yu Zheng, Zhi Zhang, Shen Yan, and Mi Zhang. <br />
                     International Conference on Learning Representations (<font style={{ fontWeight: 'bold' }}>ICLR'22</font>). <br />
                     Acceptance Rate: 1095/3391 = 32.3% <br />
-                    [<a href="papers/2022_ICLR_DeepAA.pdf"> Paper</a> |   
+                    [<a href="https://mi-zhang.github.io/papers/2022_ICLR_DeepAA.pdf"> Paper</a> |   
                      <a href="papers/2022_ICLR_DeepAA.bib"> BibTex</a> |
                      <a href="https://github.com/MSU-MLSys-Lab/DeepAA"> Code</a>｜
                      <a href="https://paperswithcode.com/paper/deep-autoaugment-1">Leaderboard</a> |    
-                     <a href="papers/2022_ICLR_DeepAA_Poster.pdf"> Poster</a> |    
-                     <a href="papers/2022_ICLR_DeepAA_Slides.pdf"> Slides </a>] <br />
+                     <a href="https://mi-zhang.github.io/papers/2022_ICLR_DeepAA_Poster.pdf"> Poster</a> |    
+                     <a href="https://mi-zhang.github.io/papers/2022_ICLR_DeepAA_Slides.pdf"> Slides </a>] <br />
                     Media Coverage:
                     [<a href="https://syncedreview.com/2022/03/16/msu-aws-present-deepaa-fully-automated-data-augmentation-search-that-rivals-human-enhanced-approaches/"> Synced </a>]
         </div>
@@ -164,7 +175,7 @@ function Publications() {
 					Xiao Zeng, Ming Yan, and Mi Zhang. <br />
 					ACM Conference on Embedded Networked Sensor Systems (<font style={{ fontWeight: 'bold' }}>SenSys'21</font>). <br />
                     Acceptance Rate: 25/139 = 18% <br />
-                    [<a href="papers/2021_SenSys_Mercury.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2021_SenSys_Mercury.pdf"> Paper</a> | 
                      <a href="papers/2021_SenSys_Mercury.bib"> BibTex </a>]
         </div>
 
@@ -173,7 +184,7 @@ function Publications() {
 					Ang Li, Jingwei Sun, Xiao Zeng, Mi Zhang, Hai Li, and Yiran Chen. <br />
 					ACM Conference on Embedded Networked Sensor Systems (<font style={{ fontWeight: 'bold' }}>SenSys'21</font>). <br />
                     Acceptance Rate: 25/139 = 18% <br />
-                    [<a href="papers/2021_SenSys_FedMask.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2021_SenSys_FedMask.pdf"> Paper</a> | 
                      <a href="papers/2021_SenSys_FedMask.bib"> BibTex </a>]
         </div>
 
@@ -184,7 +195,7 @@ function Publications() {
                     Acceptance Rate: 25/139 = 18% <br />
                     <font color="#de1111" style={{ fontWeight: 'bold' }}>Best Paper Award</font> | <font color="#de1111" style={{ fontWeight: 'bold' }}>ACM SIGMOBILE Research Highlight </font> [<a href="papers/2022_GetMobile_NELoRa.pdf"> Highlight Article </a>] 
                      <br />
-                    [<a href="papers/2021_SenSys_NELoRa.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2021_SenSys_NELoRa.pdf"> Paper</a> | 
                      <a href="papers/2021_SenSys_NELoRa.bib"> BibTex </a>]
         </div>
 
@@ -193,7 +204,7 @@ function Publications() {
 					Li Liu, Yuguang Yao, Zhichao Cao, and Mi Zhang. <br />
                     IEEE International Conference on Computer Communications (<font style={{ fontWeight: 'bold' }}>INFOCOM'21</font>). <br />
                     Acceptance Rate: 252/1266 = 19.9% <br />
-                    [<a href="papers/2021_INFOCOM_DeepLoRA.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2021_INFOCOM_DeepLoRA.pdf"> Paper</a> | 
                      <a href="papers/2021_INFOCOM_DeepLoRA.bib"> BibTex </a>]
         </div>
 
@@ -205,7 +216,7 @@ function Publications() {
                     [<a href="https://arxiv.org/abs/2102.07108"> Paper</a> |
                      <a href="papers/2021_ICML_CATE.bib"> BibTex</a> |
                      <a href="https://github.com/MSU-MLSys-Lab/CATE"> Code</a> |
-                     <a href="papers/2021_ICML_CATE_Poster.pdf"> Poster</a> |
+                     <a href="https://mi-zhang.github.io/papers/2021_ICML_CATE_Poster.pdf"> Poster</a> |
                      <a href="https://icml.cc/virtual/2021/oral/9052"> Presentation </a>]
         </div>
 
@@ -220,7 +231,7 @@ function Publications() {
           <div class="publicationsStrong">Towards Position-Independent Sensing for Gesture Recognition with Wi-Fi</div>
 					Ruiyang Gao, Mi Zhang, Jie Zhang, Yang Li, Enze Yi, Dan Wu, Leye Wang, and Daqing Zhang. <br />
                     ACM International Joint Conference on Pervasive and Ubiquitous Computing (<font style={{ fontWeight: 'bold' }}>UbiComp'21</font>). <br />
-                    [<a href="papers/2021_UbiComp_PIS.pdf">Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2021_UbiComp_PIS.pdf">Paper</a> | 
                      <a href="papers/2021_UbiComp_PIS.bib">BibTex</a>]
         </div>
 
@@ -246,7 +257,7 @@ function Publications() {
                     [<a href="https://arxiv.org/pdf/2006.06936.pdf"> Paper</a> | 
                      <a href="papers/2020_NeurIPS_arch2vec.bib"> BibTex</a> | 
                      <a href="https://github.com/MSU-MLSys-Lab/arch2vec"> Code</a> |
-                     <a href="papers/2020_NeurIPS_arch2vec_poster.pdf"> Poster</a> |
+                     <a href="https://mi-zhang.github.io/papers/2020_NeurIPS_arch2vec_poster.pdf"> Poster</a> |
                      <a href="https://studio.slideslive.com/web_recorder/share/20201025T052954Z__NeurIPS_posters__18078__does-unsupervised-architecture?s=a7b5e575-accd-4aa1-ac55-a546282217a5"> Presentation </a>]
         </div>
 
@@ -269,7 +280,7 @@ function Publications() {
                     <br />
                     Acceptance Rate: 104/5025 = 2% (<font color="#de1111" style={{ fontWeight: 'bold' }}>Oral</font>)
                     <br /> 
-                    [<a href="papers/2020_ECCV_MutualNet.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2020_ECCV_MutualNet.pdf"> Paper</a> | 
                      <a href="papers/2020_ECCV_MutualNet.bib"> BibTex</a> |
                      <a href="https://github.com/taoyang1122/MutualNet"> Code </a>] 
         </div>
@@ -284,7 +295,7 @@ function Publications() {
                     <br />
                     <font color="#de1111" style={{ fontWeight: 'bold' }}>Best Paper Award Nominee</font>     
                     <br />
-                    [<a href="papers/2020_SEC_FlexDNN.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2020_SEC_FlexDNN.pdf"> Paper</a> | 
                      <a href="papers/2020_SEC_FlexDNN.bib"> BibTex </a>]
         </div>
 
@@ -296,7 +307,7 @@ function Publications() {
                     <br />
                     Acceptance Rate: 43/213 = 20.2%
                     <br />    
-                    [<a href="papers/2020_SenSys_Distream.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2020_SenSys_Distream.pdf"> Paper</a> | 
                      <a href="papers/2020_SenSys_Distream.bib"> BibTex </a>]
         </div>
 
@@ -308,7 +319,7 @@ function Publications() {
                     <br />
                     Acceptance Rate: 43/213 = 20.2%    
                     <br />    
-                    [<a href="papers/2020_SenSys_WiSIA.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2020_SenSys_WiSIA.pdf"> Paper</a> | 
                      <a href="papers/2020_SenSys_WiSIA.bib"> BibTex </a>] 
         </div>
 
@@ -320,7 +331,7 @@ function Publications() {
                     <br />
                     Acceptance Rate: 34/175 = 19.4%    
                     <br />
-                    [<a href="papers/2020_MobiSys_SecWIR.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2020_MobiSys_SecWIR.pdf"> Paper</a> | 
                      <a href="papers/2020_MobiSys_SecWIR.bib"> BibTex </a>] 
         </div>
 
@@ -332,7 +343,7 @@ function Publications() {
                     <br />
                     Acceptance Rate: 268/1354 = 19.8%
                     <br />
-                    [<a href="papers/2020_INFOCOM_Scylla.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2020_INFOCOM_Scylla.pdf"> Paper</a> | 
                      <a href="papers/2020_INFOCOM_Scylla.bib"> BibTex </a>] 
         </div>
 
@@ -344,7 +355,7 @@ function Publications() {
                     <br />    
                     <font color="#0949b1" style={{ fontWeight: 'bold' }}>Invited Article</font>
                     <br />
-                    [<a href="papers/2020_BookChapter_DLEdge.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2020_BookChapter_DLEdge.pdf"> Paper</a> | 
                      <a href="papers/2020_BookChapter_DLEdge.bib"> BibTex </a>]
         </div>
 
@@ -378,7 +389,7 @@ function Publications() {
                     <br />
                     <font color="#de1111" style={{ fontWeight: 'bold' }}>Best Paper Award Nominee</font> 
                     <br />
-                    [<a href="papers/2019_ICCVW_HM-NAS.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2019_ICCVW_HM-NAS.pdf"> Paper</a> | 
                      <a href="papers/2019_ICCVW_HM-NAS.bib"> BibTex </a>]   
                     <br />
                     Media Coverage:
@@ -415,7 +426,7 @@ function Publications() {
                     <br />
                     <font color="#0949b1" style={{ fontWeight: 'bold' }}>Invited Article</font> 
                     <br />
-                    [<a href="papers/2019_GetMobile_MobileSensing.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2019_GetMobile_MobileSensing.pdf"> Paper</a> | 
                      <a href="papers/2019_GetMobile_MobileSensing.bib"> BibTex </a>]
         </div>
 
@@ -451,7 +462,7 @@ function Publications() {
                     <br />
                     Acceptance Rate: 42/187 = 22.5%
                     <br />
-                    [<a href="papers/2018_MobiCom_NestDNN.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2018_MobiCom_NestDNN.pdf"> Paper</a> | 
                      <a href="papers/2018_MobiCom_NestDNN.bib"> BibTex</a> | 
                      <a href="https://www.youtube.com/watch?v=a7h0gPTuPfg"> Video </a>]    
                     <br />
@@ -478,7 +489,7 @@ function Publications() {
                     <br />
                     <font color="#de1111" style={{ fontWeight: 'bold' }}>Best Paper Award</font> | <font color="#de1111" style={{ fontWeight: 'bold' }}>Google Security Reward</font>  
                     <br />
-                    [<a href="papers/2018_CNS_WiFiCalling.pdf"> Paper</a> |
+                    [<a href="https://mi-zhang.github.io/papers/2018_CNS_WiFiCalling.pdf"> Paper</a> |
                     <a href="papers/2018_CNS_WiFiCalling.bib"> BibTex </a>]
         </div>
 
@@ -488,7 +499,7 @@ function Publications() {
 					<br />
 					ACM International Joint Conference on Pervasive and Ubiquitous Computing (<font style={{ fontWeight: 'bold' }}>UbiComp'18</font>).   
                     <br />
-                    [<a href="papers/2018_UbiComp_JARVIS.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2018_UbiComp_JARVIS.pdf"> Paper</a> | 
                     <a href="papers/2018_UbiComp_JARVIS.bib"> BibTex </a>]
         </div>
 
@@ -500,7 +511,7 @@ function Publications() {
                     <br />
                     <font color="#0949b1" style={{ fontWeight: 'bold' }}>Invited Article</font>   
                     <br /> 
-                    [<a href="papers/2018_GetMobile_UbiquitousMR.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2018_GetMobile_UbiquitousMR.pdf"> Paper</a> | 
                     <a href="papers/2018_GetMobile_UbiquitousMR.bib"> BibTex </a>] 
         </div>
 
@@ -513,7 +524,7 @@ function Publications() {
                     Impact Factor: 5.175
                     <br />    
                     [<a href="http://www.jmir.org/2018/7/e10139/"> Link</a> | 
-                    <a href="papers/2018_JMIR_iSeeNeed.pdf"> Paper</a> |    
+                    <a href="https://mi-zhang.github.io/papers/2018_JMIR_iSeeNeed.pdf"> Paper</a> |    
                     <a href="papers/2018_JMIR_iSeeNeed.bib"> BibTex </a>]
         </div>
 
@@ -536,7 +547,7 @@ function Publications() {
                     <br />
                     <font color="#de1111" style={{ fontWeight: 'bold' }}>NIH Pill Image Recognition Challenge First Place Winner</font>    
                     <br />
-                    [<a href="papers/2017_MobiSys_MobileDeepPill.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2017_MobiSys_MobileDeepPill.pdf"> Paper</a> | 
                      <a href="papers/2017_MobiSys_MobileDeepPill.bib"> BibTex</a> | 
                      <a href="https://www.youtube.com/watch?v=-k7awuoW2rg&feature=youtu.be"> Video </a>]  
                     <br />
@@ -554,7 +565,7 @@ function Publications() {
 					<br />
                     Acceptance Rate: 26/151 = 17% 
                     <br />
-                    [<a href="papers/2017_SenSys_DeepASL.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2017_SenSys_DeepASL.pdf"> Paper</a> | 
                     <a href="papers/2017_SenSys_DeepASL.bib"> BibTex </a>]   
                     <br />    
                     Media Coverage:
@@ -598,7 +609,7 @@ function Publications() {
                     <font color="#0949b1" style={{ fontWeight: 'bold' }}>Invited Article</font>    
 					<br />
                     [<a href="http://www.annualreviews.org/doi/abs/10.1146/annurev-clinpsy-032816-044949"> Link</a> | 
-                     <a href="papers/2017_ARCP_PersonalSensing.pdf"> Paper</a> | 
+                     <a href="https://mi-zhang.github.io/papers/2017_ARCP_PersonalSensing.pdf"> Paper</a> | 
                      <a href="papers/2017_ARCP_PersonalSensing.bib"> BibTex </a>]
         </div>
 
@@ -637,7 +648,7 @@ function Publications() {
 					<br />
                     Acceptance Rate: 31/197 = 15.7%
                     <br />
-                    [<a href="papers/2016_MobiSys_BodyScan.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2016_MobiSys_BodyScan.pdf"> Paper</a> | 
                      <a href="papers/2016_MobiSys_BodyScan.bib"> BibTex</a> |
                      <a href="https://www.youtube.com/watch?v=lcYDVcU7-m0&feature=youtu.be"> Video </a>]
         </div>
@@ -651,7 +662,7 @@ function Publications() {
                     <br />    
 					Acceptance Rate: 23/117 = 19.7%
                     <br />
-                    [<a href="papers/2016_IPSN_HeadScan.pdf">Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2016_IPSN_HeadScan.pdf">Paper</a> | 
                     <a href="papers/2016_IPSN_HeadScan.bib">BibTex</a>]
                     <br />
                     Media Coverage:	
@@ -672,7 +683,7 @@ function Publications() {
 					<br />
                     Acceptance Rate: 114/481 = 23.7%
                     <br />
-                    [<a href="papers/2016_UbiComp_AirSense.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2016_UbiComp_AirSense.pdf"> Paper</a> | 
                     <a href="papers/2016_UbiComp_AirSense.bib"> BibTex </a>]
                     <br />
                     Media Coverage:
@@ -700,7 +711,7 @@ function Publications() {
                       <br />
                       <font color="#de1111" style={{ fontWeight: 'bold' }}>Best Paper Award Honorable Mention</font>
                       <br />
-                      [<a href="papers/2015_UbiComp_DoppleSleep.pdf"> Paper</a> | 
+                      [<a href="https://mi-zhang.github.io/papers/2015_UbiComp_DoppleSleep.pdf"> Paper</a> | 
                       <a href="papers/2015_UbiComp_DoppleSleep.bib"> BibTex </a>]
                   <br />    
                       Media Coverage:													
@@ -715,7 +726,7 @@ function Publications() {
                     <br />    
 					Acceptance Rate: 93/394 = 23.6%
 					<br />
-                    [<a href="papers/2015_UbiComp_MyBehavior.pdf"> Paper</a> | 
+                    [<a href="https://mi-zhang.github.io/papers/2015_UbiComp_MyBehavior.pdf"> Paper</a> | 
                     <a href="papers/2015_UbiComp_MyBehavior.bib"> BibTex </a>]
 					<br />
                     Media Coverage:															
@@ -769,7 +780,7 @@ function Publications() {
                       <br />    
             Acceptance Rate: 38%
             <br />
-                      [<a href="papers/2015_PervasiveHealth.pdf">Paper</a> | 
+                      [<a href="https://mi-zhang.github.io/papers/2015_PervasiveHealth.pdf">Paper</a> | 
                       <a href="papers/2015_PervasiveHealth.bib">BibTex</a>]
         </div>
 
@@ -782,7 +793,7 @@ function Publications() {
 					Impact Factor: 4.636
                     <br />
                     [<a href="http://mhealth.jmir.org/2015/2/e42/"> Link</a> | 
-                    <a href="papers/2015_JMIR_MyBehavior.pdf"> Paper</a> |    
+                    <a href="https://mi-zhang.github.io/papers/2015_JMIR_MyBehavior.pdf"> Paper</a> |    
                     <a href="papers/2015_JMIR_MyBehavior.bib"> BibTex </a>]
 					<br />
 					Media Coverage:
@@ -798,7 +809,7 @@ function Publications() {
                       <br />
                       Acceptance Rate: 28/106 = 26.4%
             <br />
-                      [<a href="papers/2015_WH_FoodLabel.pdf"> Paper</a> | 
+                      [<a href="https://mi-zhang.github.io/papers/2015_WH_FoodLabel.pdf"> Paper</a> | 
                       <a href="papers/2015_WH_FoodLabel.bib"> BibTex </a>]
         </div>
       </div>
@@ -819,7 +830,7 @@ function Publications() {
                     <br />
                     <font color="#de1111" style={{ fontWeight: 'bold' }}>ACM SIGMOBILE Research Highlight</font> [<a href="papers/2015_GetMobile_BodyBeat.pdf"> Highlight Article </a>]    
                     <br />
-                    [<a href="papers/2014_MobiSys_BodyBeat.pdf"> Paper</a> | <a href="papers/2014_MobiSys_BodyBeat.bib"> BibTex </a>]
+                    [<a href="https://mi-zhang.github.io/papers/2014_MobiSys_BodyBeat.pdf"> Paper</a> | <a href="papers/2014_MobiSys_BodyBeat.bib"> BibTex </a>]
 					<br />
 					Media Coverage:
 					[<a href="http://www.technologyreview.com/news/528386/wearable-self-tracking-tool-listens-for-yawns-coughs-and-munches/"> MIT Technology Review</a> |
@@ -835,7 +846,7 @@ function Publications() {
                     <br />    
 					Acceptance Rate: 26%
                     <br />
-                    [<a href="papers/2014_PervasiveHealth.pdf"> Paper</a> | <a href="papers/2014_PervasiveHealth.bib"> BibTex </a>]
+                    [<a href="https://mi-zhang.github.io/papers/2014_PervasiveHealth.pdf"> Paper</a> | <a href="papers/2014_PervasiveHealth.bib"> BibTex </a>]
         </div>
       </div>
       </div>

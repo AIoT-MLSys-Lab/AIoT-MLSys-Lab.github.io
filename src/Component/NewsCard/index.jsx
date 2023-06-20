@@ -1,36 +1,18 @@
-import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
-import { Avatar, Card } from 'antd';
-const { Meta } = Card;
-const NewsCard = ( props ) => (
-  <Card
-    style={{
-      width: 250,
-      overflow: 'hidden',
-    }}
-    headStyle={{
-      
-    }}
-    bodyStyle={{
-      fontSize: '1rem',
-      fontWeight: 'bold',
-    }}
-    cover={
-      <img
-        src={props.imageURL}
-        style={{
-          width: '100%',
-          height: '150px',
-          objectFit: 'cover',
-        }}
-      />
-    }
-    hoverable={true}
-  >
-    <Meta
-      className='newsCard'
-      title={props.title}
-      description={props.description}
-    />
-  </Card>
+import React, { useState } from 'react';
+import './newsCard.css'
+
+const NewsCard = ( imageURL ) => (
+  <div className='newsCard'>
+    <img src="./images/OSU.jpg" alt="" className='newsCardImg'/>
+    <div className='newsCardTitle'>
+      USC ECE SIPI Distinguished Alumni Award
+    </div>
+    <div className='newsCardDate'>
+      Jan 06, 2023
+    </div>
+    <div className='newsCardContent'>
+    Feel extremely honored and excited to receive the inaugural USC ECE SIPI Distinguished Alumni Award in the Junior/Academia category for my contributions to mobile/edge computing in my early career.
+    </div>
+  </div>
 );
 export default NewsCard;

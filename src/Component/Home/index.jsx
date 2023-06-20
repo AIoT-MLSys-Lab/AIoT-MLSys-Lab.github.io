@@ -61,7 +61,7 @@ function Home() {
       <div className='homeAchievement'>
         <h2 className='homeAchievementTitle'>Our Achievements</h2>
         <div className='homeAchievementContent'>
-        The OSU AIoT and MLSys Lab has been conducting world-class research at the intersection of systems and AI/ML. Our research has been published at top-tier venues in both mobile/wireless/embedded sensor systems (MobiCom, MobiSys, SenSys, UbiComp) and AI/ML (NeurIPS, ICML, ICLR). Our work has received seven best paper awards and nominations, and won the 4th Place Winner (1st Place in U.S. and Canada) of 2019 Google MicroNet Challenge (CIFAR-100 Track), the Third Place Winner of 2017 NSF Hearables Challenge, and the champion of 2016 NIH Pill Image Recognition Challenge. Many of our work have been reported by NSF, NIH, IEEE, ACM, and media such as TIME, MIT Technology Review, WIRED, TechCrunch, and Smithsonian magazine more than one hundred times.
+        The OSU AIoT and MLSys Lab has been conducting world-class research at the intersection of systems and AI/ML. Our research has been published at top-tier venues in both mobile/wireless/embedded sensor systems (MobiCom, MobiSys, SenSys) and AI/ML (NeurIPS, ICML, ICLR). Our work has received seven best paper awards and nominations, and won the 4th Place Winner (1st Place in U.S. and Canada) of 2019 Google MicroNet Challenge (CIFAR-100 Track), the Third Place Winner of 2017 NSF Hearables Challenge, and the champion of 2016 NIH Pill Image Recognition Challenge. Many of our work have been reported by NSF, NIH, IEEE, ACM, and media such as TIME, MIT Technology Review, WIRED, TechCrunch, and Smithsonian magazine more than one hundred times.
         </div>
       </div>
       {/* <div className='collection'>
@@ -81,17 +81,7 @@ function Home() {
 
       <div className='homeSponsor'>
         <div className='homeSponsorTitle'>Sponsors</div>
-        <img src="./images/Sponsors.png" alt="" />
-        {/* <div className='homeSponsorImages'>
-          <img src="./images/Sponsor_NSF.jpeg" alt="" className='homeSponsorItem'/>
-          <img src="./images/Sponsor_facebook.png" alt="" className='homeSponsorItem'/>
-          <img src="./images/Sponsor_realitylabs.png" alt="" className='homeSponsorItem'/>
-          <img src="./images/Sponsor_NIH.png" alt="" className='homeSponsorItem'/>
-          <img src="./images/Sponsor_DoT.png" alt="" className='homeSponsorItem'/>
-          <img src="./images/Sponsor_Microsoft.jpg" alt="" className='homeSponsorItem'/>
-          <img src="./images/Sponsor_Google.png" alt="" className='homeSponsorItem'/>
-          <img src="./images/Sponsor_amazon.jpeg" alt="" className='homeSponsorItem'/>
-        </div> */}
+        <img src="./images/Sponsors.png" alt="" className='homeSponsorImg'/>
       </div>
 
     </div>

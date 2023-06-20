@@ -4,7 +4,7 @@ const { Meta } = Card;
 const NoPhotoCard = ( props ) => (
   <Card
     style={{
-      width: 250,
+      width: 200,
       overflow: 'hidden',
     }}
     hoverable={true}

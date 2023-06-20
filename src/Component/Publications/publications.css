@@ -85,6 +85,14 @@
     margin-bottom: 40px;
 }
 
-.publicationsInfo a{
+.publicationsContent a{
     color: #1371ffd5;
+}
+
+.publicationsBtns {
+    display: flex;
+}
+
+.pubHighlight {
+    display: inline;
 }
