@@ -20,6 +20,8 @@ function Publications() {
     year={2022}
 }`;
 
+
+
   return (
     <div>
       <ContentTitle title = "Publications" subtitle = "Publications"></ContentTitle>
