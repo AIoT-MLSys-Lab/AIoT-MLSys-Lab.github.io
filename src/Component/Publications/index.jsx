@@ -20,7 +20,47 @@ function Publications() {
     year={2022}
 }`;
 
+  const PyramidFL = `@inproceedings{pyramidfl2022mobicom,
+    title = {{PyramidFL: A Fine-grained Client Selection Framework for Efficient Federated Learning}}, 
+    author = {Li, Chenning and Zeng, Xiao and Zhang, Mi and Cao, Zhichao},
+    booktitle = {ACM International Conference on Mobile Computing and Networking (MobiCom)},
+    year = {2022}
+}`
 
+  const FedSEA = `@inproceedings{fedsea2022sensys,
+    title={{FedSEA: A Semi-Asynchronous Federated Learning Framework for Extremely Heterogeneous Devices}},
+    author={Sun, Jingwei and Li, Ang and Duan, Lin and Alam, Samiul and Deng, Xuliang and Guo, Xin and Wang, Haiming and Gorlatova, Maria and Zhang, Mi and Hai, Li and Chen, Yiran},
+    booktitle={ACM Conference on Embedded Networked Sensor Systems (SenSys)},
+    year={2022}
+}`
+
+  const FedTune = `@inproceedings{fedtune2022milcom,
+    title = {{FedTune: Automatic Tuning of Federated Learning Hyper-Parameters from System Perspective}}, 
+    author = {Zhang, Huanle and Zhang, Mi and Liu, Xin and Mohapatra, Prasant and Delucia, Michael},
+    booktitle = {IEEE Military Communications Conference (MilCom)},
+    year = {2022}
+}`
+
+  const FLIT = `@article{fliotvision2022ieeeiotm,
+    title = {Federated Learning for Internet of Things: Applications, Challenges, and Opportunities},
+    author = {Zhang, Tuo and Gao, Lei and He, Chaoyang and Zhang, Mi and Krishnamachari, Bhaskar and Avestimehr, Salman},
+    journal = {IEEE Internet of Things Magazine (IEEE IoTM)},
+    year = {2022}
+}`
+
+  const DeepAutoAugment = `@inproceedings{deepaa2022iclr,
+    title = {{Deep AutoAugment}},
+    author = {Zheng, Yu and Zhang, Zhi and Yan, Shen and Zhang, Mi},
+    booktitle = {International Conference on Learning Representations (ICLR)},
+    year = {2022}
+}`
+
+  const MTVR = `@inproceedings{mtv2022cvpr,
+    title = {{Multiview Transformers for Video Recognition}},
+    author = {Yan, Shen and Xiong, Xuehan and Arnab, Anurag and Lu, Zhichao and Zhang, Mi and Sun, Chen and Schmid, Cordelia},
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year = {2022}
+}`
 
   return (
     <div>
@@ -90,66 +130,70 @@ function Publications() {
         >
         </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">PyramidFL: A Fine-grained Client Selection Framework for Efficient Federated Learning</div>
-					Chenning Li, Xiao Zeng, Mi Zhang, and Zhichao Cao. <br />
-          ACM International Conference on Mobile Computing and Networking (<font style={{ fontWeight: 'bold' }}>MobiCom'22</font>).   <br />
-          Acceptance Rate: 56/314 = 17.8%  <br />
-                    [<a href="https://mi-zhang.github.io/papers/2022_MobiCom_PyramidFL.pdf"> Paper</a> |
-                     <a href="papers/2022_MobiCom_PyramidFL.bib"> BibTex </a>]
+        <CodeBlock
+          title = "PyramidFL: A Fine-grained Client Selection Framework for Efficient Federated Learning"
+          authors = "Chenning Li, Xiao Zeng, Mi Zhang, and Zhichao Cao."
+          conference = "ACM International Conference on Mobile Computing and Networking (<div class='pubHighlight'>MobiCom'22</div>)."
+          rate = "Acceptance Rate: 56/314 = 17.8%"
+          paper = "https://mi-zhang.github.io/papers/2022_MobiCom_PyramidFL.pdf"
+          bibtex = {PyramidFL}
+        >
+        </CodeBlock>
 
-        </div>
+        <CodeBlock
+          title = "FedSEA: A Semi-Asynchronous Federated Learning Framework for Extremely Heterogeneous Devices"
+          authors = "Jingwei Sun, Ang Li, Lin Duan, Samiul Alam, Xuliang Deng, Xin Guo, Haiming Wang, Maria Gorlatova, Mi Zhang, Hai Li, Yiran Chen."
+          conference = "ACM Conference on Embedded Networked Sensor Systems (<div class='pubHighlight'>SenSys'22</div>)."
+          rate = "Acceptance Rate: 52/208 = 25%"
+          paper = "https://mi-zhang.github.io/papers/2022_SenSys_FedSEA.pdf"
+          bibtex = {FedSEA}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-        <div class="publicationsStrong">FedSEA: A Semi-Asynchronous Federated Learning Framework for Extremely Heterogeneous Devices</div>
-					Jingwei Sun, Ang Li, Lin Duan, Samiul Alam, Xuliang Deng, Xin Guo, Haiming Wang, Maria Gorlatova, Mi Zhang, Hai Li, Yiran Chen. <br />
-                    ACM Conference on Embedded Networked Sensor Systems (<font style={{ fontWeight: 'bold' }}>SenSys'22</font>). <br />
-                    Acceptance Rate: 52/208 = 25%  <br />
-                    [<a href="https://mi-zhang.github.io/papers/2022_SenSys_FedSEA.pdf"> Paper</a> |
-                     <a href="papers/2022_SenSys_FedSEA.bib"> BibTex </a>]    
-        </div>
+        <CodeBlock
+          title = "FedTune: Automatic Tuning of Federated Learning Hyper-Parameters from System Perspective"
+          authors = "Huanle Zhang, Mi Zhang, Xin Liu, Prasant Mohapatra, and Michael Delucia."
+          conference = "IEEE Military Communications Conference (<div class='pubHighlight'>MILCOM'22</div>)."
+          paper = "https://mi-zhang.github.io/https://arxiv.org/abs/2110.03061"
+          bibtex = {FedTune}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">FedTune: Automatic Tuning of Federated Learning Hyper-Parameters from System Perspective</div>
-					Huanle Zhang, Mi Zhang, Xin Liu, Prasant Mohapatra, and Michael Delucia. <br />
-                    IEEE Military Communications Conference (<font style={{ fontWeight: 'bold' }}>MILCOM'22</font>). <br />
-                    [<a href="https://mi-zhang.github.io/https://arxiv.org/abs/2110.03061"> Paper</a> |
-                     <a href="papers/2022_MilCom_FedTune.bib"> BibTex </a>]  
-        </div>
+        <CodeBlock
+          title = "Federated Learning for Internet of Things: Applications, Challenges, and Opportunities"
+          authors = "Tuo Zhang, Lei Gao, Chaoyang He, Mi Zhang, Bhaskar Krishnamachari, and Salman Avestimehr."
+          conference = "IEEE Internet of Things Magazine (<div class='pubHighlight'>IEEE IoTM</div>), 2022."
+          paper = "https://mi-zhang.github.io/papers/2022_IEEEIoTM_FLIoTVision.pdf"
+          bibtex = {FLIT}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Federated Learning for Internet of Things: Applications, Challenges, and Opportunities</div>
-					Tuo Zhang, Lei Gao, Chaoyang He, Mi Zhang, Bhaskar Krishnamachari, and Salman Avestimehr. <br />
-                    IEEE Internet of Things Magazine (<font style={{ fontWeight: 'bold' }}>IEEE IoTM</font>), 2022.   <br />
-                    [<a href="https://mi-zhang.github.io/papers/2022_IEEEIoTM_FLIoTVision.pdf"> Paper</a> |
-                     <a href="papers/2022_IEEEIoTM_FLIoTVision.bib"> BibTex </a>] 
-        </div>
+        <CodeBlock
+          title = "Deep AutoAugment"
+          authors = "Yu Zheng, Zhi Zhang, Shen Yan, and Mi Zhang."
+          conference = "International Conference on Learning Representations (<div class='pubHighlight'>ICLR'22</div>)."
+          rate = "Acceptance Rate: 1095/3391 = 32.3%"
+          paper = "https://mi-zhang.github.io/papers/2022_ICLR_DeepAA.pdf"
+          bibtex = {DeepAutoAugment}
+          code = "https://github.com/MSU-MLSys-Lab/DeepAA"
+          leaderboard = "https://paperswithcode.com/paper/deep-autoaugment-1"
+          poster = "https://mi-zhang.github.io/papers/2022_NeurIPS_FedRolex_Poster.pdf"
+          slides = "https://mi-zhang.github.io/papers/2022_ICLR_DeepAA_Slides.pdf"
+          media = "<a href='https://syncedreview.com/2022/03/16/msu-aws-present-deepaa-fully-automated-data-augmentation-search-that-rivals-human-enhanced-approaches/'> Synced </a>"
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Deep AutoAugment</div>
-					Yu Zheng, Zhi Zhang, Shen Yan, and Mi Zhang. <br />
-                    International Conference on Learning Representations (<font style={{ fontWeight: 'bold' }}>ICLR'22</font>). <br />
-                    Acceptance Rate: 1095/3391 = 32.3% <br />
-                    [<a href="https://mi-zhang.github.io/papers/2022_ICLR_DeepAA.pdf"> Paper</a> |   
-                     <a href="papers/2022_ICLR_DeepAA.bib"> BibTex</a> |
-                     <a href="https://github.com/MSU-MLSys-Lab/DeepAA"> Code</a>｜
-                     <a href="https://paperswithcode.com/paper/deep-autoaugment-1">Leaderboard</a> |    
-                     <a href="https://mi-zhang.github.io/papers/2022_ICLR_DeepAA_Poster.pdf"> Poster</a> |    
-                     <a href="https://mi-zhang.github.io/papers/2022_ICLR_DeepAA_Slides.pdf"> Slides </a>] <br />
-                    Media Coverage:
-                    [<a href="https://syncedreview.com/2022/03/16/msu-aws-present-deepaa-fully-automated-data-augmentation-search-that-rivals-human-enhanced-approaches/"> Synced </a>]
-        </div>
-
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Multiview Transformers for Video Recognition</div>
-					Shen Yan, Xuehan Xiong, Anurag Arnab, Zhichao Lu, Mi Zhang, Chen Sun, Cordelia Schmid. <br />
-                    IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR'22</b>). <br />
-                    Acceptance Rate: 2067/8161 = 25.3% <br />
-                     [<a href="https://arxiv.org/abs/2201.04288"> Paper</a> |
-                     <a href="papers/2022_CVPR_MTV.bib"> BibTex</a> |
-                     <a href="https://github.com/google-research/scenic/tree/main/scenic/projects/mtv"> Code</a> |
-                     <a href="https://paperswithcode.com/paper/multiview-transformers-for-video-recognition"> Leaderboard </a>]
-        </div>
+        <CodeBlock
+          title = "Multiview Transformers for Video Recognition"
+          authors = "Shen Yan, Xuehan Xiong, Anurag Arnab, Zhichao Lu, Mi Zhang, Chen Sun, Cordelia Schmid."
+          conference = "IEEE/CVF Conference on Computer Vision and Pattern Recognition (<div class='pubHighlight'>CVPR'22</div>)."
+          rate = "Acceptance Rate: 2067/8161 = 25.3%"
+          paper = "https://arxiv.org/abs/2201.04288"
+          bibtex = {MTVR}
+          code = "https://github.com/google-research/scenic/tree/main/scenic/projects/mtv"
+          leaderboard = "https://paperswithcode.com/paper/multiview-transformers-for-video-recognition"
+        >
+        </CodeBlock>
 
         <div className='publicationsItem'>
           <div class="publicationsStrong">Ph.D. Thesis: New Perspectives in Neural Architecture Search: Architecture Embeddings, Efficient Performance Estimations, and their Applications</div>

@@ -13,7 +13,17 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.newsCardImgContainer {
+    height: 150px; /* 设置容器的固定高度 */
+    overflow: hidden; /* 隐藏超出容器高度的内容 */
+    position: relative; /* 相对定位，用于调整图像位置 */
+}
+
 .newsCardImg {
+    position: absolute; /* 绝对定位，用于调整图像位置 */
+    top: 50%; /* 将图像上边缘与容器的中心对齐 */
+    transform: translateY(-50%); /* 向上移动图像的一半高度 */
+    width: 100%; /* 图像宽度适应容器宽度 */
 }
 
 .newsCardTitle {

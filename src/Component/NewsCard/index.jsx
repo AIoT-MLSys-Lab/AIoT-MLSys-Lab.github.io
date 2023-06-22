@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
 import './newsCard.css'
 
-const NewsCard = ( imageURL ) => (
+const NewsCard = ( {imageURL, title, content, date} ) => (
   <div className='newsCard'>
-    <img src="./images/OSU.jpg" alt="" className='newsCardImg'/>
+    <div className='newsCardImgContainer'>
+      <img src={imageURL} alt="" className='newsCardImg'/>
+    </div>
     <div className='newsCardTitle'>
-      USC ECE SIPI Distinguished Alumni Award
+      {title}
     </div>
     <div className='newsCardDate'>
-      Jan 06, 2023
+      {date}
     </div>
     <div className='newsCardContent'>
-    Feel extremely honored and excited to receive the inaugural USC ECE SIPI Distinguished Alumni Award in the Junior/Academia category for my contributions to mobile/edge computing in my early career.
+      <div dangerouslySetInnerHTML={{ __html: content }}></div>
     </div>
   </div>
 );

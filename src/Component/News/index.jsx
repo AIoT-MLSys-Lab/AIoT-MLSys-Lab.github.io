@@ -28,11 +28,21 @@ function News() {
             <div className='newsCards'>
 
               <div className='newsItem'>
-                <NewsCard imageURL="./images/OSU.jpg"></NewsCard>
+                <NewsCard 
+                imageURL="./images/news/news_2023_2.png" 
+                title="Prof. Zhang Receives the USC ECE-SIPI Distinguished Alumni Award" 
+                date="Feb. 2023"
+                content="Prof. Zhang receives the inaugural USC ECE-SIPI Distinguished Alumni Award in the Junior/Academia category for his contributions to mobile/edge computing in his early career. Details about the award can be found <a href='https://minghsiehece.usc.edu/groups-and-institutes/sipi/sipi-50th-anniversary/'>here</a>."
+                ></NewsCard>
               </div>
 
               <div className='newsItem'>
-                <NewsCard imageURL="./images/OSU.jpg"></NewsCard>
+                <NewsCard 
+                imageURL="./images/news/news_2023_1.jpg"
+                title="Congrats to Samiul Alam!"
+                date="Jan. 2023"
+                content="Congratulations Samiul for being awarded the highly competitive OSU College Allocated Fellowship!"
+                ></NewsCard>
               </div>
               
             </div>

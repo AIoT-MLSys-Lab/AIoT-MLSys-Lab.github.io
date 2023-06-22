@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './CodeBlock.css'
 
-function CodeBlock({ title, authors, conference, rate, paper, bibtex, code, poster }) {
+function CodeBlock({ title, authors, conference, rate, paper, bibtex, code, poster, leaderboard, slides, media }) {
   const [showCode, setShowCode] = useState(false);
 
   const toggleCode = () => {
@@ -10,10 +10,13 @@ function CodeBlock({ title, authors, conference, rate, paper, bibtex, code, post
 
   return (
     <div className='publicationsItem'>
+
       <div className="publicationsStrong">{title}</div>
       {authors}<br />
+
       <span dangerouslySetInnerHTML={{ __html: conference }}></span><br />
       {rate}
+
       <div className='publicationsBtns'>
         {paper && (
           <>
@@ -33,9 +36,21 @@ function CodeBlock({ title, authors, conference, rate, paper, bibtex, code, post
           </>
         )}
 
+        {leaderboard && (
+          <>
+            &nbsp;|&nbsp;<a href={leaderboard}>LeaderBoard</a>
+          </>
+        )}
+
         {poster && (
           <>
-            &nbsp;|&nbsp;<a href={code}>Poster</a>
+            &nbsp;|&nbsp;<a href={poster}>Poster</a>
+          </>
+        )}
+
+        {slides && (
+          <>
+            &nbsp;|&nbsp;<a href={slides}>Slides</a>
           </>
         )}
 
@@ -44,6 +59,14 @@ function CodeBlock({ title, authors, conference, rate, paper, bibtex, code, post
             &nbsp;]
           </>
         )}
+      </div>
+
+      <div className='publicationsMedia'>
+          {media && (
+            <>
+              Media Coverage: [<span dangerouslySetInnerHTML={{ __html: media }}></span>]
+            </>
+          )}
       </div>
       {showCode && <pre>{bibtex}</pre>}
     </div>
