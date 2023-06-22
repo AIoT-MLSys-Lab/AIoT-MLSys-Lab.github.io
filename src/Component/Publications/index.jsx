@@ -449,7 +449,7 @@ function Publications() {
           title = "FedTune: Automatic Tuning of Federated Learning Hyper-Parameters from System Perspective"
           authors = "Huanle Zhang, Mi Zhang, Xin Liu, Prasant Mohapatra, and Michael Delucia."
           conference = "IEEE Military Communications Conference (<div class='pubHighlight'>MILCOM'22</div>)."
-          paper = "https://mi-zhang.github.io/https://arxiv.org/abs/2110.03061"
+          paper = "https://arxiv.org/abs/2110.03061"
           bibtex = {FedTune}
         >
         </CodeBlock>
@@ -472,7 +472,7 @@ function Publications() {
           bibtex = {DeepAutoAugment}
           code = "https://github.com/MSU-MLSys-Lab/DeepAA"
           leaderboard = "https://paperswithcode.com/paper/deep-autoaugment-1"
-          poster = "https://mi-zhang.github.io/papers/2022_NeurIPS_FedRolex_Poster.pdf"
+          poster = "https://mi-zhang.github.io/papers/2022_ICLR_DeepAA_Poster.pdf"
           slides = "https://mi-zhang.github.io/papers/2022_ICLR_DeepAA_Slides.pdf"
           media = "<a href='https://syncedreview.com/2022/03/16/msu-aws-present-deepaa-fully-automated-data-augmentation-search-that-rivals-human-enhanced-approaches/'> Synced </a>"
         >
@@ -537,7 +537,7 @@ function Publications() {
           conference = "ACM Conference on Embedded Networked Sensor Systems (<div class='pubHighlight'>SenSys'21</div>)."
           rate = "Acceptance Rate: 25/139 = 18%"
           honor = "<span class='pubRedHighLight'>Best Paper Award</span> | <span class='pubRedHighLight'>ACM SIGMOBILE Research Highlight </span> [<a href='https://mi-zhang.github.io/papers/2022_GetMobile_NELoRa.pdf'> Highlight Article </a>]"
-          paper = "https://mi-zhang.github.io/papers/2021_SenSys_FedMask.pdf"
+          paper = "https://mi-zhang.github.io/papers/2021_SenSys_NELoRa.pdf"
           bibtex = {NELoRa}
         >
         </CodeBlock>
