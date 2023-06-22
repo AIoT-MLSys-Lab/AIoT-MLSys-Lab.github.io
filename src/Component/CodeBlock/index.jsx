@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './CodeBlock.css'
 
-function CodeBlock({ title, authors, conference, rate, paper, bibtex, code, poster, leaderboard, slides, media }) {
+function CodeBlock({ title, authors, conference, rate, link, paper, bibtex, code, poster, leaderboard, slides, media, honor, presentation, invited, video }) {
   const [showCode, setShowCode] = useState(false);
 
   const toggleCode = () => {
@@ -12,15 +12,34 @@ function CodeBlock({ title, authors, conference, rate, paper, bibtex, code, post
     <div className='publicationsItem'>
 
       <div className="publicationsStrong">{title}</div>
-      {authors}<br />
-
-      <span dangerouslySetInnerHTML={{ __html: conference }}></span><br />
-      {rate}
+      <div>{authors}</div>
+      <span dangerouslySetInnerHTML={{ __html: conference }}></span>
+      <div dangerouslySetInnerHTML={{ __html: rate }}></div>
+      <span dangerouslySetInnerHTML={{ __html: honor }}></span>
+      <div dangerouslySetInnerHTML={{ __html: invited }}></div>
 
       <div className='publicationsBtns'>
+        {(link || paper) && (
+          <>
+          [&nbsp;
+          </>
+        )}
+
+        {link && (
+          <>
+          <a href={link}>Link</a>
+          </>
+        )}
+
+        {(link && paper) && (
+          <>
+          &nbsp;|&nbsp;
+          </>
+        )}
+
         {paper && (
           <>
-          [&nbsp;<a href={paper}>Paper</a>
+          <a href={paper}>Paper</a>
           </>
         )}
 
@@ -29,8 +48,14 @@ function CodeBlock({ title, authors, conference, rate, paper, bibtex, code, post
             &nbsp;|&nbsp;<div onClick={toggleCode} className='codeBlock'>BibTex</div>
           </>
         )}
+
+        {(!paper) && code && (
+          <>
+            [&nbsp;<a href={code}>Code</a>
+          </>
+        )}
         
-        {code && (
+        { paper && code && (
           <>
             &nbsp;|&nbsp;<a href={code}>Code</a>
           </>
@@ -54,7 +79,19 @@ function CodeBlock({ title, authors, conference, rate, paper, bibtex, code, post
           </>
         )}
 
-        {paper && (
+        {presentation && (
+          <>
+            &nbsp;|&nbsp;<a href={presentation}>Presentation</a>
+          </>
+        )}
+
+        {video && (
+          <>
+            &nbsp;|&nbsp;<a href={video}>Video</a>
+          </>
+        )}
+
+        {(paper || code) && (
           <>
             &nbsp;]
           </>

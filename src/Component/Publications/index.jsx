@@ -62,6 +62,301 @@ function Publications() {
     year = {2022}
 }`
 
+  const FOGuide = `@misc{wang2021field,
+    title={A Field Guide to Federated Optimization},
+    author={Jianyu Wang and Zachary Charles and Zheng Xu and Gauri Joshi and H. Brendan McMahan and Blaise Aguera y Arcas and Maruan Al-Shedivat and Galen Andrew and Salman Avestimehr and Katharine Daly and Deepesh Data and Suhas Diggavi and Hubert Eichner and Advait Gadhikar and Zachary Garrett and Antonious M. Girgis and Filip Hanzely and Andrew Hard and Chaoyang He and Samuel Horvath and Zhouyuan Huo and Alex Ingerman and Martin Jaggi and Tara Javidi and Peter Kairouz and Satyen Kale and Sai Praneeth Karimireddy and Jakub Konecny and Sanmi Koyejo and Tian Li and Luyang Liu and Mehryar Mohri and Hang Qi and Sashank J. Reddi and Peter Richtarik and Karan Singhal and Virginia Smith and Mahdi Soltanolkotabi and Weikang Song and Ananda Theertha Suresh and Sebastian U. Stich and Ameet Talwalkar and Hongyi Wang and Blake Woodworth and Shanshan Wu and Felix X. Yu and Honglin Yuan and Manzil Zaheer and Mi Zhang and Tong Zhang and Chunxiang Zheng and Chen Zhu and Wennan Zhu},
+    year={2021},
+    eprint={2107.06917},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}`
+
+  const Mercury = `@inproceedings{mercury2021sensys,
+    title={{Mercury: Efficient On-Device Distributed DNN Training via Stochastic Importance Sampling}},
+    author={Zeng, Xiao and Yan, Ming and Zhang, Mi},
+    booktitle={ACM Conference on Embedded Networked Sensor Systems (SenSys)},
+    year={2021}
+}`
+
+  const FedMask = `@inproceedings{fedmask2021sensys,
+    title={{FedMask: Joint Computation and Communication-Efficient Personalized Federated Learning via Heterogeneous Masking}},
+    author={Li, Ang and Sun, Jingwei and Zeng, Xiao and Zhang, Mi and Li, Hai and Chen, Yiran},
+    booktitle={ACM Conference on Embedded Networked Sensor Systems (SenSys)},
+    year={2021}
+}`
+
+  const NELoRa = `@inproceedings{nelora2021sensys,
+    title={{NELoRa: Towards Ultra-low SNR LoRa Communication with Neural-enhanced Demodulation}},
+    author={Li, Chenning and Guo, Hanqing and Tong, Shuai and Zeng, Xiao and Cao, Zhichao and Zhang, Mi and Yan, Qiben and Xiao, Li and Wang, Jiliang and Liu, Yunhao},
+    booktitle={ACM Conference on Embedded Networked Sensor Systems (SenSys)},
+    year={2021}
+}`
+
+  const DeepLoRa = `@inproceedings{deeplora2021infocom,
+    title = {{DeepLoRa: Learning Accurate Path Loss Model for Long Distance Links in LPWAN}}, 
+    author = {Li, Liu and Yao, Yuguang and  Cao, Zhichao and Zhang, Mi},
+    booktitle = {IEEE International Conference on Computer Communications (INFOCOM)},
+    year = {2021} 
+}`
+
+  const CATE = `@inproceedings{cate2021icml,
+    title={{CATE: Computation-aware Neural Architecture Encoding with Transformers}},
+    author={Yan, Shen and Song, Kaiqiang and Liu, Fei and Zhang, Mi},
+    booktitle={International Conference on Machine Learning (ICML)},
+    year={2021}
+}`
+
+  const PIS = `@article{pis2021ubicomp,
+    author = {Gao, Ruiyang and Zhang, Mi and Zhang, Jie and Li, Yang and Yi, Enze and Wu, Dan and Wang, Leye and Zhang, Daqing}},
+    title = {{Towards Position-Independent Sensing for Gesture Recognition with Wi-Fi}},
+    year = {2021},
+    volume = {5},
+    number = {2},
+    pages={1--28},
+    journal = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies}
+}`
+
+  const arch2vec = `@inproceedings{arch2vec2020neurips,
+    title={{Does Unsupervised Architecture Representation Learning Help Neural Architecture Search?}},
+    author={Yan, Shen and Zheng, Yu and Ao, Wei and Zeng, Xiao and Zhang, Mi},
+    booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
+    year={2020}
+}`
+
+  const FedML = `@inproceedings{fedml2020neurips-fl,
+    title={{FedML: A Research Library and Benchmark for Federated Machine Learning}},
+    author={Chaoyang He and Songze Li and Jinhyun So and Xiao Zeng and Mi Zhang and Hongyi Wang and Xiaoyang Wang and Praneeth Vepakomma and Abhishek Singh and Hang Qiu and Xinghua Zhu and Jianzong Wang and Li Shen and Peilin Zhao and Yan Kang and Yang Liu and Ramesh Raskar and Qiang Yang and Murali Annavaram and Salman Avestimehr},
+    booktitle={Conference on Neural Information Processing Systems (NeurIPS) Federated Learning Workshop},
+    year={2020}
+}`
+
+  const MutualNet = `@inproceedings{mutualnet2020eccv,
+    title = {{MutualNet: Adaptive ConvNet via Mutual Learning from Network Width and Resolution}}, 
+    author = {Yang, Taojiannan and Zhu, Sijie and Chen, Chen  and Yan, Shen  and Zhang, Mi and Willis, Andrew},
+    booktitle = {European Conference on Computer Vision (ECCV)},
+    year = {2020} 
+}`
+
+  const FlexDNN = `@inproceedings{flexdnn2020sec,
+    title={{FlexDNN: Input-Adaptive On-Device Deep Learning for Efficient Mobile Vision}},
+    author={Fang, Biyi and Zeng, Xiao and Zhang, Faen and Xu, Hui and Zhang, Mi},
+    booktitle={ACM/IEEE Symposium on Edge Computing (SEC)},
+    year={2020}
+}`
+
+  const Distream = `@inproceedings{distream2020sensys,
+    title={{Distream: Scaling Live Video Analytics with Workload-Adaptive Distributed Edge Intelligence}},
+    author={Zeng, Xiao and Fang, Biyi and Shen, Haichen and Zhang, Mi},
+    booktitle={ACM Conference on Embedded Networked Sensor Systems (SenSys)},
+    year={2020}
+}`
+
+  const WiSIA = `@inproceedings{wisia2020sensys,
+    title={{Wi-Fi See It All: Generative Adversarial Network-augmented Versatile Wi-Fi Imaging},
+    author={Li, Chenning and Liu, Zheng and Yao, Yuguang and Cao, Zhichao and Zhang, Mi and Liu, Yunhao},
+    booktitle={ACM Conference on Embedded Networked Sensor Systems (SenSys)},
+    year={2020}
+}`
+
+  const SecWIR = `@inproceedings{secwir2020mobisys,
+    title = {{SecWIR: Securing Smart Home IoT Communications via Wi-Fi Routers with Embedded Intelligence}},
+    author={Lei, Xinyu and Tu, Guan-Hua and Li, Chi-Yu and Xie, Tian and Zhang, Mi},
+    booktitle={ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)},
+    year={2020}
+}`
+
+  const Scylla = `@inproceedings{scylla2020infocom,
+    title = {{SCYLLA: QoE-aware Continuous Mobile Vision with FPGA-based Dynamic Deep Neural Network Reconfiguration}}, 
+    author = {Jiang, Shuang and  Ma, Zhiyao and  Zeng, Xiao and  Xu, Chenren and Zhang, Mi and  Zhang, Chen and  Liu, Yunxin},
+    booktitle = {IEEE International Conference on Computer Communications (INFOCOM)},
+    year = {2020} 
+}`
+
+  const DLEdge = `@inproceedings{dledge2020bookchapter,
+    title={{Deep Learning in the Era of Edge Computing: Challenges and Opportunities}},
+    author={Zhang, Mi and Zhang, Faen and Lane, Nicholas and Shu, Yuanchao and Zeng, Xiao and Fang, Biyi and Yan, Shen and Xu, Hui},
+    booktitle={Book chapter in Fog Computing: Theory and Practice, Wiley},
+    year={2020}
+}`
+
+  const HMNAS = `@inproceedings{yan2019hm,
+    title={HM-NAS: Efficient Neural Architecture Search via Hierarchical Masking},
+    author={Yan, Shen and Fang, Biyi and Zhang, Faen and Zheng, Yu and Zeng, Xiao and Xu, Hui and Zhang, Mi},
+    booktitle={Proceedings of the IEEE International Conference on Computer Vision Workshops},
+    year={2019}
+}`
+
+  const MobileSensing = `@article{2019getmobile,
+    title = {Mobile Sensing of Alertness, Sleep, and Circadian Rhythm: Hardware and Software Platforms},
+    author = {Sano, Akane and Rahman, Tauhidur and Zhang, Mi and Ganesan, Deepak and Choudhury, Tanzeem},
+    journal = {ACM GetMobile: Mobile Computing and Communications Review},
+    volume = {23},
+    number = {3},
+    year = {2019}
+}`
+
+  const NestDNN = `@inproceedings{fangzeng2018nestdnn,
+    title = {{NestDNN: Resource-Aware Multi-Tenant On-Device Deep Learning for Continuous Mobile Vision}}, 
+    author = {Fang, Biyi and Zeng, Xiao and Zhang, Mi},
+    booktitle = {Proceedings of the 24th Annual International Conference on Mobile Computing and Networking (MobiCom)},
+    year = {2018},
+    pages = {115--127},
+    numpages = {13},
+    address = {New Delhi, India} 
+}`
+
+  const WiFiCalling = `@inproceedings{xie2018wificalling,
+    title = {{The Dark Side of Operational Wi-Fi Calling Services}}, 
+    author = {Xie, Tian and Tu, Guan-Hua and Li, Chi-Yu and Peng, Chunyi and Li, Jiawei and Zhang, Mi},
+    booktitle = {Proceedings of 2018 IEEE Conference on Communications and Network Security (CNS)},
+    year = {2018}
+}`
+
+  const JARVIS = `@article{rabbi2018jarvis,
+    title = {When Virtual Reality Meets Internet of Things in the Gym: Enabling Immersive Interactive Machine Exercises},
+    author = {Rabbi, Fazlay and Park, Taiwoo and Fang, Biyi and Zhang, Mi and Lee, Youngki},
+    journal = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)},
+    issue_date = {June 2018},
+    volume = {2},
+    number = {2},
+    pages = {78:1--78:21},
+    articleno = {78},
+    numpages = {21},
+    year = {2018}
+}`
+
+  const UbiquitousMR = `@article{park2018ubiquitousmr,
+    title = {When Mixed Reality Meets Internet of Things: Toward the Realization of Ubiquitous Mixed Reality},
+    author = {Park, Taiwoo and Zhang, Mi and Lee, Youngki},
+    journal = {ACM GetMobile: Mobile Computing and Communications Review},
+    volume = {22},
+    number = {1},
+    year = {2018}
+}`
+
+  const iSeeNeed = `@article{meng2018userneeds,
+    title = {Exploring User Needs for a Mobile Behavioral-Sensing Technology for Depression Management: Qualitative Study},
+    author = {Meng, Jingbo and Hussain, Ali Syed and Mohr, C. David and Czerwinski, Mary and Zhang, Mi},
+    journal = {Journal of Medical Internet Research (JMIR)},
+    volume ={20},
+    number = {7},
+    pages = {e10139},
+    year = {2018}
+}`
+
+  const MobileDeepPill = `@inproceedings{zeng2017mobiledeeppill,
+    title = {{MobileDeepPill: A Small-Footprint Mobile Deep Learning System for Recognizing Unconstrained Pill Images}}, 
+    author = {Zeng, Xiao and Cao, Kai and Zhang, Mi},
+    booktitle = {Proceedings of the 15th ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)},
+    year = {2017},
+    pages = {56--67},
+    numpages = {12},
+    address = {Niagara Falls, NY, USA} 
+}`
+
+  const DeepASL = `@inproceedings{fang2017deepasl,
+    title = {{DeepASL: Enabling Ubiquitous and Non-Intrusive Word and Sentence-Level Sign Language Translation}}, 
+    author = {Fang, Biyi and Co, Jillian and Zhang, Mi},
+    booktitle = {Proceedings of the 15th ACM Conference on Embedded Networked Sensor Systems (SenSys)},
+    year = {2017},
+    address = {Delft, The Netherlands} 
+}`
+
+  const PersonalSensing = `@article{mohr2017arcp,
+    author = {David C. Mohr and Mi Zhang and Stephen Schueller},
+    title = {{Personal Sensing: Understanding Mental Health Using Ubiquitous Sensors and Machine Learning}},
+    journal = {Annual Review of Clinical Psychology (ARCP)},
+    volume = {13},
+    number = {1},
+    pages = {null},
+    year = {2017},
+    doi = {10.1146/annurev-clinpsy-032816-044949},
+    URL = {http://www.annualreviews.org/doi/abs/10.1146/annurev-clinpsy-032816-044949},
+    eprint = {http://www.annualreviews.org/doi/pdf/10.1146/annurev-clinpsy-032816-044949}
+}`
+
+  const BodyScan = `@inproceedings{fang2016bodyscan,
+    title = {BodyScan: Enabling Radio-based Sensing on Wearable Devices for Contactless Activity and Vital Sign Monitoring}, 
+    author = {Fang, Biyi and Lane, Nicholas D. and Zhang, Mi and Boran, Aidan and Kawsar, Fahim},
+    booktitle = {The 14th ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)},
+    pages = {97--110},
+    year = {2016},
+    location = {Singapore, Singapore} 
+}`
+
+  const HeadScan = `@inproceedings{fang2016headscan,
+    title = {HeadScan: A Wearable System for Radio-based Sensing of Head and Mouth-related Activities},
+    author = {Fang, Biyi and Lane, Nicholas D and Zhang, Mi and Kawsar, Fahim},
+    booktitle = {The 15th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)},
+    pages = {1--12},
+    year = {2016}
+}`
+
+  const AirSense = `@inproceedings{fang2016airsense,
+    title = {AirSense: An Intelligent Home-based Sensing System for Indoor Air Quality Analytics}, 
+    author = {Fang, Biyi and Xu, Qiumin and Park, Taiwoo and Zhang, Mi},
+    booktitle = {Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)},
+    pages = {109--119},
+    year = {2016}
+}`
+
+  const DoppleSleep = `@inproceedings{rahman2015dopplesleep,
+    title = {Dopplesleep: A Contactless Unobtrusive Sleep Sensing System Using Short-Range Doppler Radar},
+    author = {Rahman, Tauhidur and Adams, Alexander T and Ravichandran, Ruth Vinisha and Zhang, Mi and Patel, Shwetak N and Kientz, Julie A and Choudhury, Tanzeem},
+    booktitle = {ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)},
+    pages = {39--50},
+    year = {2015}
+}`
+
+  const MyBehavior = `@inproceedings{rabbi2015mybehavior,
+    title = {MyBehavior: Automatic Personalized Health Feedback from User Behaviors and Preferences using Smartphones},
+    author = {Rabbi, Mashfiqui and Aung, Min Hane and Zhang, Mi and Choudhury, Tanzeem},
+    booktitle = {ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)},
+    pages = {707--718},
+    year = {2015}
+}`
+
+  const PervasiveHealth = `@inproceedings{saeb2015relationship,
+    title = {The Relationship between Clinical, Momentary, and Sensor-based Assessment of Depression},
+    author = {Saeb, Sohrab and Zhang, Mi and Kwasny, Mary and Karr, Christopher J and Kording, Konrad and Mohr, David C},
+    booktitle = {The 9th International Conference on Pervasive Computing Technologies for Healthcare (PervasiveHealth)},
+    pages = {229--232},
+    year = {2015}
+}`
+
+  const APFPAD = `@article{rabbi2015automated,
+    title = {Automated Personalized Feedback for Physical Activity and Dietary Behavior Change With Mobile Phones: A Randomized Controlled Trial on Adults},
+    author = {Rabbi, Mashfiqui and Pfammatter, Angela and Zhang, Mi and Spring, Bonnie and Choudhury, Tanzeem},
+    journal = {Journal of Medical Internet Research (JMIR) mHealth and uHealth},
+    volume = {3},
+    number = {2},
+    pages = {e42},
+    year = {2015}
+}`
+
+  const FoodLabel = `@inproceedings{rabbi2015foodlabel,
+    title = {An Intelligent Crowd-Worker Selection Approach for Reliable Content Labeling of Food Images},
+    author = {Rabbi, Mashfiqui and Costa, Jean and Okeke, Fabian and Schachere, Max and Zhang, Mi and Choudhury, Tanzeem},
+    booktitle = {ACM Wireless Health Conference (Wireless Health)},
+    year = {2015}
+}`
+
+  const BodyBeat = `@inproceedings{rahman2014bodybeat,
+    title = {Bodybeat: A Mobile System for Sensing Non-Speech Body Sounds},
+    author = {Rahman, Tauhidur and Adams, Alexander T and Zhang, Mi and Cherry, Erin and Zhou, Bobby and Peng, Huaishu and Choudhury, Tanzeem},
+    booktitle = {The 12th ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)},
+    pages = {2--13},
+    year = {2014}
+}`
+
+  const TANIRSLU = `@inproceedings{rahman2014ph,
+    title = {Towards Accurate Non-Intrusive Recollection of Stress Levels using Mobile Sensing and Contextual Recall},
+    author = {Rahman, Tauhidur and Zhang, Mi and Voida, Stephen and Choudhury, Tanzeem},
+    booktitle = {The 8th International Conference on Pervasive Computing Technologies for Healthcare (PervasiveHealth)},
+    pages = {166--169},
+    year = {2014}
+}`
+
   return (
     <div>
       <ContentTitle title = "Publications" subtitle = "Publications"></ContentTitle>
@@ -208,78 +503,84 @@ function Publications() {
         2021
       </div>
       <div className='publicationsContent'>
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">A Field Guide to Federated Optimization</div>
-					Jianyu Wang, Zachary Charles, Zheng Xu, Gauri Joshi, H. Brendan McMahan, Blaise Aguera y Arcas, Maruan Al-Shedivat, Galen Andrew, Salman Avestimehr, Katharine Daly, Deepesh Data, Suhas Diggavi, Hubert Eichner, Advait Gadhikar, Zachary Garrett, Antonious M. Girgis, Filip Hanzely, Andrew Hard, Chaoyang He, Samuel Horvath, Zhouyuan Huo, Alex Ingerman, Martin Jaggi, Tara Javidi, Peter Kairouz, Satyen Kale, Sai Praneeth Karimireddy, Jakub Konecny, Sanmi Koyejo, Tian Li, Luyang Liu, Mehryar Mohri, Hang Qi, Sashank J. Reddi, Peter Richtarik, Karan Singhal, Virginia Smith, Mahdi Soltanolkotabi, Weikang Song, Ananda Theertha Suresh, Sebastian U. Stich, Ameet Talwalkar, Hongyi Wang, Blake Woodworth, Shanshan Wu, Felix X. Yu, Honglin Yuan, Manzil Zaheer, Mi Zhang, Tong Zhang, Chunxiang Zheng, Chen Zhu, Wennan Zhu. 
-					<br />
-                    [<a href="https://arxiv.org/abs/2107.06917"> Paper</a> |
-                     <a href="papers/2021_FOGuide.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "A Field Guide to Federated Optimization"
+          authors = "Jianyu Wang, Zachary Charles, Zheng Xu, Gauri Joshi, H. Brendan McMahan, Blaise Aguera y Arcas, Maruan Al-Shedivat, Galen Andrew, Salman Avestimehr, Katharine Daly, Deepesh Data, Suhas Diggavi, Hubert Eichner, Advait Gadhikar, Zachary Garrett, Antonious M. Girgis, Filip Hanzely, Andrew Hard, Chaoyang He, Samuel Horvath, Zhouyuan Huo, Alex Ingerman, Martin Jaggi, Tara Javidi, Peter Kairouz, Satyen Kale, Sai Praneeth Karimireddy, Jakub Konecny, Sanmi Koyejo, Tian Li, Luyang Liu, Mehryar Mohri, Hang Qi, Sashank J. Reddi, Peter Richtarik, Karan Singhal, Virginia Smith, Mahdi Soltanolkotabi, Weikang Song, Ananda Theertha Suresh, Sebastian U. Stich, Ameet Talwalkar, Hongyi Wang, Blake Woodworth, Shanshan Wu, Felix X. Yu, Honglin Yuan, Manzil Zaheer, Mi Zhang, Tong Zhang, Chunxiang Zheng, Chen Zhu, Wennan Zhu."
+          paper = "https://arxiv.org/abs/2107.06917"
+          bibtex = {FOGuide}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Mercury: Efficient On-Device Distributed DNN Training via Stochastic Importance Sampling</div>
-					Xiao Zeng, Ming Yan, and Mi Zhang. <br />
-					ACM Conference on Embedded Networked Sensor Systems (<font style={{ fontWeight: 'bold' }}>SenSys'21</font>). <br />
-                    Acceptance Rate: 25/139 = 18% <br />
-                    [<a href="https://mi-zhang.github.io/papers/2021_SenSys_Mercury.pdf"> Paper</a> | 
-                     <a href="papers/2021_SenSys_Mercury.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "Mercury: Efficient On-Device Distributed DNN Training via Stochastic Importance Sampling"
+          authors = "Xiao Zeng, Ming Yan, and Mi Zhang."
+          conference = "ACM Conference on Embedded Networked Sensor Systems (<div class='pubHighlight'>SenSys'21</div>)."
+          rate = "Acceptance Rate: 25/139 = 18%"
+          paper = "https://mi-zhang.github.io/papers/2021_SenSys_Mercury.pdf"
+          bibtex = {Mercury}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">FedMask: Joint Computation and Communication-Efficient Personalized Federated Learning via Heterogeneous Masking</div>
-					Ang Li, Jingwei Sun, Xiao Zeng, Mi Zhang, Hai Li, and Yiran Chen. <br />
-					ACM Conference on Embedded Networked Sensor Systems (<font style={{ fontWeight: 'bold' }}>SenSys'21</font>). <br />
-                    Acceptance Rate: 25/139 = 18% <br />
-                    [<a href="https://mi-zhang.github.io/papers/2021_SenSys_FedMask.pdf"> Paper</a> | 
-                     <a href="papers/2021_SenSys_FedMask.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "FedMask: Joint Computation and Communication-Efficient Personalized Federated Learning via Heterogeneous Masking"
+          authors = "Ang Li, Jingwei Sun, Xiao Zeng, Mi Zhang, Hai Li, and Yiran Chen."
+          conference = "ACM Conference on Embedded Networked Sensor Systems (<div class='pubHighlight'>SenSys'21</div>)."
+          rate = "Acceptance Rate: 25/139 = 18%"
+          paper = "https://mi-zhang.github.io/papers/2021_SenSys_FedMask.pdf"
+          bibtex = {FedMask}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">NELoRa: Towards Ultra-low SNR LoRa Communication with Neural-enhanced Demodulation</div>
-					Chenning Li, Hanqing Guo, Shuai Tong, Xiao Zeng, Zhichao Cao, Mi Zhang, Qiben Yan, Li Xiao, Jiliang Wang, and Yunhao Liu. <br />
-					ACM Conference on Embedded Networked Sensor Systems (<font style={{ fontWeight: 'bold' }}>SenSys'21</font>). <br />
-                    Acceptance Rate: 25/139 = 18% <br />
-                    <font color="#de1111" style={{ fontWeight: 'bold' }}>Best Paper Award</font> | <font color="#de1111" style={{ fontWeight: 'bold' }}>ACM SIGMOBILE Research Highlight </font> [<a href="papers/2022_GetMobile_NELoRa.pdf"> Highlight Article </a>] 
-                     <br />
-                    [<a href="https://mi-zhang.github.io/papers/2021_SenSys_NELoRa.pdf"> Paper</a> | 
-                     <a href="papers/2021_SenSys_NELoRa.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "NELoRa: Towards Ultra-low SNR LoRa Communication with Neural-enhanced Demodulation"
+          authors = "Chenning Li, Hanqing Guo, Shuai Tong, Xiao Zeng, Zhichao Cao, Mi Zhang, Qiben Yan, Li Xiao, Jiliang Wang, and Yunhao Liu."
+          conference = "ACM Conference on Embedded Networked Sensor Systems (<div class='pubHighlight'>SenSys'21</div>)."
+          rate = "Acceptance Rate: 25/139 = 18%"
+          honor = "<span class='pubRedHighLight'>Best Paper Award</span> | <span class='pubRedHighLight'>ACM SIGMOBILE Research Highlight </span> [<a href='https://mi-zhang.github.io/papers/2022_GetMobile_NELoRa.pdf'> Highlight Article </a>]"
+          paper = "https://mi-zhang.github.io/papers/2021_SenSys_FedMask.pdf"
+          bibtex = {NELoRa}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">DeepLoRa: Learning Accurate Path Loss Model for Long Distance Links in LPWAN</div>
-					Li Liu, Yuguang Yao, Zhichao Cao, and Mi Zhang. <br />
-                    IEEE International Conference on Computer Communications (<font style={{ fontWeight: 'bold' }}>INFOCOM'21</font>). <br />
-                    Acceptance Rate: 252/1266 = 19.9% <br />
-                    [<a href="https://mi-zhang.github.io/papers/2021_INFOCOM_DeepLoRA.pdf"> Paper</a> | 
-                     <a href="papers/2021_INFOCOM_DeepLoRA.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "DeepLoRa: Learning Accurate Path Loss Model for Long Distance Links in LPWAN"
+          authors = "Li Liu, Yuguang Yao, Zhichao Cao, and Mi Zhang."
+          conference = "IEEE International Conference on Computer Communications (<div class='pubHighlight'>INFOCOM'21</div>)."
+          rate = "Acceptance Rate: 252/1266 = 19.9%"
+          paper = "https://mi-zhang.github.io/papers/2021_INFOCOM_DeepLoRA.pdf"
+          bibtex = {DeepLoRa}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-        <div class="publicationsStrong">CATE: Computation-aware Neural Architecture Encoding with Transformers</div>
-					Shen Yan, Kaiqiang Song, Fei Liu, and Mi Zhang. <br />
-                    International Conference on Machine Learning (<font style={{ fontWeight: 'bold' }}>ICML'21</font>).   <br />
-                    Acceptance Rate: 166/5513 = 3% (<font color="#de1111" style={{ fontWeight: 'bold' }}>Long Talk</font>) <br />
-                    [<a href="https://arxiv.org/abs/2102.07108"> Paper</a> |
-                     <a href="papers/2021_ICML_CATE.bib"> BibTex</a> |
-                     <a href="https://github.com/MSU-MLSys-Lab/CATE"> Code</a> |
-                     <a href="https://mi-zhang.github.io/papers/2021_ICML_CATE_Poster.pdf"> Poster</a> |
-                     <a href="https://icml.cc/virtual/2021/oral/9052"> Presentation </a>]
-        </div>
+        <CodeBlock
+          title = "CATE: Computation-aware Neural Architecture Encoding with Transformers"
+          authors = "Shen Yan, Kaiqiang Song, Fei Liu, and Mi Zhang."
+          conference = "International Conference on Machine Learning (<div class='pubHighlight'>ICML'21</div>)."
+          rate = "Acceptance Rate: 166/5513 = 3% (<span class='pubRedHighLight'>Long Talk</span>)"
+          paper = "https://arxiv.org/abs/2102.07108"
+          bibtex = {CATE}
+          code = "https://github.com/MSU-MLSys-Lab/CATE"
+          poster = "https://mi-zhang.github.io/papers/2021_ICML_CATE_Poster.pdf"
+          presentation = "https://icml.cc/virtual/2021/oral/9052"
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Deep AutoAugment</div>
-					Yu Zheng, Zhi Zhang, Shen Yan, and Mi Zhang. <br />
-                    International Conference on Machine Learning (<font style={{ fontWeight: 'bold' }}>ICML'21</font>) Workshop on Machine Learning for Data. <br />
-                    Note: the full version is accepted to ICLR'22.
-        </div>
+        <CodeBlock
+          title = "Deep AutoAugment"
+          authors = "Yu Zheng, Zhi Zhang, Shen Yan, and Mi Zhang."
+          conference = "International Conference on Machine Learning (<div class='pubHighlight'>ICML'21</div>) Workshop on Machine Learning for Data."
+          rate = "Note: the full version is accepted to ICLR'22."
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Towards Position-Independent Sensing for Gesture Recognition with Wi-Fi</div>
-					Ruiyang Gao, Mi Zhang, Jie Zhang, Yang Li, Enze Yi, Dan Wu, Leye Wang, and Daqing Zhang. <br />
-                    ACM International Joint Conference on Pervasive and Ubiquitous Computing (<font style={{ fontWeight: 'bold' }}>UbiComp'21</font>). <br />
-                    [<a href="https://mi-zhang.github.io/papers/2021_UbiComp_PIS.pdf">Paper</a> | 
-                     <a href="papers/2021_UbiComp_PIS.bib">BibTex</a>]
-        </div>
+        <CodeBlock
+          title = "Towards Position-Independent Sensing for Gesture Recognition with Wi-Fi"
+          authors = "Ruiyang Gao, Mi Zhang, Jie Zhang, Yang Li, Enze Yi, Dan Wu, Leye Wang, and Daqing Zhang."
+          conference = "ACM International Joint Conference on Pervasive and Ubiquitous Computing (<div class='pubHighlight'>UbiComp'21</div>)."
+          paper = "https://mi-zhang.github.io/papers/2021_UbiComp_PIS.pdf"
+          bibtex = {PIS}
+        >
+        </CodeBlock>
 
         <div className='publicationsItem'>
         <div class="publicationsStrong">Ph.D. Thesis: Collaborative Distributed Deep Learning Systems on the Edges</div>
@@ -295,115 +596,101 @@ function Publications() {
         2020
       </div>
       <div className='publicationsContent'>
-        <div className='publicationsItem'>
-        <div class="publicationsStrong">Does Unsupervised Architecture Representation Learning Help Neural Architecture Search?</div>
-					Shen Yan, Yu Zheng, Wei Ao, Xiao Zeng, and Mi Zhang. <br />
-                    Conference on Neural Information Processing Systems (<font style={{ fontWeight: 'bold' }}>NeurIPS'20</font>). <br />
-                    Acceptance Rate: 1900/9454 = 20.1%  <br />
-                    [<a href="https://arxiv.org/pdf/2006.06936.pdf"> Paper</a> | 
-                     <a href="papers/2020_NeurIPS_arch2vec.bib"> BibTex</a> | 
-                     <a href="https://github.com/MSU-MLSys-Lab/arch2vec"> Code</a> |
-                     <a href="https://mi-zhang.github.io/papers/2020_NeurIPS_arch2vec_poster.pdf"> Poster</a> |
-                     <a href="https://studio.slideslive.com/web_recorder/share/20201025T052954Z__NeurIPS_posters__18078__does-unsupervised-architecture?s=a7b5e575-accd-4aa1-ac55-a546282217a5"> Presentation </a>]
-        </div>
+        <CodeBlock
+          title = "Does Unsupervised Architecture Representation Learning Help Neural Architecture Search?"
+          authors = "Shen Yan, Yu Zheng, Wei Ao, Xiao Zeng, and Mi Zhang."
+          conference = "Conference on Neural Information Processing Systems (<div class='pubHighlight'>NeurIPS'20</div>)."
+          rate = "Acceptance Rate: 1900/9454 = 20.1%"
+          paper = "https://arxiv.org/pdf/2006.06936.pdf"
+          bibtex = {arch2vec}
+          code = "https://github.com/MSU-MLSys-Lab/arch2vec"
+          poster = "https://mi-zhang.github.io/papers/2020_NeurIPS_arch2vec_poster.pdf"
+          presentation = "https://studio.slideslive.com/web_recorder/share/20201025T052954Z__NeurIPS_posters__18078__does-unsupervised-architecture?s=a7b5e575-accd-4aa1-ac55-a546282217a5"
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">FedML: A Research Library and Benchmark for Federated Machine Learning</div>
-					Chaoyang He, Songze Li, Jinhyun So, Xiao Zeng, Mi Zhang, Hongyi Wang, Xiaoyang Wang, Praneeth Vepakomma, Abhishek Singh, Hang Qiu, Li Shen, Peilin Zhao, Yan Kang, Yang Liu, Ramesh Raskar, Qiang Yang, Murali Annavaram, Salman Avestimehr.  <br />
-                    Conference on Neural Information Processing Systems (<font style={{ fontWeight: 'bold' }}>NeurIPS'20</font>) Federated Learning Workshop (<font color="#de1111" style={{ fontWeight: 'bold' }}>Spotlight</font>).
-                    <br />
-                    <font color="#de1111" style={{ fontWeight: 'bold' }}>Best Paper Award</font> 
-                    <br />
-                    [<a href="https://arxiv.org/abs/2007.13518"> Paper</a> | 
-                     <a href="papers/2020_NeurIPS-FL_FedML.bib"> BibTex</a> | 
-                     <a href="https://github.com/FedML-AI/FedML"> Code </a>]
-        </div>
+        <CodeBlock
+          title = "FedML: A Research Library and Benchmark for Federated Machine Learning"
+          authors = "Chaoyang He, Songze Li, Jinhyun So, Xiao Zeng, Mi Zhang, Hongyi Wang, Xiaoyang Wang, Praneeth Vepakomma, Abhishek Singh, Hang Qiu, Li Shen, Peilin Zhao, Yan Kang, Yang Liu, Ramesh Raskar, Qiang Yang, Murali Annavaram, Salman Avestimehr."
+          conference = "Conference on Neural Information Processing Systems (<div class='pubHighlight'>NeurIPS'20</div>) Federated Learning Workshop (<span class='pubRedHighLight'>Spotlight</span>)"
+          honor = "<span class='pubRedHighLight'>Best Paper Award</span>"
+          paper = "https://arxiv.org/abs/2007.13518"
+          bibtex = {FedML}
+          code = "https://github.com/FedML-AI/FedML"
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">MutualNet: Adaptive ConvNet via Mutual Learning from Network Width and Resolution</div>
-					Taojiannan Yang, Sijie Zhu, Chen Chen, Shen Yan, Mi Zhang, and Andrew Willis. <br />
-					European Conference on Computer Vision (<font style={{ fontWeight: 'bold' }}>ECCV'20</font>).
-                    <br />
-                    Acceptance Rate: 104/5025 = 2% (<font color="#de1111" style={{ fontWeight: 'bold' }}>Oral</font>)
-                    <br /> 
-                    [<a href="https://mi-zhang.github.io/papers/2020_ECCV_MutualNet.pdf"> Paper</a> | 
-                     <a href="papers/2020_ECCV_MutualNet.bib"> BibTex</a> |
-                     <a href="https://github.com/taoyang1122/MutualNet"> Code </a>] 
-        </div>
+        <CodeBlock
+          title = "MutualNet: Adaptive ConvNet via Mutual Learning from Network Width and Resolution"
+          authors = "Taojiannan Yang, Sijie Zhu, Chen Chen, Shen Yan, Mi Zhang, and Andrew Willis."
+          conference = "European Conference on Computer Vision (<div class='pubHighlight'>ECCV'20</div>)."
+          rate = "Acceptance Rate: 104/5025 = 2% (<span class='pubRedHighLight'>Oral</span>)"
+          paper = "https://mi-zhang.github.io/papers/2020_ECCV_MutualNet.pdf"
+          bibtex = {MutualNet}
+          code = "https://github.com/taoyang1122/MutualNet"
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-        <div class="publicationsStrong">FlexDNN: Input-Adaptive On-Device Deep Learning for Efficient Mobile Vision</div>
-					Biyi Fang, Xiao Zeng, Faen Zhang, Hui Xu, and Mi Zhang. 
-					<br />
-					ACM/IEEE Symposium on Edge Computing (<font style={{ fontWeight: 'bold' }}>SEC'20</font>).
-                    <br />
-                    Acceptance Rate: 21/96 = 21.9%
-                    <br />
-                    <font color="#de1111" style={{ fontWeight: 'bold' }}>Best Paper Award Nominee</font>     
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2020_SEC_FlexDNN.pdf"> Paper</a> | 
-                     <a href="papers/2020_SEC_FlexDNN.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "FlexDNN: Input-Adaptive On-Device Deep Learning for Efficient Mobile Vision"
+          authors = "Biyi Fang, Xiao Zeng, Faen Zhang, Hui Xu, and Mi Zhang. "
+          conference = "ACM/IEEE Symposium on Edge Computing (<div class='pubHighlight'>SEC'20</div>)."
+          rate = "Acceptance Rate: 21/96 = 21.9%"
+          honor =  "<span class='pubRedHighLight'>Best Paper Award Nominee</span> "
+          paper = "https://mi-zhang.github.io/papers/2020_SEC_FlexDNN.pdf"
+          bibtex = {FlexDNN}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Distream: Scaling Live Video Analytics with Workload-Adaptive Distributed Edge Intelligence</div>
-					Xiao Zeng, Biyi Fang, Haichen Shen, and Mi Zhang. 
-					<br />
-					ACM Conference on Embedded Networked Sensor Systems (<font style={{ fontWeight: 'bold' }}>SenSys'20</font>).
-                    <br />
-                    Acceptance Rate: 43/213 = 20.2%
-                    <br />    
-                    [<a href="https://mi-zhang.github.io/papers/2020_SenSys_Distream.pdf"> Paper</a> | 
-                     <a href="papers/2020_SenSys_Distream.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "Distream: Scaling Live Video Analytics with Workload-Adaptive Distributed Edge Intelligence"
+          authors = "Xiao Zeng, Biyi Fang, Haichen Shen, and Mi Zhang."
+          conference = "ACM Conference on Embedded Networked Sensor Systems (<div class='pubHighlight'>SenSys'20</div>)."
+          rate = "Acceptance Rate: 43/213 = 20.2%"
+          paper = "https://mi-zhang.github.io/papers/2020_SenSys_Distream.pdf"
+          bibtex = {Distream}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Wi-Fi See It All: Generative Adversarial Network-augmented Versatile Wi-Fi Imaging</div>
-					Chenning Li, Zheng Liu, Yuguang Yao, Zhichao Cao, Mi Zhang, and Yunhao Liu. 
-					<br />
-					ACM Conference on Embedded Networked Sensor Systems (<font style={{ fontWeight: 'bold' }}>SenSys'20</font>).
-                    <br />
-                    Acceptance Rate: 43/213 = 20.2%    
-                    <br />    
-                    [<a href="https://mi-zhang.github.io/papers/2020_SenSys_WiSIA.pdf"> Paper</a> | 
-                     <a href="papers/2020_SenSys_WiSIA.bib"> BibTex </a>] 
-        </div>
+        <CodeBlock
+          title = "Wi-Fi See It All: Generative Adversarial Network-augmented Versatile Wi-Fi Imaging"
+          authors = "Chenning Li, Zheng Liu, Yuguang Yao, Zhichao Cao, Mi Zhang, and Yunhao Liu."
+          conference = "ACM Conference on Embedded Networked Sensor Systems (<div class='pubHighlight'>SenSys'20</div>)."
+          rate = "Acceptance Rate: 43/213 = 20.2%"
+          paper = "https://mi-zhang.github.io/papers/2020_SenSys_WiSIA.pdf"
+          bibtex = {WiSIA}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">SecWIR: Securing Smart Home IoT Communications via Wi-Fi Routers with Embedded Intelligence</div>
-					Xinyu Lei, Guan-Hua Tu, Chi-Yu Li, Tian Xie, and Mi Zhang. 
-					<br />
-					ACM International Conference on Mobile Systems, Applications, and Services (<font style={{ fontWeight: 'bold' }}>MobiSys'20</font>).
-                    <br />
-                    Acceptance Rate: 34/175 = 19.4%    
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2020_MobiSys_SecWIR.pdf"> Paper</a> | 
-                     <a href="papers/2020_MobiSys_SecWIR.bib"> BibTex </a>] 
-        </div>
+        <CodeBlock
+          title = "SecWIR: Securing Smart Home IoT Communications via Wi-Fi Routers with Embedded Intelligence"
+          authors = "Xinyu Lei, Guan-Hua Tu, Chi-Yu Li, Tian Xie, and Mi Zhang."
+          conference = "ACM International Conference on Mobile Systems, Applications, and Services (<div class='pubHighlight'>MobiSys'20</div>)."
+          rate = "Acceptance Rate: 34/175 = 19.4%"
+          paper = "https://mi-zhang.github.io/papers/2020_MobiSys_SecWIR.pdf"
+          bibtex = {SecWIR}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">SCYLLA: QoE-aware Continuous Mobile Vision with FPGA-based Dynamic Deep Neural Network Reconfiguration</div>
-					Shuang Jiang, Zhiyao Ma, Xiao Zeng, Chenren Xu, Mi Zhang, Chen Zhang, and Yunxin Liu. 
-					<br />
-					IEEE International Conference on Computer Communications (<font style={{ fontWeight: 'bold' }}>INFOCOM'20</font>).
-                    <br />
-                    Acceptance Rate: 268/1354 = 19.8%
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2020_INFOCOM_Scylla.pdf"> Paper</a> | 
-                     <a href="papers/2020_INFOCOM_Scylla.bib"> BibTex </a>] 
-        </div>
+        <CodeBlock
+          title = "SCYLLA: QoE-aware Continuous Mobile Vision with FPGA-based Dynamic Deep Neural Network Reconfiguration"
+          authors = "Shuang Jiang, Zhiyao Ma, Xiao Zeng, Chenren Xu, Mi Zhang, Chen Zhang, and Yunxin Liu. "
+          conference = "IEEE International Conference on Computer Communications (<div class='pubHighlight'>INFOCOM'20</div>)."
+          rate = "Acceptance Rate: 268/1354 = 19.8%"
+          paper = "https://mi-zhang.github.io/papers/2020_INFOCOM_Scylla.pdf"
+          bibtex = {Scylla}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Deep Learning in the Era of Edge Computing: Challenges and Opportunities</div>
-					Mi Zhang, Faen Zhang, Nicholas D. Lane, Yuanchao Shu, Xiao Zeng, Biyi Fang, Shen Yan, and Hui Xu. 
-					<br />
-					Book chapter in Fog Computing: Theory and Practice, Wiley, 2020.
-                    <br />    
-                    <font color="#0949b1" style={{ fontWeight: 'bold' }}>Invited Article</font>
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2020_BookChapter_DLEdge.pdf"> Paper</a> | 
-                     <a href="papers/2020_BookChapter_DLEdge.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "Deep Learning in the Era of Edge Computing: Challenges and Opportunities"
+          authors = "Mi Zhang, Faen Zhang, Nicholas D. Lane, Yuanchao Shu, Xiao Zeng, Biyi Fang, Shen Yan, and Hui Xu."
+          conference = "Book chapter in Fog Computing: Theory and Practice, Wiley, 2020."
+          invited = "<span class='pubBlueHighLight'>Invited Article</span>"
+          paper = "https://mi-zhang.github.io/papers/2020_BookChapter_DLEdge.pdf"
+          bibtex = {DLEdge}
+        >
+        </CodeBlock>
 
       </div>
       </div>
@@ -413,34 +700,26 @@ function Publications() {
         2019
       </div>
       <div className='publicationsContent'>
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">DQS: A Framework for Designing Tiny Neural Networks for On-Device AI</div>
-					Yu Zheng<sup>*</sup>, Shen Yan<sup>*</sup>, and Mi Zhang. 
-					<br />
-					Conference on Neural Information Processing Systems (<font style={{ fontWeight: 'bold' }}>NeurIPS'19</font>) Google MicroNet Challenge.
-                    <br />
-                    <font color="#de1111" style={{ fontWeight: 'bold' }}>Google MicroNet Challenge (CIFAR-100 Track) 4th Place Winner (1st Place in U.S. and Canada)</font>
-                    <br /> 
-                    [<a href="https://github.com/MSU-MLSys-Lab/MSUNet"> Code </a>]   
-                    <br />    
-                    Media Coverage:
-                    [<a href="https://msutoday.msu.edu/news/2020/msu-team-focused-on-ai-earns-recognition-at-google-micronet-challenge/"> MSU Today </a>]
-        </div>
+        <CodeBlock
+          title = "DQS: A Framework for Designing Tiny Neural Networks for On-Device AI"
+          authors = "Yu Zheng*, Shen Yan*, and Mi Zhang."
+          conference = "Conference on Neural Information Processing Systems (<div class='pubHighlight'>NeurIPS'19</div>) Google MicroNet Challenge."
+          honor = "<span class='pubRedHighLight'>Google MicroNet Challenge (CIFAR-100 Track) 4th Place Winner (1st Place in U.S. and Canada)</span>"
+          code = "https://github.com/MSU-MLSys-Lab/MSUNet"
+          media = "<a href=https://msutoday.msu.edu/news/2020/msu-team-focused-on-ai-earns-recognition-at-google-micronet-challenge/'> MSU Today </a>"
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">HM-NAS: Efficient Neural Architecture Search via Hierarchical Masking</div>
-					Shen Yan, Biyi Fang, Faen Zhang, Yu Zheng, Xiao Zeng, Hui Xu, and Mi Zhang. 
-					<br />
-					International Conference on Computer Vision (<font style={{ fontWeight: 'bold' }}>ICCV'19</font>) Neural Architects Workshop.
-                    <br />
-                    <font color="#de1111" style={{ fontWeight: 'bold' }}>Best Paper Award Nominee</font> 
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2019_ICCVW_HM-NAS.pdf"> Paper</a> | 
-                     <a href="papers/2019_ICCVW_HM-NAS.bib"> BibTex </a>]   
-                    <br />
-                    Media Coverage:
-                    [<a href="https://www.jiqizhixin.com/articles/2019-10-31-5"> JiQiZhiXin </a>]
-        </div>
+        <CodeBlock
+          title = "HM-NAS: Efficient Neural Architecture Search via Hierarchical Masking"
+          authors = "Shen Yan, Biyi Fang, Faen Zhang, Yu Zheng, Xiao Zeng, Hui Xu, and Mi Zhang."
+          conference = "International Conference on Computer Vision (<div class='pubHighlight'>ICCV'19</div>) Neural Architects Workshop."
+          honor = "<span class='pubRedHighLight'>Best Paper Award Nominee</span>"
+          paper = "https://mi-zhang.github.io/papers/2019_ICCVW_HM-NAS.pdf"
+          bibtex = {HMNAS}
+          media = "<a href='https://www.jiqizhixin.com/articles/2019-10-31-5'> JiQiZhiXin </a>"
+        >
+        </CodeBlock>
 
         <div className='publicationsItem'>
           <div class="publicationsStrong">Federated Learning: The Future of Distributed Machine Learning</div>
@@ -464,17 +743,15 @@ function Publications() {
                     <font color="#0949b1" style={{ fontWeight: 'bold' }}>Invited Article</font>
         </div>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Mobile Sensing of Alertness, Sleep, and Circadian Rhythm: Hardware and Software Platforms</div>
-					Akane Sano, Tauhidur Rahman, Mi Zhang, Deepak Ganesan, and Tanzeem Choudhury. 
-					<br />
-					ACM SIGMOBILE Mobile Computing and Communications Review (<font style={{ fontWeight: 'bold' }}>GetMobile</font>), Volume 23, Issue 3, 2019.
-                    <br />
-                    <font color="#0949b1" style={{ fontWeight: 'bold' }}>Invited Article</font> 
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2019_GetMobile_MobileSensing.pdf"> Paper</a> | 
-                     <a href="papers/2019_GetMobile_MobileSensing.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "Mobile Sensing of Alertness, Sleep, and Circadian Rhythm: Hardware and Software Platforms"
+          authors = "Akane Sano, Tauhidur Rahman, Mi Zhang, Deepak Ganesan, and Tanzeem Choudhury."
+          conference = "ACM SIGMOBILE Mobile Computing and Communications Review (<div class='pubHighlight'>GetMobile</div>), Volume 23, Issue 3, 2019."
+          invited = "<span class='pubBlueHighLight'>Invited Article</span>"
+          paper = "https://mi-zhang.github.io/papers/2019_GetMobile_MobileSensing.pdf"
+          bibtex = {MobileSensing}
+        >
+        </CodeBlock>
 
         <div className='publicationsItem'>
           <div class="publicationsStrong">Communication Challenges in the IoT</div>
@@ -500,21 +777,18 @@ function Publications() {
         2018
       </div>
       <div className='publicationsContent'>
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">NestDNN: Resource-Aware Multi-Tenant On-Device Deep Learning for Continuous Mobile Vision</div>
-					Biyi Fang<sup>*</sup>, Xiao Zeng<sup>*</sup>, and Mi Zhang. 
-					<br />
-					ACM International Conference on Mobile Computing and Networking (<font style={{ fontWeight: 'bold' }}>MobiCom'18</font>).
-                    <br />
-                    Acceptance Rate: 42/187 = 22.5%
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2018_MobiCom_NestDNN.pdf"> Paper</a> | 
-                     <a href="papers/2018_MobiCom_NestDNN.bib"> BibTex</a> | 
-                     <a href="https://www.youtube.com/watch?v=a7h0gPTuPfg"> Video </a>]    
-                    <br />
-                    Media Coverage:
-                    [<a href="https://www.jiqizhixin.com/articles/2018-10-18-17"> JiQiZhiXin </a>]
-        </div>
+
+        <CodeBlock
+          title = "NestDNN: Resource-Aware Multi-Tenant On-Device Deep Learning for Continuous Mobile Vision"
+          authors = "Biyi Fang*, Xiao Zeng*, and Mi Zhang."
+          conference = "ACM International Conference on Mobile Computing and Networking (<div class='pubHighlight'>GetMobile</div>MobiCom'18</div>)."
+          rate = "Acceptance Rate: 42/187 = 22.5%"
+          paper = "https://mi-zhang.github.io/papers/2018_MobiCom_NestDNN.pdf"
+          bibtex = {NestDNN}
+          video = "https://www.youtube.com/watch?v=a7h0gPTuPfg"
+          media = "<a href='https://www.jiqizhixin.com/articles/2018-10-18-17'> JiQiZhiXin </a>"
+        >
+        </CodeBlock>
 
         <div className='publicationsItem'>
           <div class="publicationsStrong">Efficient Federated Learning via Variational Dropout</div>
@@ -525,54 +799,46 @@ function Publications() {
 					[<a href="https://openreview.net/forum?id=BkeAf2CqY7">Paper</a>]
         </div>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">The Dark Side of Operational Wi-Fi Calling Services</div>
-					Tian Xie, Guan-Hua Tu, Chi-Yu Li, Chunyi Peng, Jiawei Li, and Mi Zhang. 
-					<br />
-					IEEE Conference on Communications and Network Security (<font style={{ fontWeight: 'bold' }}>CNS'18</font>).
-					<br />
-                    Acceptance Rate: 52/181 = 28.7% 
-                    <br />
-                    <font color="#de1111" style={{ fontWeight: 'bold' }}>Best Paper Award</font> | <font color="#de1111" style={{ fontWeight: 'bold' }}>Google Security Reward</font>  
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2018_CNS_WiFiCalling.pdf"> Paper</a> |
-                    <a href="papers/2018_CNS_WiFiCalling.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "The Dark Side of Operational Wi-Fi Calling Services"
+          authors = "Tian Xie, Guan-Hua Tu, Chi-Yu Li, Chunyi Peng, Jiawei Li, and Mi Zhang."
+          conference = "IEEE Conference on Communications and Network Security (<div class='pubHighlight'>CNS'18</div>)."
+          rate = "Acceptance Rate: 52/181 = 28.7%"
+          honor = "<span class='pubRedHighLight'>Best Paper Award</span> | <span class='pubRedHighLight'>Google Security Reward</span>"
+          paper = "https://mi-zhang.github.io/papers/2018_CNS_WiFiCalling.pdf"
+          bibtex = {WiFiCalling}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">When Virtual Reality Meets Internet of Things in the Gym: Enabling Immersive Interactive Machine Exercises</div>
-					Fazlay Rabbi<sup>*</sup>, Taiwoo Park<sup>*</sup>, Biyi Fang, Mi Zhang, and Youngki Lee. 
-					<br />
-					ACM International Joint Conference on Pervasive and Ubiquitous Computing (<font style={{ fontWeight: 'bold' }}>UbiComp'18</font>).   
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2018_UbiComp_JARVIS.pdf"> Paper</a> | 
-                    <a href="papers/2018_UbiComp_JARVIS.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "When Virtual Reality Meets Internet of Things in the Gym: Enabling Immersive Interactive Machine Exercises"
+          authors = "Fazlay Rabbi*, Taiwoo Park*, Biyi Fang, Mi Zhang, and Youngki Lee."
+          conference = "ACM International Joint Conference on Pervasive and Ubiquitous Computing (<div class='pubHighlight'>UbiComp'18</div>)."
+          paper = "https://mi-zhang.github.io/papers/2018_UbiComp_JARVIS.pdf"
+          bibtex = {JARVIS}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">When Mixed Reality Meets Internet of Things: Toward the Realization of Ubiquitous Mixed Reality</div>
-					Taiwoo Park, Mi Zhang, and Youngki Lee. 
-					<br />
-					ACM SIGMOBILE Mobile Computing and Communications Review (<font style={{ fontWeight: 'bold' }}>GetMobile</font>), Volume 22, Issue 1, 2018.
-                    <br />
-                    <font color="#0949b1" style={{ fontWeight: 'bold' }}>Invited Article</font>   
-                    <br /> 
-                    [<a href="https://mi-zhang.github.io/papers/2018_GetMobile_UbiquitousMR.pdf"> Paper</a> | 
-                    <a href="papers/2018_GetMobile_UbiquitousMR.bib"> BibTex </a>] 
-        </div>
+        <CodeBlock
+          title = "When Mixed Reality Meets Internet of Things: Toward the Realization of Ubiquitous Mixed Reality"
+          authors = "Taiwoo Park, Mi Zhang, and Youngki Lee."
+          conference = "ACM SIGMOBILE Mobile Computing and Communications Review (<div class='pubHighlight'>GetMobile</div>), Volume 22, Issue 1, 2018."
+          invited = "<span class='pubBlueHighLight'>Invited Article</span>"
+          paper = "https://mi-zhang.github.io/papers/2018_GetMobile_UbiquitousMR.pdf"
+          bibtex = {UbiquitousMR}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Exploring User Needs for a Mobile Behavioral-Sensing Technology for Depression Management: Qualitative Study</div>
-					Jingbo Meng, Syed Ali Hussain, David C. Mohr, Mary Czerwinski, and Mi Zhang. 
-					<br />
-				    Journal of Medical Internet Research (<font style={{ fontWeight: 'bold' }}>JMIR</font>) Special Issue on Computing and Mental Health, 2018.
-                    <br />
-                    Impact Factor: 5.175
-                    <br />    
-                    [<a href="http://www.jmir.org/2018/7/e10139/"> Link</a> | 
-                    <a href="https://mi-zhang.github.io/papers/2018_JMIR_iSeeNeed.pdf"> Paper</a> |    
-                    <a href="papers/2018_JMIR_iSeeNeed.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "Exploring User Needs for a Mobile Behavioral-Sensing Technology for Depression Management: Qualitative Study"
+          authors = "Jingbo Meng, Syed Ali Hussain, David C. Mohr, Mary Czerwinski, and Mi Zhang."
+          conference = "Journal of Medical Internet Research (<div class='pubHighlight'>JMIR</div>) Special Issue on Computing and Mental Health, 2018."
+          rate = "Impact Factor: 5.175"
+          link = "http://www.jmir.org/2018/7/e10139/"
+          paper = "https://mi-zhang.github.io/papers/2018_UbiComp_JARVIS.pdf"
+          bibtex = {iSeeNeed}
+        >
+        </CodeBlock>
 
       </div>
       </div>
@@ -582,48 +848,30 @@ function Publications() {
         2017
       </div>
       <div className='publicationsContent'>
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">MobileDeepPill: A Small-Footprint Mobile Deep Learning System for Recognizing Unconstrained Pill Images</div>
-					
-					Xiao Zeng, Kai Cao, and Mi Zhang. 
-					<br />
-					ACM International Conference on Mobile Systems, Applications, and Services (<font style={{ fontWeight: 'bold' }}>MobiSys'17</font>). 										
-					<br />
-                    Acceptance Rate: 34/188 = 18% 
-                    <br />
-                    <font color="#de1111" style={{ fontWeight: 'bold' }}>NIH Pill Image Recognition Challenge First Place Winner</font>    
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2017_MobiSys_MobileDeepPill.pdf"> Paper</a> | 
-                     <a href="papers/2017_MobiSys_MobileDeepPill.bib"> BibTex</a> | 
-                     <a href="https://www.youtube.com/watch?v=-k7awuoW2rg&feature=youtu.be"> Video </a>]  
-                    <br />
-                    Media Coverage:
-                    [<a href="https://www.nlm.nih.gov/news/pillimagerecognitionchallenge.html"> NIH</a> |
-                    <a href="http://www.wxyz.com/news/msu-professor-working-on-mobile-solution-to-identify-pills"> ABC 7 (TV)</a> |
-                    <a href="http://msutoday.msu.edu/news/2016/nih-challenge-winner-helping-solve-pill-recognition-problem/"> MSU Today </a>]
-        </div>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">DeepASL: Enabling Ubiquitous and Non-Intrusive Word and Sentence-Level Sign Language Translation</div>
-					Biyi Fang, Jillian Co, and Mi Zhang. 
-					<br />
-					ACM Conference on Embedded Networked Sensor Systems (<font style={{ fontWeight: 'bold' }}>SenSys'17</font>).
-					<br />
-                    Acceptance Rate: 26/151 = 17% 
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2017_SenSys_DeepASL.pdf"> Paper</a> | 
-                    <a href="papers/2017_SenSys_DeepASL.bib"> BibTex </a>]   
-                    <br />    
-                    Media Coverage:
-                    [<a href="https://www.youtube.com/watch?v=TwI1aeWz9Dc&feature=youtu.be"> NSF (video)</a> | 
-                    <a href="https://www.youtube.com/watch?v=7HzUr9let48"> MSU (video)</a> |
-                    <a href="https://news.developer.nvidia.com/ai-can-interpret-and-translate-american-sign-language-sentences/"> NVIDIA</a> |
-                    <a href="https://www.smithsonianmag.com/innovation/sign-language-translators-are-cool-but-are-they-useful-180971535/"> Smithsonian</a> | 
-                    <a href="https://www.michiganradio.org/post/stateside-asl-translation-technology-ingham-countys-first-public-defender-sen-peters-pfas"> NPR (radio interview)</a> |     
-                    <a href="https://msutoday.msu.edu/news/2019/new-technology-breaks-through-sign-language-barriers/"> MSU Today</a> |
-                    <a href="https://www.aau.edu/research-scholarship/featured-research-topics/new-technology-breaks-through-sign-language-barriers"> AAU</a> |    
-                     <a href="https://www.futurity.org/sign-language-translator-1984022/"> Futurity </a>]
-        </div>
+      <CodeBlock
+          title = "MobileDeepPill: A Small-Footprint Mobile Deep Learning System for Recognizing Unconstrained Pill Images"
+          authors = "Xiao Zeng, Kai Cao, and Mi Zhang."
+          conference = "ACM International Conference on Mobile Systems, Applications, and Services (<div class='pubHighlight'>MobiSys'17</div>)."
+          rate = "Acceptance Rate: 34/188 = 18% "
+          honor = "<span class='pubRedHighLight'>NIH Pill Image Recognition Challenge First Place Winner</span>"
+          paper = "https://mi-zhang.github.io/papers/2018_UbiComp_JARVIS.pdf"
+          bibtex = {MobileDeepPill}
+          video = "https://www.youtube.com/watch?v=-k7awuoW2rg&feature=youtu.be"
+          media = "<a href='https://www.nlm.nih.gov/news/pillimagerecognitionchallenge.html'> NIH</a> | <a href='http://www.wxyz.com/news/msu-professor-working-on-mobile-solution-to-identify-pills'> ABC 7 (TV)</a> | <a href='http://msutoday.msu.edu/news/2016/nih-challenge-winner-helping-solve-pill-recognition-problem/'> MSU Today </a>"
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "DeepASL: Enabling Ubiquitous and Non-Intrusive Word and Sentence-Level Sign Language Translation"
+          authors = "Biyi Fang, Jillian Co, and Mi Zhang."
+          conference = "ACM Conference on Embedded Networked Sensor Systems (<div class='pubHighlight'>SenSys'17</div>)."
+          rate = "Acceptance Rate: 26/151 = 17%"
+          paper = "https://mi-zhang.github.io/papers/2017_SenSys_DeepASL.pdf"
+          bibtex = {DeepASL}
+          media = "<a href='https://www.youtube.com/watch?v=TwI1aeWz9Dc&feature=youtu.be'> NSF (video)</a> | <a href='https://www.youtube.com/watch?v=7HzUr9let48'> MSU (video)</a> | <a href='https://news.developer.nvidia.com/ai-can-interpret-and-translate-american-sign-language-sentences/'> NVIDIA</a> | <a href='https://www.smithsonianmag.com/innovation/sign-language-translators-are-cool-but-are-they-useful-180971535/'> Smithsonian</a> | <a href='https://www.michiganradio.org/post/stateside-asl-translation-technology-ingham-countys-first-public-defender-sen-peters-pfas'> NPR (radio interview)</a> | <a href='https://msutoday.msu.edu/news/2019/new-technology-breaks-through-sign-language-barriers/'> MSU Today</a> | <a href='https://www.aau.edu/research-scholarship/featured-research-topics/new-technology-breaks-through-sign-language-barriers'> AAU</a> | <a href='https://www.futurity.org/sign-language-translator-1984022/'> Futurity </a>"
+        >
+        </CodeBlock>
 
         <div className='publicationsItem'>
           <div class="publicationsStrong">SharpEar: Real-Time Speech Enhancement in Noisy Environments (Poster)</div>
@@ -644,20 +892,17 @@ function Publications() {
                      <a href="https://www.tun.com/blog/msu-technology-hearing-aid-noise/"> The University Network </a>]
         </div>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Personal Sensing: Understanding Mental Health Using Ubiquitous Sensors and Machine Learning</div>
-					David C. Mohr, Mi Zhang, and Stephen M. Schueller. 
-					<br />
-					Annual Review of Clinical Psychology (<font style={{ fontWeight: 'bold' }}>ARCP</font>), Volume 13, Pages 23-47, 2017. 
-                    <br />
-                    Impact Factor: 12.214  
-                    <br />
-                    <font color="#0949b1" style={{ fontWeight: 'bold' }}>Invited Article</font>    
-					<br />
-                    [<a href="http://www.annualreviews.org/doi/abs/10.1146/annurev-clinpsy-032816-044949"> Link</a> | 
-                     <a href="https://mi-zhang.github.io/papers/2017_ARCP_PersonalSensing.pdf"> Paper</a> | 
-                     <a href="papers/2017_ARCP_PersonalSensing.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "Personal Sensing: Understanding Mental Health Using Ubiquitous Sensors and Machine Learning"
+          authors = "David C. Mohr, Mi Zhang, and Stephen M. Schueller."
+          conference = "Annual Review of Clinical Psychology (<div class='pubHighlight'>ARCP</div>), Volume 13, Pages 23-47, 2017."
+          rate = "Impact Factor: 12.214"
+          invited = "<span class='pubBlueHighLight'>Invited Article</span>"
+          link = "http://www.annualreviews.org/doi/abs/10.1146/annurev-clinpsy-032816-044949"
+          paper = "https://mi-zhang.github.io/papers/2017_ARCP_PersonalSensing.pdf"
+          bibtex = {PersonalSensing}
+        >
+        </CodeBlock>
 
         <div className='publicationsItem'>
           <div class="publicationsStrong">Helping Universities Combat Depression with Mobile Technology</div>
@@ -685,58 +930,39 @@ function Publications() {
         2016
       </div>
       <div className='publicationsContent'>
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">BodyScan: Enabling Radio-based Sensing on Wearable Devices for Contactless Activity and Vital Sign Monitoring</div>
-					
-					Biyi Fang, Nicholas D. Lane, Mi Zhang, Aidan Boran, and Fahim Kawsar. 
-					<br />
-					ACM International Conference on Mobile Systems, Applications, and Services (<font style={{ fontWeight: 'bold' }}>MobiSys'16</font>). 										
-					<br />
-                    Acceptance Rate: 31/197 = 15.7%
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2016_MobiSys_BodyScan.pdf"> Paper</a> | 
-                     <a href="papers/2016_MobiSys_BodyScan.bib"> BibTex</a> |
-                     <a href="https://www.youtube.com/watch?v=lcYDVcU7-m0&feature=youtu.be"> Video </a>]
-        </div>
+        <CodeBlock
+          title = "BodyScan: Enabling Radio-based Sensing on Wearable Devices for Contactless Activity and Vital Sign Monitoring"
+          authors = "Biyi Fang, Nicholas D. Lane, Mi Zhang, Aidan Boran, and Fahim Kawsar."
+          conference = "ACM International Conference on Mobile Systems, Applications, and Services (<div class='pubHighlight'>MobiSys'16</div>)."
+          rate = "Acceptance Rate: 31/197 = 15.7%"
+          paper = "https://mi-zhang.github.io/papers/2016_MobiSys_BodyScan.pdf"
+          bibtex = {BodyScan}
+          video = "https://www.youtube.com/watch?v=lcYDVcU7-m0&feature=youtu.be"
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">HeadScan: A Wearable System for Radio-based Sensing of Head and Mouth-related Activities</div>
-					
-					Biyi Fang, Nicholas D. Lane, Mi Zhang, and Fahim Kawsar. 
-					<br />
-					ACM/IEEE International Conference on Information Processing in Sensor Networks (<font style={{ fontWeight: 'bold' }}>IPSN'16</font>). 	
-                    <br />    
-					Acceptance Rate: 23/117 = 19.7%
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2016_IPSN_HeadScan.pdf">Paper</a> | 
-                    <a href="papers/2016_IPSN_HeadScan.bib">BibTex</a>]
-                    <br />
-                    Media Coverage:	
-                    [<a href="http://scopeblog.stanford.edu/2016/05/25/engineers-develop-new-type-of-wearable-device/"> Stanford Medicine</a> |    
-                    <a href="http://www.medgadget.com/2016/05/headscan-keeps-jaw-radar-view.html"> MedGadget</a> |    
-                    <a href="http://www.futurity.org/headscan-wearables-1165962-2/?utm_source=Futurity+Today&utm_campaign=4b768f71bd-May_19_20165_19_2016&utm_medium=email&utm_term=0_e34e8ee443-4b768f71bd-206324325"> Futurity</a> |
-                    <a href="http://msutoday.msu.edu/news/2016/wearable-technology-could-help-detect-health-risks-depression/"> MSU Today</a> |
-                    <a href="http://www.fox2detroit.com/good-day/194845994-story"> Fox 2 (TV interview)</a> |
-                    <a href="http://readwrite.com/2016/05/23/health-wearable-monitors-patients-depression-ht4/"> ReadWrite </a>]
-        </div>
+        <CodeBlock
+          title = "HeadScan: A Wearable System for Radio-based Sensing of Head and Mouth-related Activities"
+          authors = "Biyi Fang, Nicholas D. Lane, Mi Zhang, and Fahim Kawsar."
+          conference = "ACM/IEEE International Conference on Information Processing in Sensor Networks (<div class='pubHighlight'>IPSN'16</div>)."
+          rate = "Acceptance Rate: 23/117 = 19.7%"
+          paper = "https://mi-zhang.github.io/papers/2016_IPSN_HeadScan.pdf"
+          bibtex = {HeadScan}
+          media = "<a href='http://scopeblog.stanford.edu/2016/05/25/engineers-develop-new-type-of-wearable-device/'> Stanford Medicine</a> | <a href='http://www.medgadget.com/2016/05/headscan-keeps-jaw-radar-view.html'> MedGadget</a> | <a href='http://www.futurity.org/headscan-wearables-1165962-2/?utm_source=Futurity+Today&utm_campaign=4b768f71bd-May_19_20165_19_2016&utm_medium=email&utm_term=0_e34e8ee443-4b768f71bd-206324325'> Futurity</a> | <a href='http://msutoday.msu.edu/news/2016/wearable-technology-could-help-detect-health-risks-depression/'> MSU Today</a> | <a href='http://www.fox2detroit.com/good-day/194845994-story'> Fox 2 (TV interview)</a> | <a href='http://readwrite.com/2016/05/23/health-wearable-monitors-patients-depression-ht4/'> ReadWrite </a>"
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">AirSense: An Intelligent Home-based Sensing System for Indoor Air Quality Analytics</div>
-					
-					Biyi Fang, Qiumin Xu, Taiwoo Park, and Mi Zhang. 
-					<br />
-					ACM International Joint Conference on Pervasive and Ubiquitous Computing (<font style={{ fontWeight: 'bold' }}>UbiComp'16</font>). 										
-					<br />
-                    Acceptance Rate: 114/481 = 23.7%
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2016_UbiComp_AirSense.pdf"> Paper</a> | 
-                    <a href="papers/2016_UbiComp_AirSense.bib"> BibTex </a>]
-                    <br />
-                    Media Coverage:
-                    [<a href="https://www.theatlantic.com/sponsored/dyson/are-you-polluting-your-own-home/1838/"> The Atlantic</a> |
-                    <a href="http://www.futurity.org/airsense-indoor-pollution-1295542-2/"> Futurity</a> |
-                    <a href="http://msutoday.msu.edu/news/2016/new-technology-monitors-indoor-air-quality/"> MSU Today </a>]
-        </div>
+        <CodeBlock
+          title = "AirSense: An Intelligent Home-based Sensing System for Indoor Air Quality Analytics"
+          authors = "Biyi Fang, Qiumin Xu, Taiwoo Park, and Mi Zhang."
+          conference = "ACM International Joint Conference on Pervasive and Ubiquitous Computing (<div class='pubHighlight'>UbiComp'16</div>)."
+          rate = "Acceptance Rate: 114/481 = 23.7%"
+          paper = "https://mi-zhang.github.io/papers/2016_UbiComp_AirSense.pdf"
+          bibtex = {AirSense}
+          media = "<a href='https://www.theatlantic.com/sponsored/dyson/are-you-polluting-your-own-home/1838/'> The Atlantic</a> | <a href='http://www.futurity.org/airsense-indoor-pollution-1295542-2/'> Futurity</a> | <a href='http://msutoday.msu.edu/news/2016/new-technology-monitors-indoor-air-quality/'> MSU Today </a>"
+        >
+        </CodeBlock>
+
 
       </div>
       </div>
@@ -746,118 +972,75 @@ function Publications() {
         2015
       </div>
       <div className='publicationsContent'>
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">DoppleSleep: A Contactless Unobtrusive Sleep Sensing System Using Short-Range Doppler Radar</div>
-						
-            Tauhidur Rahman, Alexander Adams, Ruth Ravichandran, Mi Zhang, Shwetak Patel, Julie Kientz, and Tanzeem Choudhury. 
-            <br />
-            ACM International Joint Conference on Pervasive and Ubiquitous Computing (<font style={{ fontWeight: 'bold' }}>UbiComp'15</font>).
-                      <br />    
-            Acceptance Rate: 93/394 = 23.6%
-                      <br />
-                      <font color="#de1111" style={{ fontWeight: 'bold' }}>Best Paper Award Honorable Mention</font>
-                      <br />
-                      [<a href="https://mi-zhang.github.io/papers/2015_UbiComp_DoppleSleep.pdf"> Paper</a> | 
-                      <a href="papers/2015_UbiComp_DoppleSleep.bib"> BibTex </a>]
-                  <br />    
-                      Media Coverage:													
-                  [<a href="http://www.technologyreview.com/news/539961/got-sleep-problems-try-tracking-your-rest-with-radar/"> MIT Technology Review </a>]
-        </div>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">MyBehavior: Automatic Personalized Health Feedback from User Behavior and Preference using Smartphones</div>
-					Mashfiqui Rabbi, Min Hane Aung, Mi Zhang, and Tanzeem Choudhury. 
-					<br />
-					ACM International Joint Conference on Pervasive and Ubiquitous Computing (<font style={{ fontWeight: 'bold' }}>UbiComp'15</font>).			
-                    <br />    
-					Acceptance Rate: 93/394 = 23.6%
-					<br />
-                    [<a href="https://mi-zhang.github.io/papers/2015_UbiComp_MyBehavior.pdf"> Paper</a> | 
-                    <a href="papers/2015_UbiComp_MyBehavior.bib"> BibTex </a>]
-					<br />
-                    Media Coverage:															
-					[<a href="http://www.technologyreview.com/news/539721/a-health-tracking-app-you-might-actually-stick-with/"> MIT Technology Review</a> |
-					<a href="http://mashable.com/2015/07/30/health-tracking-app/"> Mashable </a>]
-        </div>
+        <CodeBlock
+          title = "DoppleSleep: A Contactless Unobtrusive Sleep Sensing System Using Short-Range Doppler Radar"
+          authors = "Tauhidur Rahman, Alexander Adams, Ruth Ravichandran, Mi Zhang, Shwetak Patel, Julie Kientz, and Tanzeem Choudhury."
+          conference = "ACM International Joint Conference on Pervasive and Ubiquitous Computing (<div class='pubHighlight'>UbiComp'15</div>)."
+          rate = "Acceptance Rate: 93/394 = 23.6%"
+          honor = "<span class='pubRedHighLight'>Best Paper Award Honorable Mention</span>"
+          paper = "https://mi-zhang.github.io/papers/2015_UbiComp_DoppleSleep.pdf"
+          bibtex = {DoppleSleep}
+          media = "<a href='http://www.technologyreview.com/news/539961/got-sleep-problems-try-tracking-your-rest-with-radar/'> MIT Technology Review </a>"
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Mobile Phone Sensor Correlates of Depressive Symptom Severity in Daily-Life Behavior: An Exploratory Study</div>
-						
-            Sohrob Saeb, Mi Zhang, Christopher J. Karr, Stephen M. Schueller, Marya E. Corden, Konrad P. Kording, and David C. Mohr. 
-            <br />
-            Journal of Medical Internet Research (<font style={{ fontWeight: 'bold' }}>JMIR</font>), Volume 17, Issue 7, Pages e175, 2015.  
-            <br />
-                      Impact Factor: 5.175
-                      <br />
-                      <font color="#de1111" style={{ fontWeight: 'bold' }}>JMIR All-Time Top Article</font>    
-                      <br />    
-                      [<a href="http://www.jmir.org/2015/7/e175/"> Link</a> | 
-                      <a href="papers/2015_JMIR_MobileDepression.pdf"> Paper</a> |    
-                      <a href="papers/2015_JMIR_MobileDepression.bib"> BibTex </a>]
-            <br />
-            Media Coverage:															
-            [<a href="http://time.com/3958128/smartphone-depression/"> TIME</a> |	
-                      <a href="http://www.cnn.com/2015/07/15/health/smartphone-depression-diagnosis/"> CNN</a> |
-            <a href="http://techcrunch.com/2015/07/16/your-phone-can-tell-whether-youre-depressed/"> TechCrunch</a> |
-            <a href="http://www.theverge.com/2015/7/15/8970269/smartphone-depression-mental-health-detect"> The Verge</a> |
-            <a href="http://www.cbsnews.com/news/phone-habits-depression-mental-health/"> CBS News</a> |
-            <a href="http://www.foxnews.com/health/2015/07/15/smartphone-sensors-may-detect-depression-study-says/"> Fox News</a> |
-            <a href="http://news.discovery.com/tech/gear-and-gadgets/depressed-your-phone-already-knows-150715.htm"> Discovery News</a> |
-                      <a href="http://www.dailymail.co.uk/health/article-3162416/How-SMARTPHONE-diagnose-depression-Using-68-minutes-day-sign-mental-illness.html"> Daily Mail</a> |
-                      <a href="https://www.thetimes.co.uk/article/check-on-your-phone-for-signs-of-depression-vjf2q0jfh6v"> The Times</a> |
-                      <a href="http://www.newsweek.com/black-box-how-your-phone-can-tell-youre-depressed-354099"> Newsweek</a> |
-                      <a href="http://www.mirror.co.uk/lifestyle/health/smartphone-behaviour-could-diagnose-depression-6073355"> Mirror</a> |
-                      <a href="http://www.telegraph.co.uk/news/science/science-news/11741234/Spend-an-hour-on-your-smartphone-daily-You-could-be-depressed.html"> The Telegraph</a> |
-            <a href="http://www.washingtonpost.com/news/to-your-health/wp/2015/07/16/how-your-cellphone-knows-if-youre-depressed-it-has-to-do-with-how-you-move-through-time-and-space/"> The Washington Post</a> |
-            <a href="http://www.huffingtonpost.com/entry/your-phone-can-tell-if-youre-depressed_55a53e03e4b0b8145f73a97f"> The Huffington Post</a> |
-                      <a href="http://www.latimes.com/science/sciencenow/la-sci-sn-depressed-cellphone-20150715-story.html"> Los Angeles Times</a> | 
-                      <a href="http://www.chicagotribune.com/bluesky/originals/ct-northwestern-feinberg-study-smartphones-depression-bsi-20150715-story.html"> Chicago Tribune</a> |     
-                      <a href="http://www.futurity.org/depression-iphone-960892/"> Futurity</a> |    
-                      <a href="https://www.webmd.com/depression/news/20150715/daily-smartphone-use-might-offer-clues-to-depression#1"> WebMD</a> |     
-            <a href="http://www.usnews.com/news/articles/2015/07/15/phones-can-help-detect-if-youre-depressed-study-says"> US News </a>]
-        </div>
+        <CodeBlock
+          title = "MyBehavior: Automatic Personalized Health Feedback from User Behavior and Preference using Smartphones"
+          authors = "Mashfiqui Rabbi, Min Hane Aung, Mi Zhang, and Tanzeem Choudhury."
+          conference = "ACM International Joint Conference on Pervasive and Ubiquitous Computing (<div class='pubHighlight'>UbiComp'15</div>)."
+          rate = "Acceptance Rate: 93/394 = 23.6%"
+          paper = "https://mi-zhang.github.io/papers/2015_UbiComp_MyBehavior.pdf"
+          bibtex = {MyBehavior}
+          media = "<a href='http://www.technologyreview.com/news/539721/a-health-tracking-app-you-might-actually-stick-with/'> MIT Technology Review</a> | <a href='http://mashable.com/2015/07/30/health-tracking-app/'> Mashable </a>"
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">The Relationship between Clinical, Momentary, and Sensor-based Assessment of Depression</div>
-						
-            Sohrob Saeb, Mi Zhang, Mary Kwasney, Christopher J. Karr, Konrad Kording, and David C. Mohr. 
-            <br />
-            International Conference on Pervasive Computing Technologies for Healthcare (<font style={{ fontWeight: 'bold' }}>PervasiveHealth'15</font>).
-                      <br />    
-            Acceptance Rate: 38%
-            <br />
-                      [<a href="https://mi-zhang.github.io/papers/2015_PervasiveHealth.pdf">Paper</a> | 
-                      <a href="papers/2015_PervasiveHealth.bib">BibTex</a>]
-        </div>
+        <CodeBlock
+          title = "Mobile Phone Sensor Correlates of Depressive Symptom Severity in Daily-Life Behavior: An Exploratory Study"
+          authors = "Sohrob Saeb, Mi Zhang, Christopher J. Karr, Stephen M. Schueller, Marya E. Corden, Konrad P. Kording, and David C. Mohr."
+          conference = "Journal of Medical Internet Research (<div class='pubHighlight'>JMIR</div>), Volume 17, Issue 7, Pages e175, 2015."
+          rate = "Impact Factor: 5.175"
+          honor = "<span class='pubRedHighLight'>JMIR All-Time Top Article</span>"
+          link = "http://www.jmir.org/2015/7/e175/"
+          paper = "https://mi-zhang.github.io/papers/2015_JMIR_MobileDepression.pdf"
+          bibtex = {MyBehavior}
+          media = "<a href='http://time.com/3958128/smartphone-depression/'> TIME</a> |	<a href='http://www.cnn.com/2015/07/15/health/smartphone-depression-diagnosis/'> CNN</a> | <a href='http://techcrunch.com/2015/07/16/your-phone-can-tell-whether-youre-depressed/''> TechCrunch</a> | <a href='http://www.theverge.com/2015/7/15/8970269/smartphone-depression-mental-health-detect'> The Verge</a> | <a href='http://www.cbsnews.com/news/phone-habits-depression-mental-health/''> CBS News</a> | <a href='http://www.foxnews.com/health/2015/07/15/smartphone-sensors-may-detect-depression-study-says/'> Fox News</a> | <a href='http://news.discovery.com/tech/gear-and-gadgets/depressed-your-phone-already-knows-150715.htm'> Discovery News</a> | <a href='http://www.dailymail.co.uk/health/article-3162416/How-SMARTPHONE-diagnose-depression-Using-68-minutes-day-sign-mental-illness.html'> Daily Mail</a> | <a href='https://www.thetimes.co.uk/article/check-on-your-phone-for-signs-of-depression-vjf2q0jfh6v'> The Times</a> | <a href='http://www.newsweek.com/black-box-how-your-phone-can-tell-youre-depressed-354099'> Newsweek</a> | <a href='http://www.mirror.co.uk/lifestyle/health/smartphone-behaviour-could-diagnose-depression-6073355'> Mirror</a> | <a href='http://www.telegraph.co.uk/news/science/science-news/11741234/Spend-an-hour-on-your-smartphone-daily-You-could-be-depressed.html'> The Telegraph</a> | <a href='http://www.washingtonpost.com/news/to-your-health/wp/2015/07/16/how-your-cellphone-knows-if-youre-depressed-it-has-to-do-with-how-you-move-through-time-and-space/'> The Washington Post</a> | <a href='http://www.huffingtonpost.com/entry/your-phone-can-tell-if-youre-depressed_55a53e03e4b0b8145f73a97f'> The Huffington Post</a> | <a href='http://www.latimes.com/science/sciencenow/la-sci-sn-depressed-cellphone-20150715-story.html'> Los Angeles Times</a> | <a href='http://www.chicagotribune.com/bluesky/originals/ct-northwestern-feinberg-study-smartphones-depression-bsi-20150715-story.html'> Chicago Tribune</a> | <a href='http://www.futurity.org/depression-iphone-960892/''> Futurity</a> | <a href='https://www.webmd.com/depression/news/20150715/daily-smartphone-use-might-offer-clues-to-depression#1'> WebMD</a> | <a href='http://www.usnews.com/news/articles/2015/07/15/phones-can-help-detect-if-youre-depressed-study-says'> US News </a>"
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Automated Personalized Feedback for Physical Activity and Dietary Behavior Change with Mobile Phones: A Randomized Controlled Trial on Adults</div>
-					Mashfiqui Rabbi, Angela Pfammatter, Mi Zhang, Bonnie Spring, and Tanzeem Choudhury. 
-					<br />
-					Journal of Medical Internet Research (<font style={{ fontWeight: 'bold' }}>JMIR</font>) mHealth and uHealth, Volume 3, Issue 2, Pages e42, 2015. 
-					<br />
-					Impact Factor: 4.636
-                    <br />
-                    [<a href="http://mhealth.jmir.org/2015/2/e42/"> Link</a> | 
-                    <a href="https://mi-zhang.github.io/papers/2015_JMIR_MyBehavior.pdf"> Paper</a> |    
-                    <a href="papers/2015_JMIR_MyBehavior.bib"> BibTex </a>]
-					<br />
-					Media Coverage:
-					[<a href="http://mobihealthnews.com/45795/cornell-researchers-use-personalized-algorithm-in-weight-loss-app/"> MobiHealth News </a>]
-        </div>
+        <CodeBlock
+          title = "The Relationship between Clinical, Momentary, and Sensor-based Assessment of Depression"
+          authors = "Sohrob Saeb, Mi Zhang, Mary Kwasney, Christopher J. Karr, Konrad Kording, and David C. Mohr."
+          conference = "International Conference on Pervasive Computing Technologies for Healthcare (<div class='pubHighlight'>PervasiveHealth'15</div>)."
+          rate = "Acceptance Rate: 38%"
+          paper = "https://mi-zhang.github.io/papers/2015_PervasiveHealth.pdf"
+          bibtex = {PervasiveHealth}
+        >
+        </CodeBlock>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">An Intelligent Crowd-Worker Selection Approach for Reliable Content Labeling of Food Images</div>
-						
-            Mashfiqui Rabbi, Jean Costa, Fabian Okeke, Max Schachere, Mi Zhang, and Tanzeem Choudhury. 
-            <br />
-            ACM International Conference on Wireless Health (<font style={{ fontWeight: 'bold' }}>WH'15</font>).
-                      <br />
-                      Acceptance Rate: 28/106 = 26.4%
-            <br />
-                      [<a href="https://mi-zhang.github.io/papers/2015_WH_FoodLabel.pdf"> Paper</a> | 
-                      <a href="papers/2015_WH_FoodLabel.bib"> BibTex </a>]
-        </div>
+        <CodeBlock
+          title = "Automated Personalized Feedback for Physical Activity and Dietary Behavior Change with Mobile Phones: A Randomized Controlled Trial on Adults"
+          authors = "Mashfiqui Rabbi, Angela Pfammatter, Mi Zhang, Bonnie Spring, and Tanzeem Choudhury."
+          conference = "Journal of Medical Internet Research (<div class='pubHighlight'>JMIR</div>) mHealth and uHealth, Volume 3, Issue 2, Pages e42, 2015."
+          rate = "Impact Factor: 4.636"
+          link = "http://mhealth.jmir.org/2015/2/e42/"
+          paper = "https://mi-zhang.github.io/papers/2015_JMIR_MyBehavior.pdf"
+          bibtex = {APFPAD}
+          media = "<a href='http://mobihealthnews.com/45795/cornell-researchers-use-personalized-algorithm-in-weight-loss-app/'> MobiHealth News </a>"
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "An Intelligent Crowd-Worker Selection Approach for Reliable Content Labeling of Food Images"
+          authors = "Mashfiqui Rabbi, Jean Costa, Fabian Okeke, Max Schachere, Mi Zhang, and Tanzeem Choudhury."
+          conference = "ACM International Conference on Wireless Health (<div class='pubHighlight'>WH'15</div>)."
+          rate = "Acceptance Rate: 28/106 = 26.4%"
+          paper = "https://mi-zhang.github.io/papers/2015_WH_FoodLabel.pdf"
+          bibtex = {FoodLabel}
+        >
+        </CodeBlock>
+
       </div>
       </div>
 
@@ -866,34 +1049,28 @@ function Publications() {
         2014
       </div>
       <div className='publicationsContent'>
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">BodyBeat: A Mobile System for Sensing Non-Speech Body Sounds</div>
-					Tauhidur Rahman, Alexander Adams, Mi Zhang, Erin Cherry, Bobby Zhou, Huaishu Peng, and Tanzeem Choudhury. 
-					<br />
-					ACM International Conference on Mobile Systems, Applications, and Services (<font style={{ fontWeight: 'bold' }}>MobiSys'14</font>).   
-					<br />
-                    Acceptance Rate: 25/185 = 13.5%
-                    <br />
-                    <font color="#de1111" style={{ fontWeight: 'bold' }}>ACM SIGMOBILE Research Highlight</font> [<a href="papers/2015_GetMobile_BodyBeat.pdf"> Highlight Article </a>]    
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2014_MobiSys_BodyBeat.pdf"> Paper</a> | <a href="papers/2014_MobiSys_BodyBeat.bib"> BibTex </a>]
-					<br />
-					Media Coverage:
-					[<a href="http://www.technologyreview.com/news/528386/wearable-self-tracking-tool-listens-for-yawns-coughs-and-munches/"> MIT Technology Review</a> |
-					<a href="http://blogs.wsj.com/digits/2014/07/03/chainsaws-gunshots-and-coughs-our-smartphones-are-listening/"> Wall Street Journal</a> |
-    <a href="http://www.newscientist.com/article/mg22229734.900-listen-to-sounds-inside#.VAZpWPldV8F"> New Scientist </a>]
-        </div>
 
-        <div className='publicationsItem'>
-          <div class="publicationsStrong">Towards Accurate Non-Intrusive Recollection of Stress Levels Using Mobile Sensing and Contextual Recall</div>
-					Tauhidur Rahman, Mi Zhang, Stephen Voida, and Tanzeem Choudhury. 
-					<br />
-					International Conference on Pervasive Computing Technologies for Healthcare (<font style={{ fontWeight: 'bold' }}>PervasiveHealth'14</font>).    
-                    <br />    
-					Acceptance Rate: 26%
-                    <br />
-                    [<a href="https://mi-zhang.github.io/papers/2014_PervasiveHealth.pdf"> Paper</a> | <a href="papers/2014_PervasiveHealth.bib"> BibTex </a>]
-        </div>
+      <CodeBlock
+          title = "BodyBeat: A Mobile System for Sensing Non-Speech Body Sounds"
+          authors = "Tauhidur Rahman, Alexander Adams, Mi Zhang, Erin Cherry, Bobby Zhou, Huaishu Peng, and Tanzeem Choudhury."
+          conference = "ACM International Conference on Mobile Systems, Applications, and Services (<div class='pubHighlight'>MobiSys'14</div>)."
+          rate = "Acceptance Rate: 25/185 = 13.5%"
+          honor = "<span class='pubRedHighLight'>ACM SIGMOBILE Research Highlight</span> [<a href='papers/2015_GetMobile_BodyBeat.pdf'> Highlight Article </a>]"
+          paper = "https://mi-zhang.github.io/papers/2015_JMIR_MyBehavior.pdf"
+          bibtex = {BodyBeat}
+          media = "<a href='http://www.technologyreview.com/news/528386/wearable-self-tracking-tool-listens-for-yawns-coughs-and-munches/'> MIT Technology Review</a> |	<a href='http://blogs.wsj.com/digits/2014/07/03/chainsaws-gunshots-and-coughs-our-smartphones-are-listening/'> Wall Street Journal</a> | <a href='http://www.newscientist.com/article/mg22229734.900-listen-to-sounds-inside#.VAZpWPldV8F'> New Scientist </a>"
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "Towards Accurate Non-Intrusive Recollection of Stress Levels Using Mobile Sensing and Contextual Recall"
+          authors = "Tauhidur Rahman, Mi Zhang, Stephen Voida, and Tanzeem Choudhury."
+          conference = "International Conference on Pervasive Computing Technologies for Healthcare (<div class='pubHighlight'>PervasiveHealth'14</div>)."
+          rate = "Acceptance Rate: 26%"
+          paper = "https://mi-zhang.github.io/papers/2014_PervasiveHealth.pdf"
+          bibtex = {TANIRSLU}
+        >
+        </CodeBlock>
       </div>
       </div>
 

@@ -58,7 +58,7 @@ function Members() {
               <div className='cardSet'>
                 <div className='card'><a href="https://samiul272.github.io/"><MemberCard imageURL="./images/SamiulAlam.jpg" title="Samiul Alam" description="Ph.D. Student   alam.140@osu.edu"></MemberCard></a></div>
                 <div className='card'><MemberCard imageURL="./images/ZhongweiWan.jpg" title="Zhongwei Wan" description="Ph.D. Student   wan.512@osu.edu"></MemberCard></div>
-                <div className='card'><MemberCard imageURL="./images/ShakhrulImanSiam.jpg" title="Shakhrul Iman Siam" description="Ph.D. Student   siam.5@osu.edu"></MemberCard></div>
+                <div className='card'><a href="https://sites.google.com/view/shakhrul-iman-siam"><MemberCard imageURL="./images/ShakhrulImanSiam.jpg" title="Shakhrul Iman Siam" description="Ph.D. Student   siam.5@osu.edu"></MemberCard></a></div>
                 <div className='card'><MemberCard imageURL="./images/HyunhoAhn.jpg" title="Hyunho Ahn" description="Ph.D. Student   ahn.377@osu.edu"></MemberCard></div>
                 <div className='card'><MemberCard imageURL="./images/XinWang.jpg" title="Xin Wang" description="Master Student   wang.15980@osu.edu"></MemberCard></div>
                 <div className='card'><MemberCard imageURL="./images/MarcusShen.jpg" title="Marcus Shen" description="CSE Department   shen.1780@osu.edu"></MemberCard></div>

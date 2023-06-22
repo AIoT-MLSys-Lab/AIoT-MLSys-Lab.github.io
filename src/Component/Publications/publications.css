@@ -96,3 +96,13 @@
 .pubHighlight {
     display: inline;
 }
+
+.pubRedHighLight {
+    font-weight: bold;
+    color: #de1111;
+}
+
+.pubBlueHighLight {
+    font-weight: bold;
+    color: #0949b1;
+}
