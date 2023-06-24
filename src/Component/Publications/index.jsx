@@ -316,6 +316,16 @@ function Publications() {
     year = {2015}
 }`
 
+  const MobileDepression = `@article{saeb2015mobile,
+    title = {Mobile Phone Sensor Correlates of Depressive Symptom Severity in Daily-Life Behavior: An Exploratory Study},
+    author = {Saeb, Sohrab and Zhang, Mi and Karr, Christopher J and Schueller, Stephen M and Corden, Marya E and Kording, Konrad P and Mohr, David C},
+    journal = {Journal of Medical Internet Research (JMIR)},
+    volume = {17},
+    number = {7},
+    pages = {e175},
+    year = {2015}
+}`
+
   const PervasiveHealth = `@inproceedings{saeb2015relationship,
     title = {The Relationship between Clinical, Momentary, and Sensor-based Assessment of Depression},
     author = {Saeb, Sohrab and Zhang, Mi and Kwasny, Mary and Karr, Christopher J and Kording, Konrad and Mohr, David C},
@@ -835,7 +845,7 @@ function Publications() {
           conference = "Journal of Medical Internet Research (<div class='pubHighlight'>JMIR</div>) Special Issue on Computing and Mental Health, 2018."
           rate = "Impact Factor: 5.175"
           link = "http://www.jmir.org/2018/7/e10139/"
-          paper = "https://mi-zhang.github.io/papers/2018_UbiComp_JARVIS.pdf"
+          paper = "https://mi-zhang.github.io/papers/2018_JMIR_iSeeNeed.pdf"
           bibtex = {iSeeNeed}
         >
         </CodeBlock>
@@ -855,7 +865,7 @@ function Publications() {
           conference = "ACM International Conference on Mobile Systems, Applications, and Services (<div class='pubHighlight'>MobiSys'17</div>)."
           rate = "Acceptance Rate: 34/188 = 18% "
           honor = "<span class='pubRedHighLight'>NIH Pill Image Recognition Challenge First Place Winner</span>"
-          paper = "https://mi-zhang.github.io/papers/2018_UbiComp_JARVIS.pdf"
+          paper = "https://mi-zhang.github.io/papers/2017_MobiSys_MobileDeepPill.pdf"
           bibtex = {MobileDeepPill}
           video = "https://www.youtube.com/watch?v=-k7awuoW2rg&feature=youtu.be"
           media = "<a href='https://www.nlm.nih.gov/news/pillimagerecognitionchallenge.html'> NIH</a> | <a href='http://www.wxyz.com/news/msu-professor-working-on-mobile-solution-to-identify-pills'> ABC 7 (TV)</a> | <a href='http://msutoday.msu.edu/news/2016/nih-challenge-winner-helping-solve-pill-recognition-problem/'> MSU Today </a>"
@@ -1004,7 +1014,7 @@ function Publications() {
           honor = "<span class='pubRedHighLight'>JMIR All-Time Top Article</span>"
           link = "http://www.jmir.org/2015/7/e175/"
           paper = "https://mi-zhang.github.io/papers/2015_JMIR_MobileDepression.pdf"
-          bibtex = {MyBehavior}
+          bibtex = {MobileDepression}
           media = "<a href='http://time.com/3958128/smartphone-depression/'> TIME</a> |	<a href='http://www.cnn.com/2015/07/15/health/smartphone-depression-diagnosis/'> CNN</a> | <a href='http://techcrunch.com/2015/07/16/your-phone-can-tell-whether-youre-depressed/''> TechCrunch</a> | <a href='http://www.theverge.com/2015/7/15/8970269/smartphone-depression-mental-health-detect'> The Verge</a> | <a href='http://www.cbsnews.com/news/phone-habits-depression-mental-health/''> CBS News</a> | <a href='http://www.foxnews.com/health/2015/07/15/smartphone-sensors-may-detect-depression-study-says/'> Fox News</a> | <a href='http://news.discovery.com/tech/gear-and-gadgets/depressed-your-phone-already-knows-150715.htm'> Discovery News</a> | <a href='http://www.dailymail.co.uk/health/article-3162416/How-SMARTPHONE-diagnose-depression-Using-68-minutes-day-sign-mental-illness.html'> Daily Mail</a> | <a href='https://www.thetimes.co.uk/article/check-on-your-phone-for-signs-of-depression-vjf2q0jfh6v'> The Times</a> | <a href='http://www.newsweek.com/black-box-how-your-phone-can-tell-youre-depressed-354099'> Newsweek</a> | <a href='http://www.mirror.co.uk/lifestyle/health/smartphone-behaviour-could-diagnose-depression-6073355'> Mirror</a> | <a href='http://www.telegraph.co.uk/news/science/science-news/11741234/Spend-an-hour-on-your-smartphone-daily-You-could-be-depressed.html'> The Telegraph</a> | <a href='http://www.washingtonpost.com/news/to-your-health/wp/2015/07/16/how-your-cellphone-knows-if-youre-depressed-it-has-to-do-with-how-you-move-through-time-and-space/'> The Washington Post</a> | <a href='http://www.huffingtonpost.com/entry/your-phone-can-tell-if-youre-depressed_55a53e03e4b0b8145f73a97f'> The Huffington Post</a> | <a href='http://www.latimes.com/science/sciencenow/la-sci-sn-depressed-cellphone-20150715-story.html'> Los Angeles Times</a> | <a href='http://www.chicagotribune.com/bluesky/originals/ct-northwestern-feinberg-study-smartphones-depression-bsi-20150715-story.html'> Chicago Tribune</a> | <a href='http://www.futurity.org/depression-iphone-960892/''> Futurity</a> | <a href='https://www.webmd.com/depression/news/20150715/daily-smartphone-use-might-offer-clues-to-depression#1'> WebMD</a> | <a href='http://www.usnews.com/news/articles/2015/07/15/phones-can-help-detect-if-youre-depressed-study-says'> US News </a>"
         >
         </CodeBlock>
@@ -1055,8 +1065,8 @@ function Publications() {
           authors = "Tauhidur Rahman, Alexander Adams, Mi Zhang, Erin Cherry, Bobby Zhou, Huaishu Peng, and Tanzeem Choudhury."
           conference = "ACM International Conference on Mobile Systems, Applications, and Services (<div class='pubHighlight'>MobiSys'14</div>)."
           rate = "Acceptance Rate: 25/185 = 13.5%"
-          honor = "<span class='pubRedHighLight'>ACM SIGMOBILE Research Highlight</span> [<a href='papers/2015_GetMobile_BodyBeat.pdf'> Highlight Article </a>]"
-          paper = "https://mi-zhang.github.io/papers/2015_JMIR_MyBehavior.pdf"
+          honor = "<span class='pubRedHighLight'>ACM SIGMOBILE Research Highlight</span> [<a href='https://mi-zhang.github.io/papers/2015_GetMobile_BodyBeat.pdf'> Highlight Article </a>]"
+          paper = "https://mi-zhang.github.io/papers/2014_MobiSys_BodyBeat.pdf"
           bibtex = {BodyBeat}
           media = "<a href='http://www.technologyreview.com/news/528386/wearable-self-tracking-tool-listens-for-yawns-coughs-and-munches/'> MIT Technology Review</a> |	<a href='http://blogs.wsj.com/digits/2014/07/03/chainsaws-gunshots-and-coughs-our-smartphones-are-listening/'> Wall Street Journal</a> | <a href='http://www.newscientist.com/article/mg22229734.900-listen-to-sounds-inside#.VAZpWPldV8F'> New Scientist </a>"
         >

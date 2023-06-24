@@ -14,54 +14,64 @@ function Home() {
         </div>        
       </div>
 
+
+
       <div className="news">
-        <div className='homeNewsTitle'>News</div>
-        <div className='new'>
-          <div className='newDate'>
-            Jan 2023
+      <div className='homeSocialMedia'>
+        <a className='homeSocialIcon' href='https://scholar.google.com/citations?user=r3A90uAAAAAJ&hl=en'><svg t="1687628913312" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2399" width="40" height="40"><path d="M881 442.4H519.7v148.5h206.4c-8.9 48-35.9 88.6-76.6 115.8-34.4 23-78.3 36.6-129.9 36.6-99.9 0-184.4-67.5-214.6-158.2-7.6-23-12-47.6-12-72.9s4.4-49.9 12-72.9c30.3-90.6 114.8-158.1 214.7-158.1 56.3 0 106.8 19.4 146.6 57.4l110-110.1c-66.5-62-153.2-100-256.6-100-149.9 0-279.6 86-342.7 211.4-26 51.8-40.8 110.4-40.8 172.4S151 632.8 177 684.6C240.1 810 369.8 896 519.7 896c103.6 0 190.4-34.4 253.8-93 72.5-66.8 114.4-165.2 114.4-282.1 0-27.2-2.4-53.3-6.9-78.5z" p-id="2400" fill="#ffffff"></path></svg></a>
+        <a className='homeSocialIcon' href="https://github.com/AIoT-MLSys-Lab"><svg t="1687628972977" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3575" width="40" height="40"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9 23.5 23.2 38.1 55.4 38.1 91v112.5c0.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z" p-id="3576" fill="#ffffff"></path></svg></a>
+        <a className='homeSocialIcon' href=""><svg t="1687629023227" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4634" width="40" height="40"><path d="M926.47619 355.644952V780.190476a73.142857 73.142857 0 0 1-73.142857 73.142857H170.666667a73.142857 73.142857 0 0 1-73.142857-73.142857V355.644952l304.103619 257.828572a170.666667 170.666667 0 0 0 220.745142 0L926.47619 355.644952zM853.333333 170.666667a74.044952 74.044952 0 0 1 26.087619 4.778666 72.704 72.704 0 0 1 30.622477 22.186667 73.508571 73.508571 0 0 1 10.678857 17.67619c3.169524 7.509333 5.12 15.652571 5.607619 24.210286L926.47619 243.809524v24.380952L559.469714 581.241905a73.142857 73.142857 0 0 1-91.306666 2.901333l-3.632762-2.925714L97.52381 268.190476v-24.380952a72.899048 72.899048 0 0 1 40.155428-65.292191A72.97219 72.97219 0 0 1 170.666667 170.666667h682.666666z" p-id="4635" fill="#ffffff"></path></svg></a>
+      </div>
+        <div className='homeNews'>
+          <div className='homeNewsTitle'>News</div>
+          <div className='new'>
+            <div className='newDate'>
+              Feb 2023
+            </div>
+            <div className='newContent'>
+            Prof. Zhang receives the inaugural USC ECE-SIPI Distinguished Alumni Award in the Junior/Academia category for his contributions to mobile/edge computing in his early career. Details about the award can be found <a href="https://minghsiehece.usc.edu/groups-and-institutes-sipi-sipi-50th-anniversary-awardees/" >here</a>. 
+            </div>
           </div>
-          <div className='newContent'>
-            Feel extremely honored and excited to receive the inaugural <a href="https://minghsiehece.usc.edu/groups-and-institutes-sipi-sipi-50th-anniversary-awardees/" >USC ECE SIPI Distinguished Alumni Award</a> in the Junior/Academia category for my contributions to mobile/edge computing in my early career.
-          </div>
-        </div>
 
-        <div className='new'>
-          <div className='newDate'>
-            Jan 2023
+          <div className='new'>
+            <div className='newDate'>
+              Jan 2023
+            </div>
+            <div className='newContent'>
+              Congratulations Samiul for being awarded the highly competitive OSU College Allocated Fellowship!
+            </div>
           </div>
-          <div className='newContent'>
-            Congratulations Samiul for being awarded the highly competitive OSU College Allocated Fellowship!
-          </div>
-        </div>
 
-        <div className='new'>
-          <div className='newDate'>
-            Dec 2023
+          <div className='new'>
+            <div className='newDate'>
+              Dec 2023
+            </div>
+            <div className='newContent'>
+            Thanks Meta Reality Labs for the generous faculty award for supporting our research!
+            </div>
           </div>
-          <div className='newContent'>
-          Thanks Meta Reality Labs for the generous faculty award for supporting our research!
-          </div>
-        </div>
 
-        <div className='new'>
-          <div className='newDate'>
-            Sep 2022
+          <div className='new'>
+            <div className='newDate'>
+              Sep 2022
+            </div>
+            <div className='newContent'>
+            <a href="https://arxiv.org/abs/2212.01548">FedRolex</a>, our work on model-heterogeneous federated learning is accepted to NeurIPS'22.
+            </div>
           </div>
-          <div className='newContent'>
-          <a href="https://arxiv.org/abs/2212.01548">FedRolex</a>, our work on model-heterogeneous federated learning is accepted to NeurIPS\'22.
-          </div>
-        </div>
 
-        <div className='homeNewsLink'>
-          <a href="./#/News">...See All News</a>
+          <div className='homeNewsLink'>
+            <a href="./#/News">...See All News</a>
+          </div>
         </div>
+        
       </div>
       
 
       <div className='homeAchievement'>
         <h2 className='homeAchievementTitle'>Our Achievements</h2>
         <div className='homeAchievementContent'>
-        The OSU AIoT and MLSys Lab has been conducting world-class research at the intersection of systems and AI/ML. Our research has been published at top-tier venues in both mobile/wireless/embedded sensor systems (MobiCom, MobiSys, SenSys) and AI/ML (NeurIPS, ICML, ICLR). Our work has received seven best paper awards and nominations, and won the 4th Place Winner (1st Place in U.S. and Canada) of 2019 Google MicroNet Challenge (CIFAR-100 Track), the Third Place Winner of 2017 NSF Hearables Challenge, and the champion of 2016 NIH Pill Image Recognition Challenge. Many of our work have been reported by NSF, NIH, IEEE, ACM, and media such as TIME, MIT Technology Review, WIRED, TechCrunch, and Smithsonian magazine more than one hundred times.
+        The OSU AIoT and MLSys Lab has been conducting world-class research at the intersection of systems and AI/ML. Our research has been published at top-tier venues in both mobile/wireless/embedded sensor systems (MobiCom, MobiSys, SenSys) and AI/ML (NeurIPS, ICML, ICLR). Our works have received seven best paper awards and nominations, and won the 4th Place (1st Place in U.S. and Canada) of 2019 Google MicroNet Challenge (CIFAR-100 Track), the Third Place of 2017 NSF Hearables Challenge, and the champion of 2016 NIH Pill Image Recognition Challenge. Many of our works have been reported by NSF, NIH, IEEE, ACM, and media such as TIME, MIT Technology Review, WIRED, TechCrunch, and Smithsonian magazine more than one hundred times.
         </div>
       </div>
       {/* <div className='collection'>

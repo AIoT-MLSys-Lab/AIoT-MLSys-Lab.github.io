@@ -5,7 +5,7 @@ function MiZhang() {
   return (
     <div className='mizhang'>
       <div className='mizhangProfile'>
-        <img src="./images/MiZhang.png" alt="" className='mizhangImg'/>
+        <img src="./images/memberPhotos/MiZhang.png" alt="" className='mizhangImg'/>
         {/* <div className='googleButton'>
             <a href="https://scholar.google.com/citations?user=r3A90uAAAAAJ&hl=en">
                 <button class="modern-button">Google Scholar</button>

@@ -22,7 +22,7 @@ function Members() {
                 
                 <div className='mizhang_card'>
                   <a href="./#/members/MiZhang">
-                    <img src="./images/MiZhang.png" alt="" />  
+                    <img src="./images/memberPhotos/MiZhang.png" alt="" />  
                   </a>
                 </div>
                 <div className='mizhang_member'>
@@ -56,21 +56,22 @@ function Members() {
           <div className='memberType'>
             <div className="memberTitle">Current Students</div>
               <div className='cardSet'>
-                <div className='card'><a href="https://samiul272.github.io/"><MemberCard imageURL="./images/SamiulAlam.jpg" title="Samiul Alam" description="Ph.D. Student   alam.140@osu.edu"></MemberCard></a></div>
-                <div className='card'><MemberCard imageURL="./images/ZhongweiWan.jpg" title="Zhongwei Wan" description="Ph.D. Student   wan.512@osu.edu"></MemberCard></div>
-                <div className='card'><a href="https://sites.google.com/view/shakhrul-iman-siam"><MemberCard imageURL="./images/ShakhrulImanSiam.jpg" title="Shakhrul Iman Siam" description="Ph.D. Student   siam.5@osu.edu"></MemberCard></a></div>
-                <div className='card'><MemberCard imageURL="./images/HyunhoAhn.jpg" title="Hyunho Ahn" description="Ph.D. Student   ahn.377@osu.edu"></MemberCard></div>
-                <div className='card'><MemberCard imageURL="./images/XinWang.jpg" title="Xin Wang" description="Master Student   wang.15980@osu.edu"></MemberCard></div>
-                <div className='card'><MemberCard imageURL="./images/MarcusShen.jpg" title="Marcus Shen" description="CSE Department   shen.1780@osu.edu"></MemberCard></div>
+                <div className='card'><a href="https://samiul272.github.io/"><MemberCard imageURL="./images/memberPhotos/SamiulAlam.jpg" title="Samiul Alam" description="Ph.D. Student   alam.140@osu.edu"></MemberCard></a></div>
+                <div className='card'><MemberCard imageURL="./images/memberPhotos/ZhongweiWan.jpg" title="Zhongwei Wan" description="Ph.D. Student   wan.512@osu.edu"></MemberCard></div>
+                <div className='card'><a href="https://sites.google.com/view/shakhrul-iman-siam"><MemberCard imageURL="./images/memberPhotos/ShakhrulImanSiam.jpg" title="Shakhrul Iman Siam" description="Ph.D. Student   siam.5@osu.edu"></MemberCard></a></div>
+                <div className='card'><MemberCard imageURL="./images/memberPhotos/HyunhoAhn.jpg" title="Hyunho Ahn" description="Ph.D. Student   ahn.377@osu.edu"></MemberCard></div>
+                <div className='card'><MemberCard imageURL="./images/memberPhotos/XinWang.jpg" title="Xin Wang" description="Master Student   wang.15980@osu.edu"></MemberCard></div>
+                <div className='card'><MemberCard imageURL="./images/memberPhotos/MarcusShen.jpg" title="Marcus Shen" description="Undergrad Student   shen.1780@osu.edu"></MemberCard></div>
+                <div className='card'><MemberCard imageURL="./images/memberPhotos/JakeZhang.jpg" title="Jake Zhang" description=""></MemberCard></div>
               </div>
           </div>
 
           <div className='memberType'>
               <div className="memberTitle">Former Ph.D. Students</div>
               <div className='cardSet'>
-                <div className='card'><a href="https://shenyann.github.io/"><MemberCard imageURL="./images/YanShen.jpg" title="Shen Yan" description="Ph.D., Research Scientist @ Google Research"></MemberCard></a></div>
-                <div className='card'><MemberCard imageURL="./images/XiaoZeng.jpg" title="Xiao Zeng" description="Ph.D., Applied Scientist @ Amazon Lab126"></MemberCard></div>
-                <div className='card'><MemberCard imageURL="./images/BiyiFang.png" title="Biyi Fang" description="Ph.D., Machine Learning Scientist and Software Engineer @ Microsoft Machine Learning Cloud Services"></MemberCard></div>
+                <div className='card'><a href="https://shenyann.github.io/"><MemberCard imageURL="./images/memberPhotos/YanShen.jpg" title="Shen Yan" description="Ph.D., Research Scientist @ Google Research"></MemberCard></a></div>
+                <div className='card'><MemberCard imageURL="./images/memberPhotos/XiaoZeng.jpg" title="Xiao Zeng" description="Ph.D., Applied Scientist @ Amazon Lab126"></MemberCard></div>
+                <div className='card'><MemberCard imageURL="./images/memberPhotos/BiyiFang.png" title="Biyi Fang" description="Ph.D., Machine Learning Scientist and Software Engineer @ Microsoft Machine Learning Cloud Services"></MemberCard></div>
               </div>
           </div>
 
