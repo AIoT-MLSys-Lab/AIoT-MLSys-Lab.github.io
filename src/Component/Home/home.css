@@ -81,10 +81,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    background-color: #a30a0a;
+    background-color: #0a0aa3;
     text-decoration: none;
     text-align: center;
     transition: background-color 0.3s ease;
@@ -93,7 +93,6 @@
 
     box-shadow: 1px 2px 4px rgba(214, 49, 49, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 2px solid #cc2525dc;
 }
 
 .homeSocialIcon:hover {
@@ -233,7 +232,7 @@
 }
 
 .homeSponsor img{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 

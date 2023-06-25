@@ -42,8 +42,8 @@ const MiZhang = lazy(
   async () => await import('../Component/MiZhang')
 );
 
-const Project1 = lazy(
-  async () => await import('../Component/Projects/Project1')
+const EdgeAI = lazy(
+  async () => await import('../Component/Projects/EdgeAI')
 );
 
 function Index() {
@@ -89,8 +89,8 @@ function Index() {
           element: <Join></Join>,
         },
         {
-          path: '/project/project1',
-          element: <Project1></Project1>,
+          path: '/EdgeAI',
+          element: <EdgeAI></EdgeAI>,
         }
       ]
     },
