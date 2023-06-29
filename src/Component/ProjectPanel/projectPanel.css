@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 10% 90%;
-    grid-gap: 20px;
+    grid-gap: 10px;
     width: 70%;
     height: 500px;
     padding: 20px;
@@ -52,7 +52,6 @@
     font-size: 1rem;
     line-height: 1.2rem;
     color: #505152;
-    margin-top: 10px;
 
 
 }

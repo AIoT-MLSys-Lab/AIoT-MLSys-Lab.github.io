@@ -791,7 +791,7 @@ function Publications() {
         <CodeBlock
           title = "NestDNN: Resource-Aware Multi-Tenant On-Device Deep Learning for Continuous Mobile Vision"
           authors = "Biyi Fang*, Xiao Zeng*, and Mi Zhang."
-          conference = "ACM International Conference on Mobile Computing and Networking (<div class='pubHighlight'>GetMobile</div>MobiCom'18</div>)."
+          conference = "ACM International Conference on Mobile Computing and Networking (<div class='pubHighlight'>MobiCom'18</div>)."
           rate = "Acceptance Rate: 42/187 = 22.5%"
           paper = "https://mi-zhang.github.io/papers/2018_MobiCom_NestDNN.pdf"
           bibtex = {NestDNN}

@@ -30,10 +30,6 @@ const Courses = lazy(
   async () => await import('../Component/Courses')
 );
 
-const GroupCalendar = lazy(
-  async () => await import('../Component/Talk')
-);
-
 const Join = lazy(
   async () => await import('../Component/Join')
 );
@@ -44,6 +40,94 @@ const MiZhang = lazy(
 
 const EdgeAI = lazy(
   async () => await import('../Component/Projects/EdgeAI')
+);
+
+const FederatedLearningandSystems = lazy(
+  async () => await import('../Component/Projects/FederatedLearningandSystems')
+);
+
+const AutoML = lazy(
+  async () => await import('../Component/Projects/AutoML')
+);
+
+const AIforWirelessSensingandNetworking = lazy(
+  async () => await import('../Component/Projects/Wireless')
+);
+
+const MobileHealth = lazy(
+  async () => await import('../Component/Projects/MobileHealth')
+);
+
+const NestDNN = lazy(
+  async () => await import('../Component/Projects/NestDNN')
+);
+
+const FlexDNN = lazy(
+  async () => await import('../Component/Projects/FlexDNN')
+);
+
+const Mercury = lazy(
+  async () => await import('../Component/Projects/Mercury')
+);
+
+const Distream = lazy(
+  async () => await import('../Component/Projects/Distream')
+);
+
+const GPTFL = lazy(
+  async () => await import('../Component/Projects/GPT-FL')
+);
+
+const FedRolex = lazy(
+  async () => await import('../Component/Projects/FedRolex')
+);
+
+const PyramidFL = lazy(
+  async () => await import('../Component/Projects/PyramidFL')
+);
+
+const DoesUnsupervisedArchitectureRepresentationLearningHelpNeuralArchitectureSearch = lazy(
+  async () => await import('../Component/Projects/DoesUnsupervisedArchitectureRepresentationLearningHelpNeuralArchitectureSearch')
+);
+
+const DeepAutoAugment = lazy(
+  async () => await import('../Component/Projects/DeepAutoAugment')
+);
+
+const CATE = lazy(
+  async () => await import('../Component/Projects/CATE')
+);
+
+const NELoRa = lazy(
+  async () => await import('../Component/Projects/NELoRa')
+);
+
+const WiFiSeeItAll = lazy(
+  async () => await import('../Component/Projects/WiFiSeeItAll')
+);
+
+const BodyScan = lazy(
+  async () => await import('../Component/Projects/BodyScan')
+);
+
+const HeadScan = lazy(
+  async () => await import('../Component/Projects/HeadScan')
+);
+
+const MobileDeepPill = lazy(
+  async () => await import('../Component/Projects/MobileDeepPill')
+);
+
+const SharpEar = lazy(
+  async () => await import('../Component/Projects/SharpEar')
+);
+
+const MobilePhoneSensorCorrelatesofDepressiveSymptomSeverityinDailyLifeBehavior = lazy(
+  async () => await import('../Component/Projects/MobilePhoneSensorCorrelatesofDepressiveSymptomSeverityinDailyLifeBehavior')
+);
+
+const DeepASL = lazy(
+  async () => await import('../Component/Projects/DeepASL')
 );
 
 function Index() {
@@ -91,7 +175,95 @@ function Index() {
         {
           path: '/EdgeAI',
           element: <EdgeAI></EdgeAI>,
-        }
+        },
+        {
+          path: '/FederatedLearningandSystems',
+          element: <FederatedLearningandSystems></FederatedLearningandSystems>,
+        },
+        {
+          path: '/AutoML',
+          element: <AutoML></AutoML>,
+        },
+        {
+          path: '/AIforWirelessSensingandNetworking',
+          element: <AIforWirelessSensingandNetworking></AIforWirelessSensingandNetworking>,
+        },
+        {
+          path: '/MobileHealth',
+          element: <MobileHealth></MobileHealth>,
+        },
+        {
+          path: '/EdgeAI/NestDNN',
+          element: <NestDNN></NestDNN>
+        },
+        {
+          path: '/EdgeAI/FlexDNN',
+          element: <FlexDNN></FlexDNN>
+        },
+        {
+          path: '/EdgeAI/Mercury',
+          element: <Mercury></Mercury>
+        },
+        {
+          path: '/EdgeAI/Distream',
+          element: <Distream></Distream>
+        },
+        {
+          path: '/FederatedLearningandSystems/GPT-FL',
+          element: <GPTFL></GPTFL>
+        },
+        {
+          path: '/FederatedLearningandSystems/FedRolex',
+          element: <FedRolex></FedRolex>
+        },
+        {
+          path: '/FederatedLearningandSystems/PyramidFL',
+          element: <PyramidFL></PyramidFL>
+        },
+        {
+          path: '/AutoML/DoesUnsupervisedArchitectureRepresentationLearningHelpNeuralArchitectureSearch',
+          element: <DoesUnsupervisedArchitectureRepresentationLearningHelpNeuralArchitectureSearch></DoesUnsupervisedArchitectureRepresentationLearningHelpNeuralArchitectureSearch>
+        },
+        {
+          path: '/AutoML/DeepAutoAugment',
+          element: <DeepAutoAugment></DeepAutoAugment>
+        },
+        {
+          path: '/AutoML/CATE',
+          element: <CATE></CATE>
+        },
+        {
+          path: '/AIforWirelessSensingandNetworking/NELoRa',
+          element: <NELoRa></NELoRa>
+        },
+        {
+          path: '/AIforWirelessSensingandNetworking/WiFiSeeItAll',
+          element: <WiFiSeeItAll></WiFiSeeItAll>
+        },
+        {
+          path: '/AIforWirelessSensingandNetworking/BodyScan',
+          element: <BodyScan></BodyScan>
+        },
+        {
+          path: '/AIforWirelessSensingandNetworking/HeadScan',
+          element: <HeadScan></HeadScan>
+        },
+        {
+          path: '/MobileHealth/MobileDeepPill',
+          element: <MobileDeepPill></MobileDeepPill>
+        },
+        {
+          path: '/MobileHealth/SharpEar',
+          element: <SharpEar></SharpEar>
+        },
+        {
+          path: '/MobileHealth/DeepASL',
+          element: <DeepASL></DeepASL>
+        },
+        {
+          path: '/MobileHealth/MobilePhoneSensorCorrelatesofDepressiveSymptomSeverityinDailyLifeBehavior',
+          element: <MobilePhoneSensorCorrelatesofDepressiveSymptomSeverityinDailyLifeBehavior></MobilePhoneSensorCorrelatesofDepressiveSymptomSeverityinDailyLifeBehavior>
+        },
       ]
     },
   ])
