@@ -6,22 +6,22 @@ function NELoRa() {
   return (
     <div className='project_container'>
         <div className='project_title'>
-            Distream: Scaling Live Video Analytics with Workload-Adaptive Distributed Edge Intelligence
+        NELoRa: Towards Ultra-low SNR LoRa Communication with Neural-enhanced Demodulation
         </div>
 
         <div className='project_conference'>
-            SenSys'20
+        SenSys'21
         </div>
         <div className='project_members'>
-            Xiao Zeng, Biyi Fang, Haichen Shen, and Mi Zhang.
+        Chenning Li, Hanqing Guo, Shuai Tong, Xiao Zeng, Zhichao Cao, Mi Zhang, Qiben Yan, Li Xiao, Jiliang Wang, and Yunhao Liu.
         </div>
         <div className='project_buttons'>
-            <a href="" className='project_button'>
+            <a href="https://mi-zhang.github.io/papers/2021_SenSys_NELoRa.pdf" className='project_button'>
                 <svg t="1687728426228" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2399" width="16" height="16"><path d="M213.34016 0l597.34016 0q53.00224 0 90.50112 37.49888t37.49888 90.50112l0 768q0 53.00224-37.49888 90.50112t-90.50112 37.49888l-597.34016 0q-53.00224 0-90.50112-37.49888t-37.49888-90.50112l0-768q0-53.00224 37.49888-90.50112t90.50112-37.49888zM341.34016 725.34016l341.34016 0q17.67424 0 30.16704 12.4928t12.4928 30.16704-12.4928 30.16704-30.16704 12.4928l-341.34016 0q-17.67424 0-30.16704-12.4928t-12.4928-30.16704 12.4928-30.16704 30.16704-12.4928zM341.34016 554.65984l341.34016 0q17.67424 0 30.16704 12.4928t12.4928 30.16704-12.4928 30.16704-30.16704 12.4928l-341.34016 0q-17.67424 0-30.16704-12.4928t-12.4928-30.16704 12.4928-30.16704 30.16704-12.4928zM810.65984 85.34016l-597.34016 0q-17.67424 0-30.16704 12.4928t-12.4928 30.16704l0 768q0 17.67424 12.4928 30.16704t30.16704 12.4928l597.34016 0q17.67424 0 30.16704-12.4928t12.4928-30.16704l0-768q0-17.67424-12.4928-30.16704t-30.16704-12.4928zM341.34016 384l341.34016 0q17.67424 0 30.16704 12.4928t12.4928 30.16704-12.4928 30.16704-30.16704 12.4928l-341.34016 0q-17.67424 0-30.16704-12.4928t-12.4928-30.16704 12.4928-30.16704 30.16704-12.4928zM341.34016 213.34016l170.65984 0q17.67424 0 30.16704 12.4928t12.4928 30.16704-12.4928 30.16704-30.16704 12.4928l-170.65984 0q-17.67424 0-30.16704-12.4928t-12.4928-30.16704 12.4928-30.16704 30.16704-12.4928z" fill="#ffffff" p-id="2400"></path></svg>
                 &nbsp;Paper
             </a>
 
-            <a href="" className='project_button'>
+            <a href="https://mi-zhang.github.io/papers/2021_SenSys_NELoRa.bib" className='project_button'>
             <svg t="1687730915571" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2419" width="16" height="16"><path d="M313.6 170.666667h469.333333c27.733333 0 42.666667 14.933333 42.666667 42.666666v512c0 8.533333-4.266667 17.066667-10.666667 23.466667l-36.266666 36.266667c-2.133333 2.133333-6.4 4.266667-6.4 2.133333-2.133333 0-2.133333-4.266667-2.133334-6.4v-539.733333c0-4.266667-2.133333-6.4-4.266666-10.666667s-6.4-4.266667-10.666667-4.266667h-398.933333c-8.533333 0-17.066667 4.266667-23.466667 10.666667l-36.266667 36.266667c-2.133333 2.133333-4.266667 6.4-2.133333 6.4 0 2.133333 4.266667 2.133333 6.4 2.133333h398.933333c4.266667 0 6.4 2.133333 10.666667 4.266667s4.266667 6.4 4.266667 10.666666v539.733334c0 4.266667-2.133333 6.4-4.266667 10.666666s-6.4 4.266667-10.666667 4.266667H213.333333c-4.266667 0-6.4-2.133333-10.666666-4.266667s-4.266667-6.4-4.266667-10.666666v-554.666667c0-8.533333 4.266667-17.066667 10.666667-23.466667l78.933333-78.933333c6.4-4.266667 14.933333-8.533333 25.6-8.533333z" p-id="2420" fill="#ffffff"></path></svg>
                 &nbsp;BibTex
             </a>
@@ -46,7 +46,7 @@ function NELoRa() {
                 Abstract
             </div>
             <div className='project_abstract_content'>
-            Video cameras have been deployed at scale today. Driven by the breakthrough in deep learning (DL), organizations that have deployed these cameras start to use DL-based techniques for live video analytics. Although existing systems aim to optimize live video analytics from a variety of perspectives, they are agnostic to the workload dynamics in real-world deployments. In this work, we present Distream, a distributed live video analytics system based on the smart camera-edge cluster architecture, that is able to adapt to the workload dynamics to achieve low-latency, high-throughput, and scalable live video analytics. The key behind the design of Distream is to adaptively balance the workloads across smart cameras and partition the workloads between cameras and the edge cluster. In doing so, Distream is able to fully utilize the compute resources at both ends to achieve optimized system performance. We evaluated Distream with 500 hours of distributed video streams from two real-world video datasets with a testbed that consists of 24 cameras and a 4-GPU edge cluster. Our results show that Distream consistently outperforms the status quo in terms of throughput, latency, and latency service level objective (SLO) miss rate.
+            Low-Power Wide-Area Networks (LPWANs) are an emerging Internetof-Things (IoT) paradigm marked by low-power and long-distance communication. Among them, LoRa is widely deployed for its unique characteristics and open-source technology. By adopting the Chirp Spread Spectrum (CSS) modulation, LoRa enables low signal-to-noise ratio (SNR) communication. However, the standard demodulation method does not fully exploit the properties of chirp signals, thus yields a sub-optimal SNR threshold under which the decoding fails. Consequently, the communication range and energy consumption have to be compromised for robust transmission. This paper presents NELoRa, a neural-enhanced LoRa demodulation method, exploiting the feature abstraction ability of deep learning to support ultra-low SNR LoRa communication. Taking the spectrogram of both amplitude and phase as input, we !rst design a mask-enabled Deep Neural Network (DNN) !lter that extracts multi-dimension features to capture clean chirp symbols. Second, we develop a spectrogram-based DNN decoder to decode these chirp symbols accurately. Finally, we propose a generic packet demodulation system by incorporating a method that generates high-quality chirp symbols from received signals. We implement and evaluate NELoRa on both indoor and campus-scale outdoor testbeds. The results show that NELoRa achieves 1.84-2.35 dB SNR gains and extends the battery life up to 272% (⇠0.38-1.51 years) in average for various LoRa con!gurations.
             </div>
         </div>
     </div>

@@ -6,7 +6,7 @@ import ProjectPanel from '../ProjectPanel'
 function MobileHealth() {
   return (
     <div>
-      <ContentTitle title = "AI for Wireless Sensing and Networking" subtitle = "Research"></ContentTitle>
+      <ContentTitle title = "Mobile Health" subtitle = "Research"></ContentTitle>
       <ProjectPanel 
       link = "./#/MobileHealth/MobileDeepPill"
       imageURL = "./images/projects/EdgeAI.png"

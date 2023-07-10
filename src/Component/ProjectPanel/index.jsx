@@ -8,12 +8,14 @@ const ProjectPanel = ( {link, imageURL, title, content} ) => (
           <div className='projectPanelTitle'>
             {title}
           </div>
-          <div className='projectPanelImgContainer'>
-            <img src={imageURL} alt="" className='projectPanelImg'/>
-          </div>
-          <div className='projectPanelTextContainer'>
-            <div className='projectPanelContent'>
-              <div dangerouslySetInnerHTML={{ __html: content }}></div>
+          <div className='projectFlex'>
+            <div className='projectPanelImgContainer'>
+              <img src={imageURL} alt="" className='projectPanelImg'/>
+            </div>
+            <div className='projectPanelTextContainer'>
+              <div className='projectPanelContent'>
+                <div dangerouslySetInnerHTML={{ __html: content }}></div>
+              </div>
             </div>
           </div>
       </div>

@@ -83,9 +83,9 @@ function Home() {
         <div className='researchBlocks'>
           <div className='researchBlock'><div className='researchBlockTitle'>Edge AI</div><img src="./images/mhealth.png" alt="" /></div>
           <div className='researchBlock'><div className='researchBlockTitle'>Federated Learning and Systems</div><img src="./images/mhealth2.webp" alt="" /></div>
-          <div className='researchBlock'><div className='researchBlockTitle'>AutoML</div><img src="./images/mhealth.png" alt="" /></div>
-          <div className='researchBlock'><div className='researchBlockTitle'>AI for Wireless Sensing and Networking</div><img src="./images/mhealth2.webp" alt="" /></div>
-          <div className='researchBlock'><div className='researchBlockTitle'>Mobile Health</div><img src="./images/mhealth.png" alt="" /></div>
+          <div className='researchBlock'><div className='researchBlockTitle'>AutoML</div><img src="./images/AutoML.png" alt="" /></div>
+          <div className='researchBlock'><div className='researchBlockTitle'>AI for Wireless Sensing and Networking</div><img src="./images/AIforWSN.png" alt="" /></div>
+          <div className='researchBlock'><div className='researchBlockTitle'>Mobile Health</div><img src="./images/mhealth2.webp" alt="" /></div>
         </div>
       </div>
 

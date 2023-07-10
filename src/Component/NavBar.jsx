@@ -79,7 +79,7 @@ const NavBar = () => {
     }
   };
   return <Affix offsetTop={top}>
-    <Menu className='flex-center' onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} overflowedIndicator/>
+    <Menu className='flex-center' onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />
   </Affix>
   ;
 };

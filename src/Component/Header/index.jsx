@@ -5,19 +5,10 @@ import NavBar from '../NavBar';
 function Header() {
   return (
     <div>
-        {/* <div className='rectangle1'>
-            <div className='OSULogo'>The Ohio State University</div>
-            <div className='redLine'></div>
-            <div className='labBlock'>
-              <img src="./images/LabLogo.png" alt="" className='labLogo'/>
-              <div className='labTitle'>AIoT And Machine Learning Systems Lab</div>
-            </div>
-            <NavBar></NavBar>
-        </div> */}
         <div className='headerBox'>
           <img src="./images/LabLogo.png" alt="" className='labLogo'/>
           <div className='labTitle'>OSU AIoT and Machine Learning Systems Lab</div>
-          <img src="./images/OSUHeaderLogo.svg" alt="" className='headerOSULogo'/>
+          <img src="./images/headerOSULogo.svg" alt="" className='headerOSULogo'/>
         </div>
         <NavBar></NavBar>
     </div>

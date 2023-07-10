@@ -1,47 +1,19 @@
-.rectangle1 {
-    width: auto;
-    height: 235px;
-    background-color: #272626;
-}
-
-.redLine {
-    margin-top: 15px;
-    width: auto;
-    height: 4px;
-    background-color: #f10303;
-}
-
-.OSULogo {
-    color: #fff;
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 45px;
-    font-family: Trajan Pro, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-    width: auto;
-    height: 32px;
-    padding-left: 5%;
-    flex-direction: column;
-}
-
 .labTitle {
     color: #fff;
     font-size: 1.4rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
     font-weight: bold;
     font-family: 'Poppins-L', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
-    height: 2rem;
-    margin-left: 40px;
+    margin-left: 3%;
     word-wrap: break-word;
     
 }
 
-.smallLogo{
-  width: 30px;
-  margin-left: 5px;
-  margin-top: 5px;
-  float: left;
+@media screen and (max-width: 480px) {
+  .headerOSULogo {
+    display: none;
+  }
 }
 
 .labLogo{
@@ -50,14 +22,11 @@
   margin-left: 10%;
 }
 
-.labBlock{
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  justify-content: center;
-  align-items: center;
-  height: 110px;
+.headerOSULogo {
+  height: 80px;
+  margin-left: auto;
 }
+
 
 .headerBox {
   background-color: black;
@@ -65,8 +34,8 @@
   width: 100%;
   display: flex;
   align-items: center;
-  overflow: hidden;
-  padding-left: 10%;
+  justify-content: space-between;
+  padding-left: 3%;
   padding-right: 10%;
 }
 
@@ -81,8 +50,3 @@
   height: 225px;
 }
 
-.headerOSULogo {
-  height: 150px;
-  margin-left: auto;
-  margin-right: 10%;
-}

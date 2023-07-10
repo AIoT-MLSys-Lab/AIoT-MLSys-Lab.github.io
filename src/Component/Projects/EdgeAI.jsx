@@ -23,61 +23,18 @@ function EdgeAI() {
 
       <ProjectPanel 
       link = "./#/EdgeAI/Mercury"
-      imageURL = "./images/projects/EdgeAI.png"
+      imageURL = "./images/projects/Mercury.svg"
       title = "Mercury: Efficient On-Device Distributed DNN Training via Stochastic Importance Sampling"
       content = "As intelligence is moving from data centers to the edges, intelligent edge devices such as smartphones, drones, robots, and smart IoT devices are equipped with the capability to altogether train a deep learning model on the devices from the data collected by themselves. Despite its considerable value, the key bottleneck of making on-device distributed training practically useful in real-world deployments is that they consume a significant amount of training time under wireless networks with constrained bandwidth. To tackle this critical bottleneck, we present Mercury, an importance sampling-based framework that enhances the training efficiency of on-device distributed training without compromising the accuracies of the trained models. The key idea behind the design of Mercury is to focus on samples that provide more important information in each training iteration. In doing this, the training efficiency of each iteration is improved. As such, the total number of iterations can be considerably reduced so as to speed up the overall training process. We implemented Mercury and deployed it on a self-developed testbed. We demonstrate its effectiveness and show that Mercury consistently outperforms two status quo frameworks on six commonly used datasets across tasks in image classification, speech recognition, and natural language processing."
       ></ProjectPanel>
 
       <ProjectPanel 
       link = "./#/EdgeAI/Distream"
-      imageURL = "./images/projects/EdgeAI.png"
+      imageURL = "./images/projects/Distream.svg"
       title = "Distream: Scaling Live Video Analytics with Workload-Adaptive Distributed Edge Intelligence"
       content = "Video cameras have been deployed at scale today. Driven by the breakthrough in deep learning (DL), organizations that have deployed these cameras start to use DL-based techniques for live video analytics. Although existing systems aim to optimize live video analytics from a variety of perspectives, they are agnostic to the workload dynamics in real-world deployments. In this work, we present Distream, a distributed live video analytics system based on the smart camera-edge cluster architecture, that is able to adapt to the workload dynamics to achieve low-latency, high-throughput, and scalable live video analytics. The key behind the design of Distream is to adaptively balance the workloads across smart cameras and partition the workloads between cameras and the edge cluster. In doing so, Distream is able to fully utilize the compute resources at both ends to achieve optimized system performance. We evaluated Distream with 500 hours of distributed video streams from two real-world video datasets with a testbed that consists of 24 cameras and a 4-GPU edge cluster. Our results show that Distream consistently outperforms the status quo in terms of throughput, latency, and latency service level objective (SLO) miss rate."
       ></ProjectPanel>
 
-      {/* <div className='contentBG'>
-        <a href="./#/project/project1">
-          <div className='researchItem'>
-            <img src="images/projects/EdgeAI.png" alt="" className='projectImg'></img>
-            <div className='contentText'>
-              <div className='itemTitle'>Project 1</div>
-              <div className='redShortLineContent'></div>
-              <div className='researchSummary'>
-              The proliferation of edge devices such as mobile phones and Internet of Things as well as the gigantic amount of data they generate make it no longer feasible to transmit all the data to the cloud for processing. Such constraint fuels the d sustainability. Achieving such goal requires a combination of approaches. My work draws insights from a broad set of disciplines including mobile & embedded systems, AI/machine learning, wireless networking, distributed systems, and human-centered computing.
-              </div>
-            </div>
-            
-          </div>
-        </a>
-
-        <a href="">
-          <div className='researchItem'>
-          <img src="images/projects/EdgeAI.png" alt="" className='projectImg'></img>
-            <div className='contentText'>
-              <div className='itemTitle'>Project Name</div>
-              <div className='redShortLineContent'></div>
-              <div className='researchSummary'>
-              The proliferation of edge devices such as mobile phones and Internet of Things as well as the gigantic amount of data they generate make it no longer feasible to transmit all the data to the cloud for processing. Such constraint fuels the d sustainability. Achieving such goal requires a combination of approaches. My work draws insights from a broad set of disciplines including mobile & embedded systems, AI/machine learning, wireless networking, distributed systems, and human-centered computing.
-              </div>
-            </div>
-          </div>
-        </a>
-
-        <a href="">
-          <div className='researchItem'>
-          <img src="images/projects/EdgeAI.png" alt="" className='projectImg'></img>
-            <div className='contentText'>
-              <div className='itemTitle'>Project Name</div>
-              <div className='redShortLineContent'></div>
-              <div className='researchSummary'>
-              The proliferation of edge devices such as mobile phones and Internet of Things as well as the gigantic amount of data they generate make it no longer feasible to transmit all the data to the cloud for processing. Such constraint fuels the d sustainability. Achieving such goal requires a combination of approaches. My work draws insights from a broad set of disciplines including mobile & embedded systems, AI/machine learning, wireless networking, distributed systems, and human-centered computing.
-              </div>
-            </div>
-          </div>
-        </a>
-
-
-      </div> */}
     </div>
     
   )
