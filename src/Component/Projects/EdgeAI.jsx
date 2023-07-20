@@ -16,7 +16,7 @@ function EdgeAI() {
 
       <ProjectPanel 
       link = "./#/EdgeAI/FlexDNN"
-      imageURL = "./images/projects/EdgeAI.png"
+      imageURL = "./images/projects/FlexDNN.svg"
       title = "FlexDNN: Input-Adaptive On-Device Deep Learning for Efficient Mobile Vision"
       content = "Mobile vision systems powered by the recent advancement in Deep Neural Networks (DNNs) are enabling a wide range of on-device video analytics applications. Considering mobile systems are constrained with limited resources, reducing resource demands of DNNs is crucial to realizing the full potential of these applications. In this work, we present FlexDNN, an input-adaptive DNN-based framework for efficient on-device video analytics. To achieve this, FlexDNN takes the intrinsic dynamics of mobile videos into consideration, and dynamically adapts its model complexity to the difficulty levels of input video frames to achieve computation efficiency. FlexDNN addresses the key drawbacks of existing systems and pushes the state-of-the-art forward. We use FlexDNN to build three representative on-device video analytics applications, and evaluate its performance on both mobile CPU and GPU platforms. Our results show that FlexDNN significantly outperforms status quo approaches in accuracy, average CPU/GPU processing time per frame, frame drop rate, and energy consumption."
       ></ProjectPanel>

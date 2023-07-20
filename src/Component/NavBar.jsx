@@ -18,20 +18,20 @@ const items = [
         key: 'EdgeAI',
       },
       {
-        label: 'Federated Learning and Systems',
-        key: 'FederatedLearningandSystems',
-      },
-      {
-        label: 'AutoML',
-        key: 'AutoML',
-      },
-      {
         label: 'AI for Wireless Sensing and Networking',
         key: 'AIforWirelessSensingandNetworking',
       },
       {
+        label: 'Federated Learning and Systems',
+        key: 'FederatedLearningandSystems',
+      },
+      {
         label: 'Mobile Health',
         key: 'MobileHealth',
+      },
+      {
+        label: 'AutoML',
+        key: 'AutoML',
       },
     ]
   },
@@ -80,6 +80,7 @@ const NavBar = () => {
   };
   return <Affix offsetTop={top}>
     <Menu className='flex-center' onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />
+    {/* <div className='NavBarLine'></div> */}
   </Affix>
   ;
 };

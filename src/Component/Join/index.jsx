@@ -24,7 +24,7 @@ function Join() {
             <div className='JoinHighLight'>
             Position 1: &nbsp;
             </div>
-           We are looking for a Master/Undergraduate student to work on a project on developing a chatbot. Please see the ads for more information.
+           We are looking for a Master/Undergraduate student to work on a project on developing a chatbot. Please see the <a href="./files/ChatGPT_Job Ads.pdf" className='JoinAdsLink'>ads</a> for more information.
           
           </li>
         </div>

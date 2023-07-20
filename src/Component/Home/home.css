@@ -112,7 +112,7 @@
 
 
 .homeNews {
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     background-color: #ffffff;
     color: #000000;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
@@ -134,7 +134,6 @@
     font-family: 'Poppins-R', sans-serif;
     font-size: 32px;
     line-height: 40px;
-    margin-top: 20px;
     margin-bottom: 30px;
     text-align: center;
     font-weight: bold;
@@ -167,20 +166,23 @@
 }
 
 .researchBlocks {
-    /* display: grid;
-    grid-template-columns: repeat(5, 1fr); */
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* display: flex;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 
-.researchBlock {
+.researchCenter {
+    grid-row: 2;
+    grid-column: 2;
+
     min-height: 300px;
-    margin-bottom: 20px;
     border-radius: 4px;
-    margin: 0 10px;
+    margin-bottom: 20px;
 
     text-align: center;
+    justify-content: center;
     font-family: 'Poppins-R', sans-serif;
     font-size: 1rem;
     font-weight: bold;
@@ -190,13 +192,66 @@
     flex-direction: column;
 }
 
+/* .researchCenter:hover {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+} */
+
+.researchCenter2 {
+    grid-row: 2;
+    grid-column: 3;
+
+    min-height: 300px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins-R', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .researchCenter2:hover {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+} */
+
+.researchBlock {
+    min-height: 300px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins-R', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+/* .researchBlock:hover {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+} */
+
 .researchBlockTitle {
     height: 20px;
 }
 
-.researchBlock img {
-    padding-top: 40px;
-    max-width: 250px;
+.researchBlocks img {
+    padding-top: 20px;
+    /* max-width: 278px; */
+    max-width: 320px;
 }
 
 .homeResearchTitle{
@@ -205,14 +260,9 @@
     font-weight: bold;
     line-height: 2rem;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
     color: crimson;
-}
-
-.collection {
-    grid-column: 2;
-    grid-row: 2;
 }
 
 .homeSponsor {
@@ -223,8 +273,7 @@
 .homeSponsorTitle {
     font-family: 'Poppins-R', sans-serif;
     font-size: 2rem;
-    line-height: 2rem;
-    margin-top: 20px;
+    line-height: 1.5rem;
     margin-bottom: 40px;
     text-align: center;
     color: crimson;
@@ -239,10 +288,11 @@
 .missionHighLight {
     display: inline;
     font-weight: bold;
+    color: rgb(19, 32, 64)
 }
 
 @media (max-width: 1500px) {
     .homeSponsorItem {
       height: 40px; /* 缩小为80% */
     }
-  }
+}

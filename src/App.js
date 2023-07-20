@@ -14,8 +14,6 @@ import Footer from './Component/Footer';
 import Index from './Router/index';
 import NavBar from './Component/NavBar';
 import CanvasNest from './Component/CanvasNest';
-import ProjectHeader from './Component/ProjectHeader';
-import ProjectFooter from './Component/ProjectFooter';
 
 function App() {
   const {lang}  = useSelector(store=>store.demo);
@@ -25,14 +23,12 @@ function App() {
       <CanvasNest></CanvasNest>
       <Router>
         <Routes>
-          <Route exact path="/project/*" element={<ProjectHeader></ProjectHeader>} />
           <Route path="/*" element={<Header></Header>}/>
         </Routes>
 
         <Index></Index>
 
         <Routes>
-          <Route path="/project/*" element={<ProjectFooter></ProjectFooter>} />
           <Route path="/*" element={<Footer></Footer>}/>
         </Routes>
        

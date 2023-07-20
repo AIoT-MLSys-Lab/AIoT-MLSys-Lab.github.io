@@ -78,14 +78,26 @@ function Home() {
         <Collection className="collection"></Collection>
       </div> */}
       
+      {/* <div className="homeResearch">
+        <div className='homeResearchTitle'>Research Areas</div>
+        <div className='researchBlocks'>
+          <div className='researchBlock'><div className='researchBlockTitle'>Edge AI</div><img src="./images/EdgeAI.png" alt="" /></div>
+          <div className='researchBlock'><div className='researchBlockTitle'>AI for Wireless Sensing and Networking</div><img src="./images/AIforWSN.png" alt="" /></div>
+          <div className='researchBlock'><div className='researchBlockTitle'>Federated Learning and Systems</div><img src="./images/FLSys.png" alt="" /></div>
+          <div className='researchBlock'><div className='researchBlockTitle'>Mobile Health</div><img src="./images/mhealth2.webp" alt="" /></div>
+          <div className='researchBlock'><div className='researchBlockTitle'>AutoML</div><img src="./images/AutoML.png" alt="" /></div>
+        </div>
+      </div> */}
+
       <div className="homeResearch">
         <div className='homeResearchTitle'>Research Areas</div>
         <div className='researchBlocks'>
-          <div className='researchBlock'><div className='researchBlockTitle'>Edge AI</div><img src="./images/mhealth.png" alt="" /></div>
-          <div className='researchBlock'><div className='researchBlockTitle'>Federated Learning and Systems</div><img src="./images/mhealth2.webp" alt="" /></div>
-          <div className='researchBlock'><div className='researchBlockTitle'>AutoML</div><img src="./images/AutoML.png" alt="" /></div>
+          <div className='researchBlock'><div className='researchBlockTitle'>Edge AI</div><img src="./images/EdgeAI.png" alt="" /></div>
           <div className='researchBlock'><div className='researchBlockTitle'>AI for Wireless Sensing and Networking</div><img src="./images/AIforWSN.png" alt="" /></div>
+          <div className='researchBlock'><div className='researchBlockTitle'>Federated Learning and Systems</div><img src="./images/FLSys.png" alt="" /></div>
           <div className='researchBlock'><div className='researchBlockTitle'>Mobile Health</div><img src="./images/mhealth2.webp" alt="" /></div>
+          <div className='researchCenter'><div className='researchBlockTitle'>Large Language Model and Generative AI</div><img src="./images/LLM&GAI.png" alt="" /></div>
+          <div className='researchCenter2'><div className='researchBlockTitle'>AutoML</div><img src="./images/AutoML.png" alt="" /></div>
         </div>
       </div>
 
