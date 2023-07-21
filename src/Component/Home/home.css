@@ -167,10 +167,9 @@
 
 .researchBlocks {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap; */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    grid-auto-flow: dense; /* 允许自动换行 */
 }
 
 .researchCenter {
@@ -235,8 +234,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-
-
 }
 
 /* .researchBlock:hover {
@@ -294,5 +291,143 @@
 @media (max-width: 1500px) {
     .homeSponsorItem {
       height: 40px; /* 缩小为80% */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .homeContainer {
+        display: initial;
+        grid-template-columns: initial;
+        margin: 0 auto;
+    }
+
+    .homeHolder {
+        width: 100%;
+        height: 100px;
+    }
+
+    .homeResearchTitle {
+        margin-top: 30px;
+        font-size: 2.2rem;
+    }
+
+    .researchBlocks {
+        display: initial;
+        grid-template-columns: initial;
+        grid-gap: initial;
+        grid-auto-flow: initial;
+    }
+
+    .researchBlock {
+        min-height: 230px;
+        min-width: 300px;
+        border-radius: 4px;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Poppins-R', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    
+        align-items: center;
+
+        margin: initial;
+    }
+
+    .researchCenter {
+        min-height: 230px;
+        border-radius: 4px;
+    
+        text-align: center;
+        justify-content: center;
+        font-family: 'Poppins-R', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .researchCenter2 {
+        min-height: 230px;
+        min-width: 300px;
+        border-radius: 4px;
+    
+        text-align: center;
+        justify-content: center;
+        font-family: 'Poppins-R', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    
+        align-items: center;
+    }
+
+    .researchBlocks img {
+        padding-top: 10px;
+        max-width: 240px;
+    }
+
+    .homeSponsor img{
+        width: 95%;
+    }
+
+    .mission {
+        grid-column: initial;
+        grid-row: initial;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+    
+    
+    .missionTitle{
+        font-size: 2.2rem;
+        font-family: 'Poppins-R', sans-serif;
+        line-height: 40px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: bold;
+        color: crimson;
+    }
+    
+    .missionContent {
+        background-color: #ffffff;
+        color: #000000;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 2px solid #165dba41;
+        border-radius: 4px;
+        padding: 19px;
+        margin: 0 15px;
+    }
+
+
+    .homeNews {
+        margin: 0 15px;
+    }
+
+    .homeNewsTitle {
+        font-size: 2.2rem;
+    }
+
+    .homeAchievement {
+        padding-top: 30px;
+        grid-column: initial;
+        grid-row: initial;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        line-height: 25px;
+        margin: 0 15px;
+    }
+
+    .homeAchievementTitle {
+        font-family: 'Poppins-R', sans-serif;
+        font-size: 2.2rem;
+        line-height: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: bold;
+        color: crimson;
     }
 }

@@ -10,12 +10,6 @@
     
 }
 
-@media screen and (max-width: 480px) {
-  .headerOSULogo {
-    display: none;
-  }
-}
-
 .labLogo{
   width: auto;
   height: 80%;
@@ -53,3 +47,39 @@
   height: 225px;
 }
 
+.floatButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+@media screen and (max-width: 480px) {
+  .labLogo{
+    margin-left: 3%;
+  }
+
+  .headerOSULogo {
+    display: none;
+  }
+  
+  .headerBox {
+    position: fixed;
+    top: 0;
+    padding-right: 4%;
+  }
+
+  .headerBtn {
+    height: 50px;
+    width: 80px;
+  }
+
+  .navBarContent {
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+  }
+
+  .navBarContent a{
+    margin-bottom: 30px;
+  }
+}

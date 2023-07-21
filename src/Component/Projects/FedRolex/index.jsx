@@ -42,7 +42,7 @@ function FedRolex() {
         
         <div className='project_collection'>
             <div>
-                <img src="./images/projects/FedRolex.svg" alt=""  className='project_collection_img'/>
+                <img src="./images/projects/FedRolex_in.svg" alt=""  className='project_collection_img'/>
             </div>
         </div>
 

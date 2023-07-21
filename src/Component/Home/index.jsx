@@ -6,6 +6,7 @@ import './home.css'
 function Home() {
   return (
     <div className="homeContainer">
+      <div className="homeHolder"></div>
       <div className="mission">
         <h2 className='missionTitle'>Our Mission</h2>
         <div className='missionContent'>

@@ -1,7 +1,5 @@
 .JoinContent {
-    margin: 0 auto;
-    max-width: 1200px;
-    margin-bottom: 400px;
+
 }
 
 .JoinTitle {
@@ -32,4 +30,15 @@
 
 .JoinAdsLink {
     color: blue;
+}
+
+.JoinContainer{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 400px;
+}
+
+.JoinLabLogo{
+    max-width: 300px;
 }

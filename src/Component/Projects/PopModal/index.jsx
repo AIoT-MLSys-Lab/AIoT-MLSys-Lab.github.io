@@ -34,7 +34,18 @@ const PopModal = ( props ) => {
           <p>{props.inproceeding}</p>
           <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.title}</p>
           <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.author}</p>
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.booktitle}</p>
+          {props.booktitle && (
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.booktitle}</p>
+          )}
+          {props.journal && (
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.journal}</p>
+          )}
+          {props.volume && (
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.volume}</p>
+          )}
+          {props.number && (
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.number}</p>
+          )}
           {props.pages && (
             <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.pages}</p>
           )}

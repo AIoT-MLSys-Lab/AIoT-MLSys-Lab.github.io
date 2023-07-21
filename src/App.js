@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 //INTL
 import { IntlProvider, useIntl } from 'react-intl';
 import enUS from './locales/en-US.json'
@@ -18,9 +19,21 @@ import CanvasNest from './Component/CanvasNest';
 function App() {
   const {lang}  = useSelector(store=>store.demo);
   console.log(lang);
+
+  const [isWideScreen, setIsWideScreen] = useState(window.innerWidth > 600);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsWideScreen(window.innerWidth > 600);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+  
   return (
     <IntlProvider locale={lang} messages={lang === 'en-US' ? enUS : zhCN}>
-      <CanvasNest></CanvasNest>
+      {isWideScreen && <CanvasNest />}
       <Router>
         <Routes>
           <Route path="/*" element={<Header></Header>}/>
