@@ -37,3 +37,36 @@
 .talkItem a{
     color: #1371ffd5;
 }
+
+svg {
+    width: 32px;
+    height: 32px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (max-width: 480px) {
+    .talkYear{
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-left: 40px;
+    }
+
+    .talkContent{
+        margin-left: 15px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    
+    .talkItem{
+        display: flex;
+        font-size: 1rem;
+        line-height: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 40px;
+    }
+    
+}

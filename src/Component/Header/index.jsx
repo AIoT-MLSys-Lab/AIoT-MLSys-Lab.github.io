@@ -36,7 +36,7 @@ function Header() {
               <button type="primary" onClick={showDrawer} className='headerBtn'>
               <svg t="1689907402318" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2311" width="48" height="48"><path d="M892.928 128q28.672 0 48.64 19.968t19.968 48.64l0 52.224q0 28.672-19.968 48.64t-48.64 19.968l-759.808 0q-28.672 0-48.64-19.968t-19.968-48.64l0-52.224q0-28.672 19.968-48.64t48.64-19.968l759.808 0zM892.928 448.512q28.672 0 48.64 19.968t19.968 48.64l0 52.224q0 28.672-19.968 48.64t-48.64 19.968l-759.808 0q-28.672 0-48.64-19.968t-19.968-48.64l0-52.224q0-28.672 19.968-48.64t48.64-19.968l759.808 0zM892.928 769.024q28.672 0 48.64 19.968t19.968 48.64l0 52.224q0 28.672-19.968 48.64t-48.64 19.968l-759.808 0q-28.672 0-48.64-19.968t-19.968-48.64l0-52.224q0-28.672 19.968-48.64t48.64-19.968l759.808 0z" p-id="2312" fill="#ffffff"></path></svg>
               </button>
-              <Drawer title="Navigate" placement="right" onClose={onClose} open={open} width={250}>
+              <Drawer title="Navigate" placement="right" onClose={onClose} open={open} width={180}>
                 <div className='navBarContent'>
                   <a href="">
                     Space
@@ -56,10 +56,10 @@ function Header() {
                   <a href="./#/Publications">
                     Publications
                   </a>
-                  <a href="">
+                  <a href="./#/Courses">
                     Courses
                   </a>
-                  <a href="">
+                  <a href="./#/Talk">
                     Talks
                   </a>
                   <a href="./#/Join">
