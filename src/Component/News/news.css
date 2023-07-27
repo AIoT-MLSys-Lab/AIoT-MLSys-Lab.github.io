@@ -1,18 +1,3 @@
-.pageNav{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    min-height: 0vh;
-}
-
-.pageNavBottom{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-}
-
 .formCard{
     margin-bottom: 10px;
 }
@@ -67,4 +52,30 @@
 
 .newsCards {
     display: flex;
+}
+
+@media screen and (max-width: 480px) {
+    .newsContent{
+        display: initial;
+        grid-template-columns: initial;
+        grid-gap: 10px;
+        margin-bottom: 50px;
+    }
+
+    .newsCards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .newsAll {
+        margin: 0 20px;
+    }
+    
+    .newsYear {
+        margin: 0 50px;
+    }
+
+    .tab-button {
+        margin-left: 25px;
+    }
 }

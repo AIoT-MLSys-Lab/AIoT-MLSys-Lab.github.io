@@ -49,3 +49,16 @@
     color: #505152;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 480px) {
+    .newsCard {
+        width: 250px;
+        height: 500px;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin-left: 70px;
+    }
+    
+}

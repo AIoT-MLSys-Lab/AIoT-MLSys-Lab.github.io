@@ -107,4 +107,8 @@
     .footerMiddle {
         padding-top: 5px;
     }
+
+    .footerBox{
+        margin-top: 50px;
+    }
 }
