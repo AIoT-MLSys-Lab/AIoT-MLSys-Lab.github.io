@@ -1,34 +1,6 @@
-.pageNav{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    min-height: 0vh;
-}
-
-.pageNavBottom{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.formCard{
-    margin-bottom: 10px;
-}
-
-.publicationsTitle{
-    font-family: 'Poppins-R', sans-serif;
-    font-size: 2rem;
-    line-height: 2rem;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    color: #191D34;
-    margin-left: 15%;
-}
-
 .publicationsBlock{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .publicationsYear{
@@ -105,4 +77,34 @@
 .pubBlueHighLight {
     font-weight: bold;
     color: #0949b1;
+}
+
+@media screen and (max-width: 480px) {
+    .publicationsYear{
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .publicationsContent{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bookItem {
+        display: initial;
+        flex-direction: initial;
+        margin-right: initial;
+    }
+    
+    .bookImg {
+        width: 80px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .publicationsBook {
+        display: flex;
+        margin-bottom: 30px;
+
+    }
 }

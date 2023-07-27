@@ -39,6 +39,9 @@ function Header() {
               <Drawer title="Navigate" placement="right" onClose={onClose} open={open} width={250}>
                 <div className='navBarContent'>
                   <a href="">
+                    Space
+                  </a>
+                  <a href="./">
                     Home
                   </a>
                   <a href="">
@@ -47,7 +50,7 @@ function Header() {
                   <a href="./#/Members">
                     Members
                   </a>
-                  <a href="">
+                  <a href="./#/News">
                     News
                   </a>
                   <a href="">
