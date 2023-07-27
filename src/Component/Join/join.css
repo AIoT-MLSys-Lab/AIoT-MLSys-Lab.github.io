@@ -42,3 +42,22 @@
 .JoinLabLogo{
     max-width: 300px;
 }
+
+@media screen and (max-width: 480px) {
+    .JoinContainer{
+        display: initial;
+        margin: initial;
+        max-width: 480px;
+        margin-bottom: 200px;
+        margin-top: 30px;
+    }
+
+    .JoinContent {
+        margin: 0 20px;
+        padding-top: 30px;
+    }
+
+    .JoinLabLogo{
+        max-width: 380px;
+    }
+}

@@ -1,8 +1,18 @@
-import React from 'react';
+import {React, useEffect, useState} from 'react';
 import './join.css'
 import ContentTitle from '../ContentTitle'
 
 function Join() {
+  const [isWideScreen, setIsWideScreen] = useState(window.innerWidth > 600);
+  
+  useEffect(() => {
+    const handleResize = () => {
+      setIsWideScreen(window.innerWidth > 600);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <div>
@@ -34,7 +44,6 @@ function Join() {
           <img src="./images/LabLogoWhite.png" alt="" />
         </div>
       </div>
-
     </div>
   )
 }

@@ -53,7 +53,7 @@ function Header() {
                   <a href="./#/News">
                     News
                   </a>
-                  <a href="">
+                  <a href="./#/Publications">
                     Publications
                   </a>
                   <a href="">
@@ -62,10 +62,10 @@ function Header() {
                   <a href="">
                     Talks
                   </a>
-                  <a href="">
+                  <a href="./#/Join">
                     Join the Lab
                   </a>
-                  <a href="">
+                  <a href="https://sites.google.com/view/osu-aiot-seminar">
                     OSU AIoT Seminar
                   </a>
                 </div>
