@@ -132,3 +132,53 @@
 .selectedButton{
     color: #FF3414;
 }
+
+@media screen and (max-width: 480px) {
+    .memberTitle {
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    .facultySet {
+        display: initial;
+        grid-template-columns: initial;
+        margin-bottom: 50px;
+    }
+
+    .mizhang_card {
+        margin: 0 auto;
+    }
+
+    .mizhang_card img {
+        max-width: 330px;
+        width: 100%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    .mizhang_title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+        color: #001D38;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .social-icon {
+        width: 35px;
+        height: 35px;
+        margin-left: 10px;
+    }
+      
+    .social-icon img {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+
+    .mizhang_social {
+        margin-bottom: 20px;
+    }
+}

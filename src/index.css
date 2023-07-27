@@ -208,15 +208,21 @@ body {
 
 @font-face {
   font-family: 'Poppins';
-  src: url('../public/font/Poppins-Medium.ttf') format('truetype');
+  src: url('../public/font/Poppins-Medium.ttf') format('truetype'),
+       url('../public/font/Poppins-Medium.woff') format('woff'),
+       url('../public/font/Poppins-Medium.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Poppins-L';
-  src: url('../public/font/Poppins-Light.ttf') format('truetype');
+  src: url('../public/font/Poppins-Light.ttf') format('truetype'),
+       url('../public/font/Poppins-Light.woff') format('woff'),
+       url('../public/font/Poppins-Light.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Poppins-R';
-  src: url('../public/font/Poppins-Regular.ttf') format('truetype');
+  src: url('../public/font/Poppins-Regular.ttf') format('truetype'),
+       url('../public/font/Poppins-Light.woff') format('woff'),
+       url('../public/font/Poppins-Light.woff2') format('woff2');
 }
