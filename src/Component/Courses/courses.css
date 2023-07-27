@@ -20,6 +20,7 @@
     margin-left: 15%;
     object-fit: none; 
     object-position: center; 
+    max-width: 40%;
 }
 
 .CourseHighLight{
@@ -35,4 +36,39 @@
     font-size: 1rem;
     line-height: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    .CourseTitle {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+        margin-bottom: initial;
+        margin: initial;
+        margin-top: 20px;
+    }
+
+    .CourseContent {
+        display: initial;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .CourseImg {
+        margin-left: 10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        object-fit: contain; 
+        object-position: initial; 
+        max-width: 80%;
+    }
+
+    .CourseDesc {
+        justify-content: center;
+        align-items: center;
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 1rem;
+        line-height: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
