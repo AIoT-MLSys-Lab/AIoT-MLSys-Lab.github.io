@@ -44,7 +44,7 @@ function Header() {
                   <a href="">
                     Research
                   </a>
-                  <a href="">
+                  <a href="./#/Members">
                     Members
                   </a>
                   <a href="">
