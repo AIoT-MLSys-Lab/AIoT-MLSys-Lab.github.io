@@ -58,6 +58,13 @@
     }
 
     .JoinLabLogo{
-        max-width: 380px;
+        max-width: 400px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .JoinLabLogo img{
+        max-width: 280px;
     }
 }

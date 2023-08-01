@@ -84,3 +84,18 @@
     font-weight: bold;
     display: inline;
 }
+
+@media screen and (max-width: 480px) {
+    .mizhang{
+        display: initial;
+    }
+
+    .mizhangProfile{
+        margin-top: 100px;
+    }
+
+    .mizhangInfo {
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+}

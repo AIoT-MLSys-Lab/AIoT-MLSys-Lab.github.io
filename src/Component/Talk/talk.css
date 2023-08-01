@@ -38,16 +38,6 @@
     color: #1371ffd5;
 }
 
-svg {
-    width: 32px;
-    height: 32px;
-}
-
-.icon {
-    width: 32px;
-    height: 32px;
-}
-
 @media screen and (max-width: 480px) {
     .talkYear{
         font-size: 2rem;
