@@ -1,25 +1,47 @@
-import React from 'react'
+import React, { useEffect, useState }from 'react'
 import './MiZhang.css'
 
 function MiZhang() {
+  const [isWideScreen, setIsWideScreen] = useState(window.innerWidth > 600);
+  
+  useEffect(() => {
+    const handleResize = () => {
+      setIsWideScreen(window.innerWidth > 600);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <div className='mizhang'>
       <div className='mizhangProfile'>
-        <img src="./images/memberPhotos/MiZhang.png" alt="" className='mizhangImg'/>
+        <div className='mizhangImg'>
+          <img src="./images/memberPhotos/MiZhang.png" alt="" />
+        </div>
         {/* <div className='googleButton'>
             <a href="https://scholar.google.com/citations?user=r3A90uAAAAAJ&hl=en">
                 <button class="modern-button">Google Scholar</button>
             </a>
         </div> */}
+        {!isWideScreen && 
+        <>
+          <div className='mizhangTitle'>
+              Mi Zhang
+          </div>
+        </>}
         <div className='outsideProfile'>
             <a href="https://engineering.osu.edu/people/mizhang.1">OSU Profile</a> <br />
             <a href="https://mi-zhang.github.io/">Personal Website</a>
         </div>
       </div>
       <div className='mizhangInfo'>
-        <div className='mizhangTitle'>
-            Mi Zhang
-        </div>
+        {isWideScreen && 
+        <>
+          <div className='mizhangTitle'>
+              Mi Zhang
+          </div>
+        </>}
         <div className='mizhangBio'>
             Associate Professor<br />
             Director, AIoT and Machine Learning Systems Lab <br />

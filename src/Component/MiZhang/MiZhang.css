@@ -91,11 +91,31 @@
     }
 
     .mizhangProfile{
-        margin-top: 100px;
+        margin: 120px auto;
+        margin-bottom: 0px;
     }
 
     .mizhangInfo {
         margin: 0 auto;
         padding: 0 30px;
+    }
+
+    .mizhangImg {
+        margin: 0 auto;
+    }
+
+    .mizhangImg img{
+        width: 220px;
+    }
+
+    .mizhangTitle {
+        line-height: 2rem;
+        margin-bottom: initial;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .outsideProfile {
+        margin: 20px 0;
     }
 }
