@@ -31,6 +31,7 @@
 
 .talkIcon_left{
     height: 32px;
+    width: 32px;
     margin-left: 4px;
 }
 
@@ -42,21 +43,46 @@
     .talkYear{
         font-size: 2rem;
         line-height: 2rem;
-        margin-left: 40px;
+        margin-left: 20px;
+        margin-top: 30px;
     }
 
     .talkContent{
-        margin-left: 15px;
-        margin-top: 40px;
-        margin-bottom: 50px;
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 30px;
     }
     
     .talkItem{
-        display: flex;
+        display: initial;
         font-size: 1rem;
-        line-height: 1rem;
+        line-height: 1.3rem;
         font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 40px;
+        margin-top: 40px;
     }
     
+    .talkItem a{
+        color: #1371ffd5;
+        font-size: 1rem;
+    }
+
+    .talkStrong {
+        margin-left: 5px;
+        font-weight: bold;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .talkIcon_left {
+        margin-top: 30px;
+    }
+
+    .talkIcon_left_special {
+        margin-top: 30px;
+    }
+
+    .YoutubeIcon {
+        margin-left: 10px;
+    }
 }

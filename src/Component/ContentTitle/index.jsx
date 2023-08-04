@@ -4,7 +4,6 @@ import './contentTitle.css'
 const ContentTitle = ( props ) => (
     <div>
         <div className='imageContainer'>
-            {/* <img src="./images/OSU.jpg"></img> */}
 
             <div className='imageTitle'>
                 {props.title}
