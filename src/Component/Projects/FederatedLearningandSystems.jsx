@@ -8,6 +8,13 @@ function FederatedLearningandSystems() {
     <div>
       <ContentTitle title = "Federated Learning and Systems" subtitle = "Research"></ContentTitle>
       <ProjectPanel 
+      link = "./#/FederatedLearningandSystems/FedAIoT"
+      imageURL = "./images/projects/FedAIoT.svg"
+      title = "FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things"
+      content = "There is a significant relevance of federated learning (FL) in the realm of Artificial Intelligence of Things (AIoT). However, most existing FL works are not conducted on datasets collected from authentic IoT devices that capture unique modalities and inherent challenges of IoT data. In this work, we introduce FedAIoT, an FL benchmark for AIoT to fill this critical gap. FedAIoT includes eight datatsets collected from a wide range of IoT devices. These datasets cover unique IoT modalities and target representative applications of AIoT. FedAIoT also includes a unified end-to-end FL framework for AIoT that simplifies benchmarking the performance of the datasets. Our benchmark results shed light on the opportunities and challenges of FL for AIoT. We hope FedAIoT could serve as an invaluable resource to foster advancements in the important field of FL for AIoT."
+      ></ProjectPanel>
+
+      <ProjectPanel 
       // link = "./#/FederatedLearningandSystems/GPT-FL"
       imageURL = "./images/projects/GPT-FL.svg"
       title = "GPT-FL: Generative Pre-trained Model-Assisted Federated Learning"

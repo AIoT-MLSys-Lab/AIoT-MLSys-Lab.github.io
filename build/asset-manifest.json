@@ -1,12 +1,7 @@
 {
   "files": {
-<<<<<<< HEAD
-    "main.css": "/static/css/main.a2a6a8b7.css",
-    "main.js": "/static/js/main.a6a2809d.js",
-=======
     "main.css": "/static/css/main.8b4cd4f1.css",
-    "main.js": "/static/js/main.016b6c48.js",
->>>>>>> 45b3d81e9dc646f3debcfa74869c9feabdea54cb
+    "main.js": "/static/js/main.49cfced6.js",
     "static/js/341.ea1767e9.chunk.js": "/static/js/341.ea1767e9.chunk.js",
     "static/css/807.8e2d99d7.chunk.css": "/static/css/807.8e2d99d7.chunk.css",
     "static/js/807.ab4e2b3f.chunk.js": "/static/js/807.ab4e2b3f.chunk.js",
@@ -27,7 +22,7 @@
     "static/css/776.973d7a0b.chunk.css": "/static/css/776.973d7a0b.chunk.css",
     "static/js/776.ae475668.chunk.js": "/static/js/776.ae475668.chunk.js",
     "static/css/545.973d7a0b.chunk.css": "/static/css/545.973d7a0b.chunk.css",
-    "static/js/545.436fe1f1.chunk.js": "/static/js/545.436fe1f1.chunk.js",
+    "static/js/545.eed02aec.chunk.js": "/static/js/545.eed02aec.chunk.js",
     "static/css/565.973d7a0b.chunk.css": "/static/css/565.973d7a0b.chunk.css",
     "static/js/565.0aadd027.chunk.js": "/static/js/565.0aadd027.chunk.js",
     "static/css/827.973d7a0b.chunk.css": "/static/css/827.973d7a0b.chunk.css",
@@ -42,6 +37,8 @@
     "static/js/160.765b4dab.chunk.js": "/static/js/160.765b4dab.chunk.js",
     "static/css/582.b4620bd5.chunk.css": "/static/css/582.b4620bd5.chunk.css",
     "static/js/582.189c5974.chunk.js": "/static/js/582.189c5974.chunk.js",
+    "static/css/25.4158dd38.chunk.css": "/static/css/25.4158dd38.chunk.css",
+    "static/js/25.97e61bfd.chunk.js": "/static/js/25.97e61bfd.chunk.js",
     "static/css/231.fd733ece.chunk.css": "/static/css/231.fd733ece.chunk.css",
     "static/js/231.e77a7aea.chunk.js": "/static/js/231.e77a7aea.chunk.js",
     "static/css/265.9fe5ac06.chunk.css": "/static/css/265.9fe5ac06.chunk.css",
@@ -81,13 +78,8 @@
     "static/media/Poppins-Medium.woff2": "/static/media/Poppins-Medium.37056ee0796afefd78dc.woff2",
     "static/media/Poppins-Light.woff2": "/static/media/Poppins-Light.c9e9a2fa9a5f77f343d5.woff2",
     "index.html": "/index.html",
-<<<<<<< HEAD
-    "main.a2a6a8b7.css.map": "/static/css/main.a2a6a8b7.css.map",
-    "main.a6a2809d.js.map": "/static/js/main.a6a2809d.js.map",
-=======
     "main.8b4cd4f1.css.map": "/static/css/main.8b4cd4f1.css.map",
-    "main.016b6c48.js.map": "/static/js/main.016b6c48.js.map",
->>>>>>> 45b3d81e9dc646f3debcfa74869c9feabdea54cb
+    "main.49cfced6.js.map": "/static/js/main.49cfced6.js.map",
     "341.ea1767e9.chunk.js.map": "/static/js/341.ea1767e9.chunk.js.map",
     "807.8e2d99d7.chunk.css.map": "/static/css/807.8e2d99d7.chunk.css.map",
     "807.ab4e2b3f.chunk.js.map": "/static/js/807.ab4e2b3f.chunk.js.map",
@@ -108,7 +100,7 @@
     "776.973d7a0b.chunk.css.map": "/static/css/776.973d7a0b.chunk.css.map",
     "776.ae475668.chunk.js.map": "/static/js/776.ae475668.chunk.js.map",
     "545.973d7a0b.chunk.css.map": "/static/css/545.973d7a0b.chunk.css.map",
-    "545.436fe1f1.chunk.js.map": "/static/js/545.436fe1f1.chunk.js.map",
+    "545.eed02aec.chunk.js.map": "/static/js/545.eed02aec.chunk.js.map",
     "565.973d7a0b.chunk.css.map": "/static/css/565.973d7a0b.chunk.css.map",
     "565.0aadd027.chunk.js.map": "/static/js/565.0aadd027.chunk.js.map",
     "827.973d7a0b.chunk.css.map": "/static/css/827.973d7a0b.chunk.css.map",
@@ -123,6 +115,8 @@
     "160.765b4dab.chunk.js.map": "/static/js/160.765b4dab.chunk.js.map",
     "582.b4620bd5.chunk.css.map": "/static/css/582.b4620bd5.chunk.css.map",
     "582.189c5974.chunk.js.map": "/static/js/582.189c5974.chunk.js.map",
+    "25.4158dd38.chunk.css.map": "/static/css/25.4158dd38.chunk.css.map",
+    "25.97e61bfd.chunk.js.map": "/static/js/25.97e61bfd.chunk.js.map",
     "231.fd733ece.chunk.css.map": "/static/css/231.fd733ece.chunk.css.map",
     "231.e77a7aea.chunk.js.map": "/static/js/231.e77a7aea.chunk.js.map",
     "265.9fe5ac06.chunk.css.map": "/static/css/265.9fe5ac06.chunk.css.map",
@@ -156,12 +150,7 @@
     "111.90b032b4.chunk.js.map": "/static/js/111.90b032b4.chunk.js.map"
   },
   "entrypoints": [
-<<<<<<< HEAD
-    "static/css/main.a2a6a8b7.css",
-    "static/js/main.a6a2809d.js"
-=======
     "static/css/main.8b4cd4f1.css",
-    "static/js/main.016b6c48.js"
->>>>>>> 45b3d81e9dc646f3debcfa74869c9feabdea54cb
+    "static/js/main.49cfced6.js"
   ]
 }

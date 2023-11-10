@@ -74,6 +74,10 @@ const Distream = lazy(
   async () => await import('../Component/Projects/Distream')
 );
 
+const FedAIoT = lazy(
+  async () => await import('../Component/Projects/FedAIoT')
+)
+
 const GPTFL = lazy(
   async () => await import('../Component/Projects/GPT-FL')
 );
@@ -207,6 +211,10 @@ function Index() {
         {
           path: '/EdgeAI/Distream',
           element: <Distream></Distream>
+        },
+        {
+          path: '/FederatedLearningandSystems/FedAIoT',
+          element: <FedAIoT></FedAIoT>
         },
         {
           path: '/FederatedLearningandSystems/GPT-FL',
