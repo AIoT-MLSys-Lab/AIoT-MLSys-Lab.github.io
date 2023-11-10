@@ -25,7 +25,17 @@
 @media screen and (max-width: 480px) {
     .imageContainer{
         margin-top: 125px;
-        height: 50px;
+        height: initial; 
+        line-height: 3.5rem;
+        overflow: initial;
+        position: initial;
+        align-items: initial;
+        display: flex;
     }
 
+    .imageTitle {
+        margin: 0 auto;
+        width: 340px;
+        text-align: center;
+    }
 }

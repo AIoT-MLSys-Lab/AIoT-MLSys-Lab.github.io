@@ -77,3 +77,15 @@
 .project_collection_img{
     margin: 0 auto;
 }
+
+@media screen and (max-width: 480px) {
+    .project_container {
+        max-width: 340px;
+        margin: 0 auto;
+        padding-top: 70px;
+    }
+
+    .project_abstract {
+        margin-top: 20px;
+    }
+}

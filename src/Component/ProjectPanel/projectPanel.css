@@ -92,3 +92,39 @@
     line-height: 1.2rem;
     color: #505152;
 }
+
+@media screen and (max-width: 480px) {
+    .projectPanel {
+        width: 70%;
+        align-items: stretch;
+        padding: 20px;
+        background-color: #fafafa;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin:0 auto;
+        width: 320px;
+        margin-top: 20px;
+    }
+
+    .projectPanelTitle {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    
+        padding-top: initial;
+        padding-left: initial;
+    }
+
+    .projectFlex {
+        display: initial;
+    }    
+
+    .projectPanelImg {
+        max-height: 300px;
+        max-width: 280px;
+    }
+    .projectPanelImgContainer {
+        margin-right: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
