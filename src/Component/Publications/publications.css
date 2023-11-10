@@ -1,11 +1,19 @@
 .publicationsBlock{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .publicationsYear{
     font-family: 'Poppins-R', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin-left: 15%;
+}
+
+.publicationsPreprint{
+    font-family: 'Poppins-R', sans-serif;
+    font-size: 1.3rem;
     font-weight: bold;
     line-height: 1.5rem;
     margin-left: 15%;
@@ -13,6 +21,11 @@
 
 .publicationsContent{
     margin-left: 50px;
+    margin-right: 20%;
+}
+
+.publicationsPreprintContent{
+    margin-left: 28px;
     margin-right: 20%;
 }
 
@@ -80,7 +93,16 @@
 }
 
 @media screen and (max-width: 480px) {
+    .publicationsBlock{
+        flex-wrap: wrap;
+    }
+
     .publicationsYear{
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .publicationsPreprint{
         margin-left: 20px;
         margin-bottom: 10px;
     }
@@ -89,6 +111,12 @@
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    .publicationsPreprintContent{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
 
     .bookItem {
         display: initial;

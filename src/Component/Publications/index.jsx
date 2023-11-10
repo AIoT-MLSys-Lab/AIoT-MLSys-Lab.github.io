@@ -6,6 +6,22 @@ import CodeBlock from '../CodeBlock'
 
 function Publications() {
 
+  const VideoCoCa = `@misc{yan2022videococa,
+    title={{VideoCoCa: Video-Text Modeling with Zero-Shot Transfer from Contrastive Captioners}},
+    author={Shen Yan and Tao Zhu and Zirui Wang and Yuan Cao and Mi Zhang and Soham Ghosh and Yonghui Wu and Jiahui Yu},
+    year={2022},
+    eprint={2212.04979},
+    archivePrefix={arXiv}
+}`
+
+  const AutoTaskFormer = `@misc{liu2023autotaskformer,
+    title={{AutoTaskFormer: Searching Vision Transformers for Multi-task Learning}},
+    author={Yang Liu and Shen Yan and Yuge Zhang and Kan Ren and Quanlu Zhang and Zebin Ren and Deng Cai and Mi Zhang},
+    year={2023},
+    eprint={2304.08756},
+    archivePrefix={arXiv}
+}`;
+
   const FedAudio = `@inproceedings{fedaudio2023icassp,
     title = {{FedAudio: A Federated Learning Benchmark for Audio Tasks}},
     author = {Tuo, Zhang and Feng, Tiantian and Alam, Samiul and Lee, Sunwoo and Zhang, Mi and Narayanan, Shrikanth and Avestimehr, Salman},
@@ -367,6 +383,41 @@ function Publications() {
     year = {2014}
 }`
 
+  const NELoRaBench = `@inproceedings{nelora-bench2023icla-w,
+    title = {{NELoRa-Bench: A Benchmark for Neural-enhanced LoRa Demodulation}},
+    author = {Du, Jialuo and Ren, Yidong and Zhang, Mi and Liu, Yunhao and Cao, Zhichao},
+      booktitle = {International Conference on Learning Representations (ICLR) Workshop on Machine Learning for IoT},
+      year = {2023}
+  }`
+
+  const TimelyFL = `@inproceedings{timylyfl2023cvprw,
+    title = {{TimelyFL: Heterogeneity-aware Asynchronous Federated Learning with Adaptive Partial Training}},
+    author = {Tuo, Zhang and Gao, Lei and Lee, Sunwoo and Zhang, Mi and Avestimehr, Salman},
+      booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshop on Federated Learning for Computer Vision},
+      year = {2023}
+  }`
+
+  const MedUnic =  `@inproceedings{med-unic2023neurips,
+    title={{Med-UniC: Unifying Cross-Lingual Medical Vision-Language Pre-Training by Diminishing Bias}},
+    author={Wan, Zhongwei and Liu, Che and Zhang, Mi and Fu, Jie and Wang, Benyou and Cheng, Sibo and Ma, Lei and Quilodrán-Casas, César and Arcucci, Rossella},
+      booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
+      year={2023}
+  }`
+
+  const FedMultimodal = `@inproceedings{fedmultimodal2023kdd,
+    title = {{FedMultimodal: A Benchmark For Multimodal Federated Learning}},
+    author = {Feng, Tiantian and Bose, Digbalay and Tuo, Zhang and Hebbar, Rajat and Ramakrishna, Anil and Gupta, Rahul and Zhang, Mi and Avestimehr, Salman and Narayanan, Shrikanth},
+      booktitle = {ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)},
+      year = {2023}
+  }`
+
+  const AttFL = `@inproceedings{attfl2023ubicomp,
+    title = {{AttFL: A Personalized Federated Learning Framework for Time-series Mobile and Embedded Sensor Data Processing}},
+    author = {Park, JaeYeon and Lee, Kichang and Lee, Sungmin and Zhang, Mi and JeongGil, Ko},
+      booktitle = {ACM international joint conference on Pervasive and Ubiquitous Computing (UbiComp)},
+      year = {2023}
+  }`
+
   return (
     <div>
       <ContentTitle title = "Publications" subtitle = "Publications"></ContentTitle>
@@ -389,21 +440,50 @@ function Publications() {
       </div>
 
       <div className='publicationsBlock'>
+      <div className='publicationsPreprint'>
+        Preprint
+      </div>
+      <div className='publicationsPreprintContent'>
+        <CodeBlock
+          title = "FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things"
+          authors = "Samiul Alam, Tuo Zhang, Tiantian Feng, Hui Shen, Zhichao Cao, Dong Zhao, JeongGil Ko, Kiran Somasundaram, Shrikanth S. Narayanan, Salman Avestimehr, Mi Zhang."
+          paper = "https://arxiv.org/abs/2310.00109"
+          code = "https://github.com/AIoT-MLSys-Lab/FedAIoT"
+        >
+        </CodeBlock>
+        
+        <CodeBlock
+          title = "GPT-FL: Generative Pre-trained Model-Assisted Federated Learning"
+          authors = "Tuo Zhang, Tiantian Feng, Samiul Alam, Mi Zhang, Shrikanth S Narayanan, Salman Avestimehr."
+          paper = "https://arxiv.org/abs/2306.02210"
+        >
+        </CodeBlock>
+      </div>
+      </div>
+
+      <div className='publicationsBlock'>
       <div className='publicationsYear'>
         2023
       </div>
       <div className='publicationsContent'>
-        <div className='publicationsItem'>
-          <div className='publicationsStrong'>NELoRa-Bench: A Benchmark for Neural-enhanced LoRa Demodulation </div>
-					Jialuo Du, Yidong Ren, Mi Zhang, Yunhao Liu, and Zhichao Cao. <br />
-          International Conference on Learning Representations (<font style={{ fontWeight: 'bold' }}>ICLR'23</font>) Workshop on Machine Learning for IoT (<font color="#de1111" style={{ fontWeight: 'bold' }}>Oral</font>).
-        </div>
 
-        <div className='publicationsItem'>
-          <div className="publicationsStrong">TimelyFL: Heterogeneity-aware Asynchronous Federated Learning with Adaptive Partial Training</div>
-					Tuo Zhang, Lei Gao, Sunwoo Lee, Mi Zhang, and Salman Avestimehr. <br />
-          IEEE Conference on Computer Vision and Pattern Recognition (<font style={{ fontWeight: 'bold' }}>CVPR'23</font>) Workshop on Federated Learning for Computer Vision.
-        </div>
+        <CodeBlock
+          title = "AttFL: A Personalized Federated Learning Framework for Time-series Mobile and Embedded Sensor Data Processing"
+          authors = "JaeYeon Park, Kichang Lee, Sungmin Lee, Mi Zhang, JeongGil Ko."
+          conference = "ACM international joint conference on Pervasive and Ubiquitous Computing (<div class='pubHighlight'>UbiComp'23</div>)."
+          paper = "https://mi-zhang.github.io/papers/2023_UbiComp_AttFL.pdf"
+          bibtex = {AttFL}
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "FedMultimodal: A Benchmark For Multimodal Federated Learning"
+          authors = "Tiantian Feng, Digbalay Bose, Tuo Zhang, Rajat Hebbar, Anil Ramakrishna, Rahul Gupta, Mi Zhang, Salman Avestimehr, and Shrikanth Narayanan."
+          conference = "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<div class='pubHighlight'>KDD'23</div>)."
+          paper = "https://mi-zhang.github.io/papers/2023_KDD_FedMultimodal.pdf"
+          bibtex = {FedMultimodal}
+        >
+        </CodeBlock>
 
         <CodeBlock
           title = "FedAudio: A Federated Learning Benchmark for Audio Tasks"
@@ -411,6 +491,51 @@ function Publications() {
           conference = "IEEE International Conference on Acoustics, Speech and Signal Processing (<div class='pubHighlight'>ICASSP'23</div>)."
           paper = "https://mi-zhang.github.io/papers/2023_ICASSP_FedAudio.pdf"
           bibtex = {FedAudio}
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "Med-UniC: Unifying Cross-Lingual Medical Vision-Language Pre-Training by Diminishing Bias"
+          authors = "Zhongwei Wan, Che Liu, Mi Zhang, Jie Fu, Benyou Wang, Sibo Cheng, Lei Ma, César Quilodrán-Casas, Rossella Arcucci."
+          conference = "Conference on Neural Information Processing Systems (<div class='pubHighlight'>NeurIPS'23</div>)."
+          paper = "https://mi-zhang.github.io/papers/2023_NeurIPS_Med-UniC.pdf"
+          bibtex = {MedUnic}
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "TimelyFL: Heterogeneity-aware Asynchronous Federated Learning with Adaptive Partial Training"
+          authors = "Tuo Zhang, Lei Gao, Sunwoo Lee, Mi Zhang, and Salman Avestimehr."
+          conference = "IEEE Conference on Computer Vision and Pattern Recognition (<div class='pubHighlight'>CVPR'23</div>) Workshop on Federated Learning for Computer Vision."
+          paper = "https://mi-zhang.github.io/papers/2023_CVPR-W_TimelyFL.pdf"
+          bibtex = {TimelyFL}
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "NELoRa-Bench: A Benchmark for Neural-enhanced LoRa Demodulation"
+          authors = "Jialuo Du, Yidong Ren, Mi Zhang, Yunhao Liu, and Zhichao Cao."
+          conference = "International Conference on Learning Representations (<div class='pubHighlight'>ICLR'23</div>) Workshop on Machine Learning for IoT (<span class='pubRedHighLight'>Oral</span>)."
+          paper = "https://mi-zhang.github.io/papers/2023_ICLR-W_NELoRa-Bench.pdf"
+          bibtex = {NELoRaBench}
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "VideoCoCa: Video-Text Modeling with Zero-Shot Transfer from Contrastive Captioners"
+          authors = "Shen Yan, Tao Zhu, Zirui Wang, Yuan Cao, Mi Zhang, Soham Ghosh, Yonghui Wu, Jiahui Yu."
+          conference = "arXiv:2212.04979"
+          paper = "https://arxiv.org/abs/2212.04979"
+          bibtex = {VideoCoCa}
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "AutoTaskFormer: Searching Vision Transformers for Multi-task Learning"
+          authors = "Yang Liu, Shen Yan, Yuge Zhang, Kan Ren, Quanlu Zhang, Zebin Ren, Deng Cai, Mi Zhang."
+          conference = "arXiv:2304.08756"
+          paper = "https://arxiv.org/abs/2304.08756"
+          bibtex = {AutoTaskFormer}
         >
         </CodeBlock>
         
