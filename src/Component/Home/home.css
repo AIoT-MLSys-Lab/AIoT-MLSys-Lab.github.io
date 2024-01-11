@@ -248,7 +248,10 @@
 .researchBlocks img {
     padding-top: 20px;
     /* max-width: 278px; */
-    max-width: 320px;
+    object-fit: contain;
+    /* max-width: 320px; */
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .homeResearchTitle{
@@ -271,6 +274,7 @@
     font-family: 'Poppins-R', sans-serif;
     font-size: 2rem;
     line-height: 1.5rem;
+    margin-top: 30px;
     margin-bottom: 40px;
     text-align: center;
     color: crimson;

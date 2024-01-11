@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './CodeBlock.css'
 
-function CodeBlock({ title, authors, conference, rate, link, paper, bibtex, code, poster, leaderboard, slides, media, honor, presentation, invited, video }) {
+function CodeBlock({ title, authors, conference, rate, link, paper, bibtex, code, poster, leaderboard, slides, media, honor, presentation, invited, video, github }) {
   const [showCode, setShowCode] = useState(false);
 
   const toggleCode = () => {
@@ -88,6 +88,12 @@ function CodeBlock({ title, authors, conference, rate, link, paper, bibtex, code
         {video && (
           <>
             &nbsp;|&nbsp;<a href={video}>Video</a>
+          </>
+        )}
+
+        {github && (
+          <>
+            &nbsp;|&nbsp;<a href={github}>Github Repository</a>
           </>
         )}
 
