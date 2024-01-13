@@ -78,6 +78,9 @@ function Header() {
                       <a href="./#/AutoML" onClick={() => { onChildrenDrawerClose(); onClose(); }}>
                         AutoML
                       </a>
+                      <a href="./#/LLM" onClick={() => { onChildrenDrawerClose(); onClose(); }}>
+                        Large Language Model
+                      </a>
                     </div>
 
                   </Drawer>

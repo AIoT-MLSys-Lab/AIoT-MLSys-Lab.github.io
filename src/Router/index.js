@@ -58,6 +58,10 @@ const MobileHealth = lazy(
   async () => await import('../Component/Projects/MobileHealth')
 );
 
+const LLM = lazy(
+  async () => await import('../Component/Projects/LLM')
+);
+
 const NestDNN = lazy(
   async () => await import('../Component/Projects/NestDNN')
 );
@@ -134,6 +138,14 @@ const DeepASL = lazy(
   async () => await import('../Component/Projects/DeepASL')
 );
 
+const IoTinEraOfGAI = lazy(
+  async () => await import('../Component/Projects/IoTinEraOfGAI')
+);
+
+const EfficientLLM = lazy(
+  async () => await import('../Component/Projects/EfficientLLM')
+);
+
 function Index() {
   const element = useRoutes([
     {
@@ -187,6 +199,10 @@ function Index() {
         {
           path: '/AutoML',
           element: <AutoML></AutoML>,
+        },
+        {
+          path: '/LLM',
+          element: <LLM></LLM>,
         },
         {
           path: '/AIforWirelessSensingandNetworking',
@@ -272,13 +288,21 @@ function Index() {
           path: '/MobileHealth/MobilePhoneSensorCorrelatesofDepressiveSymptomSeverityinDailyLifeBehavior',
           element: <MobilePhoneSensorCorrelatesofDepressiveSymptomSeverityinDailyLifeBehavior></MobilePhoneSensorCorrelatesofDepressiveSymptomSeverityinDailyLifeBehavior>
         },
+        {
+          path: '/LLM/IoTinEraOfGAI',
+          element: <IoTinEraOfGAI></IoTinEraOfGAI>
+        },
+        {
+          path: '/LLM/EfficientLLM',
+          element: <EfficientLLM></EfficientLLM>
+        },
       ]
     },
   ])
 
   return (
     <div>
-      <Suspense fallback={<p>loading</p>}>
+      <Suspense fallback={<p>Loading</p>}>
           {element}
       </Suspense>
     </div>

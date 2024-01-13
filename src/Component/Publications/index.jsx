@@ -386,37 +386,37 @@ function Publications() {
   const NELoRaBench = `@inproceedings{nelora-bench2023icla-w,
     title = {{NELoRa-Bench: A Benchmark for Neural-enhanced LoRa Demodulation}},
     author = {Du, Jialuo and Ren, Yidong and Zhang, Mi and Liu, Yunhao and Cao, Zhichao},
-      booktitle = {International Conference on Learning Representations (ICLR) Workshop on Machine Learning for IoT},
-      year = {2023}
-  }`
+    booktitle = {International Conference on Learning Representations (ICLR) Workshop on Machine Learning for IoT},
+    year = {2023}
+}`
 
   const TimelyFL = `@inproceedings{timylyfl2023cvprw,
     title = {{TimelyFL: Heterogeneity-aware Asynchronous Federated Learning with Adaptive Partial Training}},
     author = {Tuo, Zhang and Gao, Lei and Lee, Sunwoo and Zhang, Mi and Avestimehr, Salman},
-      booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshop on Federated Learning for Computer Vision},
-      year = {2023}
-  }`
+    booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshop on Federated Learning for Computer Vision},
+    year = {2023}
+}`
 
   const MedUnic =  `@inproceedings{med-unic2023neurips,
     title={{Med-UniC: Unifying Cross-Lingual Medical Vision-Language Pre-Training by Diminishing Bias}},
     author={Wan, Zhongwei and Liu, Che and Zhang, Mi and Fu, Jie and Wang, Benyou and Cheng, Sibo and Ma, Lei and Quilodrán-Casas, César and Arcucci, Rossella},
-      booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
-      year={2023}
-  }`
+    booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
+    year={2023}
+}`
 
   const FedMultimodal = `@inproceedings{fedmultimodal2023kdd,
     title = {{FedMultimodal: A Benchmark For Multimodal Federated Learning}},
     author = {Feng, Tiantian and Bose, Digbalay and Tuo, Zhang and Hebbar, Rajat and Ramakrishna, Anil and Gupta, Rahul and Zhang, Mi and Avestimehr, Salman and Narayanan, Shrikanth},
-      booktitle = {ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)},
-      year = {2023}
-  }`
+    booktitle = {ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)},
+    year = {2023}
+}`
 
   const AttFL = `@inproceedings{attfl2023ubicomp,
     title = {{AttFL: A Personalized Federated Learning Framework for Time-series Mobile and Embedded Sensor Data Processing}},
     author = {Park, JaeYeon and Lee, Kichang and Lee, Sungmin and Zhang, Mi and JeongGil, Ko},
-      booktitle = {ACM international joint conference on Pervasive and Ubiquitous Computing (UbiComp)},
-      year = {2023}
-  }`
+    booktitle = {ACM international joint conference on Pervasive and Ubiquitous Computing (UbiComp)},
+    year = {2023}
+}`
 
   const FedAIoT = `@misc{alam2023fedaiot,
     title={FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things},
@@ -424,7 +424,7 @@ function Publications() {
     year={2023},
     eprint={2310.00109},
     archivePrefix={arXiv}
-  }`
+}`
 
   const EfficientLLM = `@misc{wan2023efficient,
     title={Efficient Large Language Models: A Survey}, 
@@ -432,7 +432,7 @@ function Publications() {
     year={2023},
     eprint={2312.03863},
     archivePrefix={arXiv}
-  }`
+}`
 
   const IoTinEraofGAI = `@misc{wang2024iot,
     title={IoT in the Era of Generative AI: Vision and Challenges},
@@ -441,7 +441,7 @@ function Publications() {
     eprint={2401.01923},
     archivePrefix={arXiv},
     primaryClass={cs.DC}
-  }`
+}`
 
   return (
     <div>

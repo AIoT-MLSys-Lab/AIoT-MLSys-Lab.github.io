@@ -50,6 +50,15 @@ const PopModal = ( props ) => {
             <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.pages}</p>
           )}
           <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.year}</p>
+          {props.eprint && (
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.eprint}</p>
+          )}
+          {props.archivePrefix && (
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.archivePrefix}</p>
+          )}
+          {props.primaryClass && (
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.primaryClass}</p>
+          )}
           {props.numpages && (
             <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.numpages}</p>
           )}

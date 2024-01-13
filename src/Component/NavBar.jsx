@@ -33,6 +33,10 @@ const items = [
         label: 'AutoML',
         key: 'AutoML',
       },
+      {
+        label: 'Large Language Model',
+        key: 'LLM',
+      },
     ]
   },
   {
