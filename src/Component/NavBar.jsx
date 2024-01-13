@@ -18,6 +18,10 @@ const items = [
         key: 'EdgeAI',
       },
       {
+        label: 'Large Language Models and Generative AI',
+        key: 'LLM',
+      },
+      {
         label: 'AI for Wireless Sensing and Networking',
         key: 'AIforWirelessSensingandNetworking',
       },
@@ -32,10 +36,6 @@ const items = [
       {
         label: 'AutoML',
         key: 'AutoML',
-      },
-      {
-        label: 'Large Language Model',
-        key: 'LLM',
       },
     ]
   },

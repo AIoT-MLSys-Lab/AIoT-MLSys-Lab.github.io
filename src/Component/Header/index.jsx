@@ -79,7 +79,7 @@ function Header() {
                         AutoML
                       </a>
                       <a href="./#/LLM" onClick={() => { onChildrenDrawerClose(); onClose(); }}>
-                        Large Language Model
+                        Large Language Models and Generative AI
                       </a>
                     </div>
 

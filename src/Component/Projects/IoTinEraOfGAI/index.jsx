@@ -35,7 +35,7 @@ function IoTinEraOfGAI() {
         
         <div className='project_collection'>
             <div>
-                <img src="./images/projects/DeepAA_in.svg" alt=""  className='project_collection_img'/>
+                <img src="./images/projects/IoTinGAI.svg" alt=""  className='project_collection_img'/>
             </div>
         </div>
 
