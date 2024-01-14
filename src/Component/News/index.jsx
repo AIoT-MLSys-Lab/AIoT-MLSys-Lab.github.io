@@ -4,7 +4,7 @@ import ContentTitle from '../ContentTitle'
 import NewsCard from '../NewsCard'
 
 function News() {
-  const [activeTab, setActiveTab] = useState('2023');
+  const [activeTab, setActiveTab] = useState('2024');
 
   const handleTabClick = (tabId) => {
     setActiveTab(tabId);
@@ -27,6 +27,7 @@ function News() {
       <div className='newsContent'>
         {!isWideScreen && <>
           <div className='newsYear'>
+            <button onClick={() => handleTabClick('2024')} className={`tab-button ${activeTab === '2024' ? 'selectedButton' : ''}`}>2024</button>
             <button onClick={() => handleTabClick('2023')} className={`tab-button ${activeTab === '2023' ? 'selectedButton' : ''}`}>2023</button>
             <button onClick={() => handleTabClick('2022')} className={`tab-button ${activeTab === '2022' ? 'selectedButton' : ''}`}>2022</button>
             <button onClick={() => handleTabClick('Before 2022')} className={`tab-button ${activeTab === 'Before 2022' ? 'selectedButton' : ''}`}>Before 2022</button>
@@ -36,6 +37,8 @@ function News() {
         }
         {isWideScreen && <>
           <div className='newsYear'>
+            <button onClick={() => handleTabClick('2024')} className={`tab-button ${activeTab === '2024' ? 'selectedButton' : ''}`}>2024</button>
+            <hr />
             <button onClick={() => handleTabClick('2023')} className={`tab-button ${activeTab === '2023' ? 'selectedButton' : ''}`}>2023</button>
             <hr />
             <button onClick={() => handleTabClick('2022')} className={`tab-button ${activeTab === '2022' ? 'selectedButton' : ''}`}>2022</button>
@@ -46,7 +49,7 @@ function News() {
         }
 
         <div className='newsInfo'>
-          {activeTab === '2023' && (
+          {activeTab === '2024' && (
             <div className='newsCards'>
 
               <div className='newsItem'>
@@ -57,6 +60,12 @@ function News() {
                 content="Recent advancements in Generative AI have enabled a new wave of AI revolution. The implications of such advancements for Internet of Things (IoT) are profound. In this article, we share our views on the applications, challenges, and opportunities of IoT in the era of Generative AI."
                 ></NewsCard>
               </div>
+              
+            </div>
+          )}
+
+          {activeTab === '2023' && (
+            <div className='newsCards'>
 
               <div className='newsItem'>
                 <NewsCard 

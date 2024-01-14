@@ -98,7 +98,7 @@ function Home() {
           <div className='researchBlock'><div className='researchBlockTitle'>AI for Wireless Sensing and Networking</div><img src="./images/AIforWSN.png" alt="" /></div>
           <div className='researchBlock'><div className='researchBlockTitle'>Federated Learning and Systems</div><img src="./images/FLSys.png" alt="" /></div>
           <div className='researchBlock'><div className='researchBlockTitle'>Mobile Health</div><img src="./images/mhealth2.webp" alt="" /></div>
-          <div className='researchCenter'><div className='researchBlockTitle'>Large Language Model and Generative AI</div><img src="./images/LLM&GAI.png" alt="" /></div>
+          <div className='researchCenter'><div className='researchBlockTitle'>Large Language Models and Generative AI</div><img src="./images/LLM&GAI.png" alt="" /></div>
           <div className='researchCenter2'><div className='researchBlockTitle'>AutoML</div><img src="./images/AutoML.png" alt="" /></div>
         </div>
       </div>
