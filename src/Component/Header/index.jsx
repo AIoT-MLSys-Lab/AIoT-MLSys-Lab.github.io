@@ -66,6 +66,9 @@ function Header() {
                       <a href="./#/EdgeAI" onClick={() => { onChildrenDrawerClose(); onClose(); }}>
                         Edge AI
                       </a>
+                      <a href="./#/LLM" onClick={() => { onChildrenDrawerClose(); onClose(); }}>
+                        Large Language Models and Generative AI
+                      </a>
                       <a href="./#/AIforWirelessSensingandNetworking" onClick={() => { onChildrenDrawerClose(); onClose(); }}>
                         AI for Wireless Sensing and Networking
                       </a>
@@ -77,9 +80,6 @@ function Header() {
                       </a>
                       <a href="./#/AutoML" onClick={() => { onChildrenDrawerClose(); onClose(); }}>
                         AutoML
-                      </a>
-                      <a href="./#/LLM" onClick={() => { onChildrenDrawerClose(); onClose(); }}>
-                        Large Language Models and Generative AI
                       </a>
                     </div>
 
