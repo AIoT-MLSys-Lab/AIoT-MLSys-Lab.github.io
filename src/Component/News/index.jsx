@@ -48,7 +48,16 @@ function News() {
         <div className='newsInfo'>
           {activeTab === '2023' && (
             <div className='newsCards'>
-              
+
+              <div className='newsItem'>
+                <NewsCard 
+                imageURL="./images/news/news_2023_12.png" 
+                title="Efficient Large Language Models: A Survey is online" 
+                date="Dec. 2023"
+                content="Large Language Models (LLMs) come with considerable resource demands. We are very excited to share our survey on Efficient LLMs. In this survey, we provide a systematic and comprehensive review of efficient LLMs research."
+                ></NewsCard>
+              </div>
+
               <div className='newsItem'>
                 <NewsCard 
                 imageURL="./images/news/news_2023_2.png" 
