@@ -48,7 +48,7 @@ function News() {
         <div className='newsInfo'>
           {activeTab === '2023' && (
             <div className='newsCards'>
-
+              
               <div className='newsItem'>
                 <NewsCard 
                 imageURL="./images/news/news_2023_2.png" 

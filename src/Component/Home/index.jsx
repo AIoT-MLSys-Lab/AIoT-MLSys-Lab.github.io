@@ -25,6 +25,16 @@ function Home() {
       </div>
         <div className='homeNews'>
           <div className='homeNewsTitle'>News</div>
+
+          <div className='new'>
+            <div className='newDate'>
+              Dec 2023
+            </div>
+            <div className='newContent'>
+            <a href="https://arxiv.org/abs/2212.01548">Efficient Large Language Models: A Survey</a> is online.
+            </div>
+          </div>
+
           <div className='new'>
             <div className='newDate'>
               Feb 2023
@@ -45,19 +55,10 @@ function Home() {
 
           <div className='new'>
             <div className='newDate'>
-              Dec 2023
+              Dec 2022
             </div>
             <div className='newContent'>
             Thanks Meta Reality Labs for the generous faculty award for supporting our research!
-            </div>
-          </div>
-
-          <div className='new'>
-            <div className='newDate'>
-              Sep 2022
-            </div>
-            <div className='newContent'>
-            <a href="https://arxiv.org/abs/2212.01548">FedRolex</a>, our work on model-heterogeneous federated learning is accepted to NeurIPS'22.
             </div>
           </div>
 
