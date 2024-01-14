@@ -28,10 +28,19 @@ function Home() {
 
           <div className='new'>
             <div className='newDate'>
+              Jan 2024
+            </div>
+            <div className='newContent'>
+            <a href="https://arxiv.org/abs/2401.01923.pdf">IoT in the Era of Generative AI: Vision and Challenges</a> is online.
+            </div>
+          </div>
+
+          <div className='new'>
+            <div className='newDate'>
               Dec 2023
             </div>
             <div className='newContent'>
-            <a href="https://arxiv.org/abs/2212.01548">Efficient Large Language Models: A Survey</a> is online.
+            <a href="https://arxiv.org/pdf/2312.03863.pdf">Efficient Large Language Models: A Survey</a> is online.
             </div>
           </div>
 
@@ -50,15 +59,6 @@ function Home() {
             </div>
             <div className='newContent'>
               Congratulations Samiul for being awarded the highly competitive OSU College Allocated Fellowship!
-            </div>
-          </div>
-
-          <div className='new'>
-            <div className='newDate'>
-              Dec 2022
-            </div>
-            <div className='newContent'>
-            Thanks Meta Reality Labs for the generous faculty award for supporting our research!
             </div>
           </div>
 

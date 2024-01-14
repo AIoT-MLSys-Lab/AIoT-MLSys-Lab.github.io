@@ -51,6 +51,15 @@ function News() {
 
               <div className='newsItem'>
                 <NewsCard 
+                imageURL="./images/news/news_2024_1.svg" 
+                title="IoT in the Era of Generative AI: Vision and Challenges is online" 
+                date="Jan. 2024"
+                content="Recent advancements in Generative AI have enabled a new wave of AI revolution. The implications of such advancements for Internet of Things (IoT) are profound. In this article, we share our views on the applications, challenges, and opportunities of IoT in the era of Generative AI."
+                ></NewsCard>
+              </div>
+
+              <div className='newsItem'>
+                <NewsCard 
                 imageURL="./images/news/news_2023_12.png" 
                 title="Efficient Large Language Models: A Survey is online" 
                 date="Dec. 2023"
