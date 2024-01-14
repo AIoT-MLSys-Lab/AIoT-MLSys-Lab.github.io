@@ -471,8 +471,8 @@ function Publications() {
       <div className='publicationsPreprintContent'>
         <CodeBlock
           title = "IoT in the Era of Generative AI: Vision and Challenges"
-          authors = "Xin Wang, Zhongwei Wan, Arvin Hekmati, Mingyu Zong, Samiul Alam, Mi Zhang, and Bhaskar Krishnamachari."
-          paper = "https://arxiv.org/abs/2401.01923"
+          authors = "Xin Wang, Zhongwei Wan, Arvin Hekmati, Mingyu Zong, Samiul Alam, Mi Zhang, Bhaskar Krishnamachari."
+          paper = "https://mi-zhang.github.io/papers/2024_IoTGenAI.pdf"
           bibtex = {IoTinEraofGAI}
         >
         </CodeBlock>
@@ -480,7 +480,7 @@ function Publications() {
         <CodeBlock
           title = "Efficient Large Language Models: A Survey"
           authors = "Zhongwei Wan, Xin Wang, Che Liu, Samiul Alam, Yu Zheng, Jiachen Liu, Zhongnan Qu, Shen Yan, Yi Zhu, Quanlu Zhang, Mosharaf Chowdhury, Mi Zhang."
-          paper = "https://arxiv.org/abs/2312.03863"
+          paper = "https://mi-zhang.github.io/papers/2023_EfficientLLMSurvey.pdf"
           bibtex = {EfficientLLM}
           github = "https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey"
         >
@@ -489,7 +489,7 @@ function Publications() {
         <CodeBlock
           title = "FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things"
           authors = "Samiul Alam, Tuo Zhang, Tiantian Feng, Hui Shen, Zhichao Cao, Dong Zhao, JeongGil Ko, Kiran Somasundaram, Shrikanth S. Narayanan, Salman Avestimehr, Mi Zhang."
-          paper = "https://arxiv.org/abs/2310.00109"
+          paper = "https://mi-zhang.github.io/papers/2023_FedAIoT.pdf"
           bibtex = {FedAIoT}
           code = "https://github.com/AIoT-MLSys-Lab/FedAIoT"
         >
