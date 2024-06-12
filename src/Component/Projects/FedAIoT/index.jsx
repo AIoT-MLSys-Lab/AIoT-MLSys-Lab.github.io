@@ -25,7 +25,7 @@ function FedAIoT() {
             <PopModal inproceeding = {`@article{alam2023fedaiot,`}
                 title = {`title={FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things},`}
                 author = {`author={Alam, Samiul and Zhang, Tuo and Feng, Tiantian and Shen, Hui and Cao, Zhichao and Zhao, Dong and Ko, JeongGil and Somasundaram, Kiran and Narayanan, Shrikanth S and Avestimehr, Salman and others},`}
-                booktitle = {`journal={arXiv preprint arXiv:2310.00109},`}
+                journal = {`journal={arXiv preprint arXiv:2310.00109},`}
                 year = {`year={2023}`}
             />
 

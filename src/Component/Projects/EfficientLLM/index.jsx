@@ -23,12 +23,11 @@ function EfficientLLM() {
                 &nbsp;Paper
             </a>
 
-            <PopModal inproceeding = {`@misc{wan2023efficient,`}
-                title = {`title={Efficient Large Language Models: A Survey}, `}
-                author = {`author={Zhongwei Wan and Xin Wang and Che Liu and Samiul Alam and Yu Zheng and Jiachen Liu and Zhongnan Qu and Shen Yan and Yi Zhu and Quanlu Zhang and Mosharaf Chowdhury and Mi Zhang},`}
+            <PopModal inproceeding = {`@article{wan2023efficient,`}
+                title = {`title={Efficient Large Language Models: A Survey},`}
+                author = {`author={Wan, Zhongwei and Wang, Xin and others},`}
                 year = {`year={2023},`}
-                eprint = {`eprint={2312.03863},`}
-                archivePrefix = {`archivePrefix={arXiv}`}
+                journal = {`journal={arXiv preprint arXiv:2312.03863},`}
             />
 
             <a href="https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey" className='project_button'>

@@ -23,13 +23,11 @@ function IoTinEraOfGAI() {
                 &nbsp;Paper
             </a>
 
-            <PopModal inproceeding = {`@misc{wang2024iot,`}
+            <PopModal inproceeding = {`@article{wang2024iot,`}
                 title = {`title={IoT in the Era of Generative AI: Vision and Challenges},`}
-                author = {`author={Xin Wang and Zhongwei Wan and Arvin Hekmati and Mingyu Zong and Samiul Alam and Mi Zhang and Bhaskar Krishnamachari},`}
+                author = {`author={Wang, Xin and Wan, Zhongwei and Hekmati, Arvin and Zong, Mingyu and Alam, Samiul and Zhang, Mi and Krishnamachari, Bhaskar},`}
+                journal = {`journal={arXiv preprint arXiv:2401.01923},`}
                 year = {`year={2024},`}
-                eprint = {`eprint={2401.01923},`}
-                archivePrefix = {`archivePrefix={arXiv},`}
-                primaryClass = {`primaryClass={cs.DC}`}
             />
         </div>
         
