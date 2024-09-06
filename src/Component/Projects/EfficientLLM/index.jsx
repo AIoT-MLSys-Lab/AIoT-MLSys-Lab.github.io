@@ -12,7 +12,7 @@ function EfficientLLM() {
         </div>
 
         <div className='project_conference'>
-        arXiv:2312.03863
+        Transactions on Machine Learning Research
         </div>
         <div className='project_members'>
         Zhongwei Wan, Xin Wang, Che Liu, Samiul Alam, Yu Zheng, Jiachen Liu, Zhongnan Qu, Shen Yan, Yi Zhu, Quanlu Zhang, Mosharaf Chowdhury, Mi Zhang.

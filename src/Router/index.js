@@ -146,6 +146,11 @@ const EfficientLLM = lazy(
   async () => await import('../Component/Projects/EfficientLLM')
 );
 
+const AIoTSurvey = lazy(
+  async () => await import('../Component/Projects/AIoTSurvey')
+);
+
+
 function Index() {
   const element = useRoutes([
     {
@@ -219,6 +224,10 @@ function Index() {
         {
           path: '/EdgeAI/FlexDNN',
           element: <FlexDNN></FlexDNN>
+        },
+        {
+          path: '/EdgeAI/AIoTSurvey',
+          element: <AIoTSurvey></AIoTSurvey>
         },
         {
           path: '/EdgeAI/Mercury',

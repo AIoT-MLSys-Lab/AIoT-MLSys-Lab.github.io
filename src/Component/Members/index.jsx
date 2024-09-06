@@ -57,11 +57,11 @@ function Members() {
             <div className="memberTitle">Current Students</div>
               <div className='cardSet'>
                 <div className='card'><a href="https://samiul272.github.io/"><MemberCard imageURL="./images/memberPhotos/SamiulAlam.jpg" title="Samiul Alam" description="Ph.D. Student   alam.140@osu.edu"></MemberCard></a></div>
-                <div className='card'><MemberCard imageURL="./images/memberPhotos/ZhongweiWan.jpg" title="Zhongwei Wan" description="Ph.D. Student   wan.512@osu.edu"></MemberCard></div>
+                <div className='card'><a href="https://people.engineering.osu.edu/people/wan.512"><MemberCard imageURL="./images/memberPhotos/ZhongweiWan.jpg" title="Zhongwei Wan" description="Ph.D. Student   wan.512@osu.edu"></MemberCard></a></div>
                 <div className='card'><a href="https://sites.google.com/view/shakhrul-iman-siam"><MemberCard imageURL="./images/memberPhotos/ShakhrulImanSiam.jpg" title="Shakhrul Iman Siam" description="Ph.D. Student   siam.5@osu.edu"></MemberCard></a></div>
-                <div className='card'><MemberCard imageURL="./images/memberPhotos/HyunhoAhn.jpg" title="Hyunho Ahn" description="Ph.D. Student   ahn.377@osu.edu"></MemberCard></div>
-                <div className='card'><MemberCard imageURL="./images/memberPhotos/XinWang.jpg" title="Xin Wang" description="Master Student   wang.15980@osu.edu"></MemberCard></div>
-                <div className='card'><MemberCard imageURL="./images/memberPhotos/MarcusShen.jpg" title="Marcus Shen" description="Undergrad Student   shen.1780@osu.edu"></MemberCard></div>
+                <div className='card'><a href="https://hyunhoahn.notion.site/Hyunho-Ahn-b1f93fbeb6fb41df9cbfaa21da5fe927"><MemberCard imageURL="./images/memberPhotos/HyunhoAhn.jpg" title="Hyunho Ahn" description="Ph.D. Student   ahn.377@osu.edu"></MemberCard></a></div>
+                <div className='card'><MemberCard imageURL="./images/memberPhotos/XinWang.jpg" title="Xin Wang" description="Ph.D. Student   wang.15980@osu.edu"></MemberCard></div>
+                <div className='card'><a href="https://marcusshen1227.github.io/"><MemberCard imageURL="./images/memberPhotos/MarcusShen.jpg" title="Hui Shen" description="Undergrad Student   shen.1780@osu.edu"></MemberCard></a></div>
                 <div className='card'><MemberCard imageURL="./images/memberPhotos/JakeZhang.jpg" title="Jake Zhang" description=""></MemberCard></div>
               </div>
           </div>

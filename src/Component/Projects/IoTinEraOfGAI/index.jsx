@@ -12,7 +12,7 @@ function IoTinEraOfGAI() {
         </div>
 
         <div className='project_conference'>
-        arXiv:2401.01923
+        IEEE Internet Computing Magazine
         </div>
         <div className='project_members'>
         Xin Wang, Zhongwei Wan, Arvin Hekmati, Mingyu Zong, Samiul Alam, Mi Zhang, Bhaskar Krishnamachari.

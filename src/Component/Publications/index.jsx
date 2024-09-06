@@ -439,6 +439,35 @@ function Publications() {
     year={2024}
 }`
 
+  const AIoTSurvey = `@article{aiotsurvey2024tosn,
+    title={Artificial Intelligence of Things: A Survey},
+    author={Siam, Shakhrul Iman and Ahn, Hyunho and Liu, Li and Alam, Samiul and Shen, Hui and Cao, Zhichao and Shroff, Ness and Krishnamachari, Bhaskar and Srivastava, Mani and Zhang, Mi},
+    journal={ACM Transactions on Sensor Networks (TOSN)},
+    year={2024}
+  }`
+
+  const ETP = `@inproceedings{etp2024icassp,
+    title = {{ETP: Learning Transferable ECG Representations via ECG-Text Pre-Training}},
+    author = {Liu, Che and Wan, Zhongwei and Cheng, Sibo and Zhang, Mi and Arcucci, Rossella},
+      booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+      year = {2024}
+  }`
+
+  const ChirpTransformer = `@inproceedings{ChirpTransformer2024MobiSys,
+    title = {ChirpTransformer: Versatile LoRa Encoding for Low-power Wide-area IoT},
+    author = {Li, Chenning and Ren, Yidong and Tong, Shuai and Siam, Shakhrul Iman and Zhang, Mi and Wang, Jiliang and Liu, Yunhao and Cao, Zhichao},
+    booktitle = {International Conference on Mobile Systems, Applications and Services (MobiSys)},
+    year = {2024}
+  }`
+
+  const Demeter = `@inproceedings{Demeter2024MobiCom,
+    title = {Demeter: Reliable Cross-soil LPWAN with Low-cost Signal Polarization Alignment},
+    author = {Ren, Yidong and Sun, Wei and Du, Jialuo and Zeng, Huaili and Dong, Younsuk and Zhang, Mi and Chen, Shigang and Liu, Yunhao and Li, Tianxing and Cao, Zhichao},
+    booktitle = {International Conference on Mobile Computing and Networking (MobiCom)},
+    year = {2024}
+  }`
+
+
   return (
     <div>
       <ContentTitle title = "Publications" subtitle = "Publications"></ContentTitle>
@@ -462,23 +491,101 @@ function Publications() {
 
       <div className='publicationsBlock'>
       <div className='publicationsPreprint'>
-        Preprint
+        Survey<br />and <br />Vision <br />Papers
       </div>
-      <div className='publicationsPreprintContent'>
+      <div className='publicationsSurveyContent'>
+        <CodeBlock
+          title = "Artificial Intelligence of Things: A Survey"
+          authors = "Shakhrul Iman Siam, Hyunho Ahn, Li Liu, Samiul Alam, Hui Shen, Zhichao Cao, Ness Shroff, Bhaskar Krishnamachari, Mani Srivastava, Mi Zhang."
+          paper = "https://mi-zhang.github.io/papers/2024_ACMTOSN_AIoTSurvey.pdf"
+          conference = "ACM Transactions on Sensor Networks (<div class='pubHighlight'>ACM TOSN</div>), August 2024."
+          bibtex = {AIoTSurvey}
+          github = "https://github.com/AIoT-MLSys-Lab/AIoT-Survey"
+        >
+        </CodeBlock>
+
         <CodeBlock
           title = "IoT in the Era of Generative AI: Vision and Challenges"
           authors = "Xin Wang, Zhongwei Wan, Arvin Hekmati, Mingyu Zong, Samiul Alam, Mi Zhang, Bhaskar Krishnamachari."
           paper = "https://mi-zhang.github.io/papers/2024_IoTGenAI.pdf"
+          conference = "IEEE Internet Computing Magazine (<div class='pubHighlight'>IEEE IC</div>), August 2024."
           bibtex = {IoTinEraofGAI}
         >
         </CodeBlock>
 
         <CodeBlock
-          title = "FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things"
-          authors = "Samiul Alam, Tuo Zhang, Tiantian Feng, Hui Shen, Zhichao Cao, Dong Zhao, JeongGil Ko, Kiran Somasundaram, Shrikanth S. Narayanan, Salman Avestimehr, Mi Zhang."
-          paper = "https://mi-zhang.github.io/papers/2023_FedAIoT.pdf"
-          bibtex = {FedAIoT}
-          code = "https://github.com/AIoT-MLSys-Lab/FedAIoT"
+          title = "Efficient Large Language Models: A Survey"
+          authors = "Zhongwei Wan, Xin Wang, Che Liu, Samiul Alam, Yu Zheng, Jiachen Liu, Zhongnan Qu, Shen Yan, Yi Zhu, Quanlu Zhang, Mosharaf Chowdhury, Mi Zhang."
+          paper = "https://mi-zhang.github.io/papers/2023_EfficientLLMSurvey.pdf"
+          conference = "Transactions on Machine Learning Research (<div class='pubHighlight'>TMLR</div>), May 2024."
+          bibtex = {EfficientLLM}
+          github = "https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey"
+        >
+        </CodeBlock>
+
+
+        <CodeBlock
+          title = "Federated Learning for Internet of Things: Applications, Challenges, and Opportunities"
+          authors = "Tuo Zhang, Lei Gao, Chaoyang He, Mi Zhang, Bhaskar Krishnamachari, and Salman Avestimehr."
+          conference = "IEEE Internet of Things Magazine (<div class='pubHighlight'>IEEE IoTM</div>), March 2022."
+          paper = "https://mi-zhang.github.io/papers/2022_IEEEIoTM_FLIoTVision.pdf"
+          bibtex = {FLIT}
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "Personal Sensing: Understanding Mental Health Using Ubiquitous Sensors and Machine Learning"
+          authors = "David C. Mohr, Mi Zhang, and Stephen M. Schueller."
+          conference = "Annual Review of Clinical Psychology (<div class='pubHighlight'>ARCP</div>), March 2017."
+          rate = "Impact Factor: 17.8"
+          invited = "<span class='pubBlueHighLight'>Invited Article</span>"
+          link = "http://www.annualreviews.org/doi/abs/10.1146/annurev-clinpsy-032816-044949"
+          paper = "https://mi-zhang.github.io/papers/2017_ARCP_PersonalSensing.pdf"
+          bibtex = {PersonalSensing}
+        >
+        </CodeBlock>
+
+      </div>
+      </div>
+
+      <div className='publicationsBlock'>
+      <div className='publicationsPreprint'>
+        Preprint
+      </div>
+      <div className='publicationsPreprintContent'>
+        <CodeBlock
+          title = "SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression"
+          authors = "Xin Wang, Yu Zheng, Zhongwei Wan, Mi Zhang."
+          paper = "https://arxiv.org/abs/2403.07378"
+          code = "https://github.com/AIoT-MLSys-Lab/SVD-LLM"
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "D2O: Dynamic Discriminative Operations for Efficient Generative Inference of Large Language Models"
+          authors = "Zhongwei Wan, Xinjian Wu, Yu Zhang, Yi Xin, Chaofan Tao, Zhihong Zhu, Xin Wang, Siqi Luo, Jing Xiong, Mi Zhang."
+          paper = "https://arxiv.org/abs/2406.13035"
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "MEIT: Multi-Modal Electrocardiogram Instruction Tuning on Large Language Models for Report Generation"
+          authors = "Zhongwei Wan, Che Liu, Xin Wang, Chaofan Tao, Hui Shen, Zhenwu Peng, Jie Fu, Rossella Arcucci, Huaxiu Yao, Mi Zhang."
+          paper = "https://arxiv.org/abs/2403.04945"
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "Benchmarking and Boosting Radiology Report Generation for 3D High-Resolution Medical Images"
+          authors = "Che Liu, Zhongwei Wan, Yuqi Wang, Hui Shen, Haozhe Wang, Kangyu Zheng, Mi Zhang, Rossella Arcucci."
+          paper = "https://arxiv.org/abs/2406.07146"
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "Creating a Lens of Chinese Culture: A Multimodal Dataset for Chinese Pun Rebus Art Understanding"
+          authors = "Tuo Zhang, Tiantian Feng, Yibin Ni, Mengqin Cao, Ruying Liu, Katharine Butler, Yanjun Weng, Mi Zhang, Shrikanth S. Narayanan, Salman Avestimehr."
+          paper = "https://arxiv.org/abs/2406.10318"
         >
         </CodeBlock>
         
@@ -492,24 +599,18 @@ function Publications() {
       </div>
 
       <div className='publicationsBlock'>
-      <div className='publicationsPreprint'>
+      <div className='publicationsYear'>
         2024
       </div>
-      <div className='publicationsPreprintContent'>
-        <CodeBlock
-          title = "Efficient Large Language Models: A Survey"
-          authors = "Zhongwei Wan, Xin Wang, Che Liu, Samiul Alam, Yu Zheng, Jiachen Liu, Zhongnan Qu, Shen Yan, Yi Zhu, Quanlu Zhang, Mosharaf Chowdhury, Mi Zhang."
-          paper = "https://mi-zhang.github.io/papers/2023_EfficientLLMSurvey.pdf"
-          bibtex = {EfficientLLM}
-          github = "https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey"
-        >
-        </CodeBlock>
+      <div className='publicationsContent'>
 
         <CodeBlock
           title = "ChirpTransformer: Versatile LoRa Encoding for Low-Power Wide-Area IoT"
           authors = "Chenning Li, Yidong Ren, Shuai Tong, Shakhrul Iman Siam, Mi Zhang, Jiliang Wang, Yunhao Liu, Zhichao Cao."
           conference = "ACM International Conference on Mobile Systems, Applications, and Services (<div class='pubHighlight'>MobiSys'24</div>)."
           rate = "Acceptance Rate: 43/263 = 16.3%"
+          paper = "https://mi-zhang.github.io/papers/2024_MobiSys_ChirpTransformer.pdf"
+          bibtex = {ChirpTransformer}
         >
         </CodeBlock>
         
@@ -517,6 +618,18 @@ function Publications() {
           title = "Demeter: Reliable Cross-Soil LPWAN with Low-Cost Signal Polarization Alignment"
           authors = "Yidong Ren, Wei Sun, Jialuo Du, Huaili Zeng, Younsuk Dong, Mi Zhang, Shigang Chen, Yunhao Liu, Tianxing Li, Zhichao Cao."
           conference = "ACM International Conference on Mobile Computing and Networking (<div class='pubHighlight'>MobiCom'24</div>)."
+          paper = "https://mi-zhang.github.io/papers/2024_MobiCom_Demeter.pdf"
+          bibtex = {Demeter}
+        >
+        </CodeBlock>
+
+        <CodeBlock
+          title = "FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things"
+          authors = "Samiul Alam, Tuo Zhang, Tiantian Feng, Hui Shen, Zhichao Cao, Dong Zhao, JeongGil Ko, Kiran Somasundaram, Shrikanth S. Narayanan, Salman Avestimehr, Mi Zhang."
+          conference = "Journal of Data-centric Machine Learning Research (<div class='pubHighlight'>DMLR</div>), 2024."
+          paper = "https://mi-zhang.github.io/papers/2023_FedAIoT.pdf"
+          bibtex = {FedAIoT}
+          code = "https://github.com/AIoT-MLSys-Lab/FedAIoT"
         >
         </CodeBlock>
 
@@ -524,8 +637,24 @@ function Publications() {
           title = "ETP: Learning Transferable ECG Representations via ECG-Text Pre-Training"
           authors = "Che Liu, Zhongwei Wan, Sibo Cheng, Mi Zhang, Rossella Arcucci."
           conference = "IEEE International Conference on Acoustics, Speech, and Signal Processing (<div class='pubHighlight'>ICASSP'24</div>)."
+          paper = "https://mi-zhang.github.io/papers/2024_ICASSP_ETP.pdf"
+          bibtex = {ETP}
         >
         </CodeBlock>
+
+        <CodeBlock
+          title = "Famba-V: Fast Vision Mamba with Cross-Layer Token Fusion"
+          authors = "Hui Shen, Zhongwei Wan, Xin Wang, and Mi Zhang."
+          conference = "European Conference on Computer Vision (<div class='pubHighlight'>ECCV'24</div>) Workshop on Computational Aspects of Deep Learning."
+          honor = "<span class='pubRedHighLight'>Best Paper Award Candidate</span>"
+        >
+        </CodeBlock>
+
+
+        <div className='publicationsItem'>
+          <div class="publicationsStrong">Ph.D. Thesis: Efficient Architecture and Data Manipulation for Deep Learning Systems</div>
+					Yu Zheng, 2024.
+        </div>
 
       </div>
       </div>
@@ -658,14 +787,6 @@ function Publications() {
         >
         </CodeBlock>
 
-        <CodeBlock
-          title = "Federated Learning for Internet of Things: Applications, Challenges, and Opportunities"
-          authors = "Tuo Zhang, Lei Gao, Chaoyang He, Mi Zhang, Bhaskar Krishnamachari, and Salman Avestimehr."
-          conference = "IEEE Internet of Things Magazine (<div class='pubHighlight'>IEEE IoTM</div>), 2022."
-          paper = "https://mi-zhang.github.io/papers/2022_IEEEIoTM_FLIoTVision.pdf"
-          bibtex = {FLIT}
-        >
-        </CodeBlock>
 
         <CodeBlock
           title = "Deep AutoAugment"
@@ -1095,18 +1216,6 @@ function Publications() {
                      <a href="https://www.rdmag.com/news/2017/11/hearing-aid-technology-eliminate-background-noise"> R&amp;D Magazine</a> | 
                      <a href="https://www.tun.com/blog/msu-technology-hearing-aid-noise/"> The University Network </a>]
         </div>
-
-        <CodeBlock
-          title = "Personal Sensing: Understanding Mental Health Using Ubiquitous Sensors and Machine Learning"
-          authors = "David C. Mohr, Mi Zhang, and Stephen M. Schueller."
-          conference = "Annual Review of Clinical Psychology (<div class='pubHighlight'>ARCP</div>), Volume 13, Pages 23-47, 2017."
-          rate = "Impact Factor: 12.214"
-          invited = "<span class='pubBlueHighLight'>Invited Article</span>"
-          link = "http://www.annualreviews.org/doi/abs/10.1146/annurev-clinpsy-032816-044949"
-          paper = "https://mi-zhang.github.io/papers/2017_ARCP_PersonalSensing.pdf"
-          bibtex = {PersonalSensing}
-        >
-        </CodeBlock>
 
         <div className='publicationsItem'>
           <div class="publicationsStrong">Helping Universities Combat Depression with Mobile Technology</div>

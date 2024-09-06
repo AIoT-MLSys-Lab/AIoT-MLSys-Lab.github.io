@@ -8,6 +8,13 @@ function EdgeAI() {
     <div>
       <ContentTitle title = "Edge AI" subtitle = "Research"></ContentTitle>
       <ProjectPanel 
+      link = "./#/EdgeAI/AIoTSurvey"
+      imageURL = "./images/projects/AIoT_overview.svg"
+      title = "Artificial Intelligence of Things: A Survey"
+      content = "The integration of the Internet of Things (IoT) and modern Artificial Intelligence (AI) has given rise to a new paradigm known as the Artificial Intelligence of Things (AIoT). In this survey, we provide a systematic and comprehensive review of AIoT research. We examine AIoT literature related to sensing, computing, and networking & communication, which form the three key components of AIoT. In addition to advancements in these areas, we review domain-specific AIoT systems that are designed for various important application domains. We have also created an accompanying GitHub repository, where we compile the papers included in this survey: https://github.com/AIoT-MLSys-Lab/AIoT-Survey. This repository will be actively maintained and updated with new research as it becomes available. As both IoT and AI become increasingly critical to our society, we believe AIoT is emerging as an essential research field at the intersection of IoT and modern AI. We hope this survey will serve as a valuable resource for those engaged in AIoT research and act as a catalyst for future explorations to bridge gaps and drive advancements in this exciting field."
+      ></ProjectPanel>
+
+      <ProjectPanel 
       link = "./#/EdgeAI/NestDNN"
       imageURL = "./images/projects/NestDNN.svg"
       title = "NestDNN: Resource-Aware Multi-Tenant On-Device Deep Learning for Continuous Mobile Vision"

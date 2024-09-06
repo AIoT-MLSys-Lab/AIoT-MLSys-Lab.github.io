@@ -28,37 +28,37 @@ function Home() {
 
           <div className='new'>
             <div className='newDate'>
-              Jan 2024
+              Sep. 2024
             </div>
             <div className='newContent'>
-            <a href="https://arxiv.org/abs/2401.01923.pdf">IoT in the Era of Generative AI: Vision and Challenges</a> is online.
+              Prof. Zhang receives the 2024 University of Chicago Outstanding Educator Award.
             </div>
           </div>
 
           <div className='new'>
             <div className='newDate'>
-              Dec 2023
+              Aug. 2024
             </div>
             <div className='newContent'>
-            <a href="https://arxiv.org/pdf/2312.03863.pdf">Efficient Large Language Models: A Survey</a> is online.
+            In collaboration with MSU, USC, and UCLA, our <a href="https://mi-zhang.github.io/papers/2024_ACMTOSN_AIoTSurvey.pdf">survey</a> on Artificial Intelligence of Things (AIoT) is accepted to ACM Transactions on Sensor Networks. We also create a GitHub repository where we organize the papers featured in this survey. We hope this survey along with the <a href="https://github.com/AIoT-MLSys-Lab/AIoT-Survey">GitHub repository</a> could serve as valuable resources to help researchers and practitioners gain a comprehensive understanding of AIoT research and inspire them to contribute to this important and exciting field.
             </div>
           </div>
 
           <div className='new'>
             <div className='newDate'>
-              Feb 2023
+              Aug. 2024
             </div>
             <div className='newContent'>
-            Prof. Zhang receives the inaugural USC ECE-SIPI Distinguished Alumni Award in the Junior/Academia category for his contributions to mobile/edge computing in his early career. Details about the award can be found <a href="https://minghsiehece.usc.edu/groups-and-institutes-sipi-sipi-50th-anniversary-awardees/" >here</a>. 
+            Famba-V, our work on efficient Vision Mamba is the <div className='missionHighLight'>Best Paper Award Candidate</div> of ECCV'24 Workshop on Computational Aspects of Deep Learning.
             </div>
           </div>
 
           <div className='new'>
             <div className='newDate'>
-              Jan 2023
+              Aug. 2024
             </div>
             <div className='newContent'>
-              Congratulations Samiul for being awarded the highly competitive OSU College Allocated Fellowship!
+            Recent advancements in Generative AI have enabled a new wave of AI revolution. The implications of such advancements for Internet of Things (IoT) are profound. In our <a href="https://arxiv.org/abs/2401.01923">vision paper</a> accepted to IEEE Internet Computing Magazine, we share our views on the applications, challenges, and opportunities of IoT in the era of Generative AI.
             </div>
           </div>
 

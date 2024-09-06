@@ -54,12 +54,86 @@ function News() {
 
               <div className='newsItem'>
                 <NewsCard 
+                imageURL="./images/LabLogoWhite.png" 
+                title="Prof. Zhang receives the 2024 University of Chicago Outstanding Educator Award." 
+                date="Sep. 2024"
+                content="Prof. Zhang receives the 2024 University of Chicago Outstanding Educator Award."
+                ></NewsCard>
+              </div>
+              
+              <div className='newsItem'>
+                <NewsCard 
+                imageURL="./images/LabLogoWhite.png" 
+                title="Artificial Intelligence of Things: A Survey is online" 
+                date="Aug. 2024"
+                content="In collaboration with MSU, USC, and UCLA, our survey on Artificial Intelligence of Things （AIoT） is accepted to ACM Transactions on Sensor Networks."
+                ></NewsCard>
+              </div>
+
+              <div className='newsItem'>
+                <NewsCard 
+                imageURL="./images/LabLogoWhite.png" 
+                title="Famba-V: Fast Vision Mamba with Cross-Layer Token Fusion" 
+                date="Aug. 2024"
+                content="Famba-V, our work on efficient Vision Mamba is the Best Paper Award Candidate of ECCV'24 Workshop on Computational Aspects of Deep Learning."
+                ></NewsCard>
+              </div>
+
+              <div className='newsItem'>
+                <NewsCard 
+                imageURL="./images/LabLogoWhite.png" 
+                title="FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things" 
+                date="Aug. 2024"
+                content="FedAIoT, our work on developing a dedicated federated learning framework and benchmark for IoT devices is accepted to Journal of Data-centric Machine Learning Research （DMLR）."
+                ></NewsCard>
+              </div>
+
+              <div className='newsItem'>
+                <NewsCard 
+                imageURL="./images/LabLogoWhite.png" 
+                title="Efficient Large Language Models: A Survey is online" 
+                date="May 2024"
+                content="In collaboration with Imperial College London, MSU, University of Michigan, Amazon, Google Research, Microsoft Research, and Boson AI, our survey on efficient large language models is accepted to Transactions on Machine Learning Research （TMLR）."
+                ></NewsCard>
+              </div>
+
+              <div className='newsItem'>
+                <NewsCard 
+                imageURL="./images/LabLogoWhite.png" 
+                title="Congrats to Zhongwei, Xin and Hyunho!" 
+                date="Mar. 2024"
+                content="Congratulations Zhongwei, Xin and Hyunho for landing internship at Tencent AI Lab, Microsoft Research and AMD!"
+                ></NewsCard>
+              </div>
+
+              <div className='newsItem'>
+                <NewsCard 
+                imageURL="./images/LabLogoWhite.png" 
+                title="Congrats to Zhongwei!" 
+                date="Mar. 2024"
+                content="Congratulations Zhongwei for being invited to give a talk at Stanford MedAI Seminar Series!"
+                ></NewsCard>
+              </div>
+
+              <div className='newsItem'>
+                <NewsCard 
+                imageURL="./images/LabLogoWhite.png" 
+                title="Congrats to Xin!" 
+                date="Mar. 2024"
+                content="Congratulations Xin for being awarded the highly competitive OSU College Allocated Fellowship!"
+                ></NewsCard>
+              </div>
+
+              <div className='newsItem'>
+                <NewsCard 
                 imageURL="./images/news/news_2024_1.svg" 
                 title="IoT in the Era of Generative AI: Vision and Challenges is online" 
                 date="Jan. 2024"
-                content="Recent advancements in Generative AI have enabled a new wave of AI revolution. The implications of such advancements for Internet of Things (IoT) are profound. In this article, we share our views on the applications, challenges, and opportunities of IoT in the era of Generative AI."
+                content="Recent advancements in Generative AI have enabled a new wave of AI revolution. The implications of such advancements for Internet of Things （IoT） are profound. In this article, we share our views on the applications, challenges, and opportunities of IoT in the era of Generative AI."
                 ></NewsCard>
               </div>
+
+
               
             </div>
           )}

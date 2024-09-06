@@ -93,7 +93,7 @@ function CodeBlock({ title, authors, conference, rate, link, paper, bibtex, code
 
         {github && (
           <>
-            &nbsp;|&nbsp;<a href={github}>Github Repository</a>
+            &nbsp;|&nbsp;<a href={github}>Paper List</a>
           </>
         )}
 

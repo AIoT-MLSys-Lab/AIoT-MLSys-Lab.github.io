@@ -11,7 +11,7 @@ function FedAIoT() {
         </div>
 
         <div className='project_conference'>
-        arXiv:2310.00109
+        Journal of Data-centric Machine Learning Research
         </div>
         <div className='project_members'>
         Samiul Alam, Tuo Zhang, Tiantian Feng, Hui Shen, Zhichao Cao, Dong Zhao, JeongGil Ko, Kiran Somasundaram, Shrikanth S. Narayanan, Salman Avestimehr, Mi Zhang.
