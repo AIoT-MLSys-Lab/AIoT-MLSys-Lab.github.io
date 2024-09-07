@@ -63,8 +63,8 @@ function News() {
               
               <div className='newsItem'>
                 <NewsCard 
-                imageURL="./images/LabLogoWhite.png" 
-                title="Artificial Intelligence of Things: A Survey is online" 
+                imageURL="./images/news/AIoT_overview.png" 
+                title="Artificial Intelligence of Things: A Survey is accepted" 
                 date="Aug. 2024"
                 content="In collaboration with MSU, USC, and UCLA, our survey on Artificial Intelligence of Things （AIoT） is accepted to ACM Transactions on Sensor Networks."
                 ></NewsCard>
@@ -90,8 +90,8 @@ function News() {
 
               <div className='newsItem'>
                 <NewsCard 
-                imageURL="./images/LabLogoWhite.png" 
-                title="Efficient Large Language Models: A Survey is online" 
+                imageURL="./images/news/EfficientLLM.png" 
+                title="Efficient Large Language Models: A Survey is accepted" 
                 date="May 2024"
                 content="In collaboration with Imperial College London, MSU, University of Michigan, Amazon, Google Research, Microsoft Research, and Boson AI, our survey on efficient large language models is accepted to Transactions on Machine Learning Research （TMLR）."
                 ></NewsCard>
@@ -99,7 +99,7 @@ function News() {
 
               <div className='newsItem'>
                 <NewsCard 
-                imageURL="./images/LabLogoWhite.png" 
+                imageURL="./images/memberPhotos/HyunhoAhn.jpg" 
                 title="Congrats to Zhongwei, Xin and Hyunho!" 
                 date="Mar. 2024"
                 content="Congratulations Zhongwei, Xin and Hyunho for landing internship at Tencent AI Lab, Microsoft Research and AMD!"
@@ -108,7 +108,7 @@ function News() {
 
               <div className='newsItem'>
                 <NewsCard 
-                imageURL="./images/LabLogoWhite.png" 
+                imageURL="./images/memberPhotos/ZhongweiWan.jpg" 
                 title="Congrats to Zhongwei!" 
                 date="Mar. 2024"
                 content="Congratulations Zhongwei for being invited to give a talk at Stanford MedAI Seminar Series!"
@@ -117,7 +117,7 @@ function News() {
 
               <div className='newsItem'>
                 <NewsCard 
-                imageURL="./images/LabLogoWhite.png" 
+                imageURL="./images/memberPhotos/XinWang.jpg" 
                 title="Congrats to Xin!" 
                 date="Mar. 2024"
                 content="Congratulations Xin for being awarded the highly competitive OSU College Allocated Fellowship!"
