@@ -27,7 +27,7 @@ function Join() {
           For prospective Postdoc, PhD, Master, undergraduate students, and remote research interns who want to join my group, please email me your CV, transcripts, and GitHub repository. I may not be able to reply to your emails if those documents are incomplete.
           </div>
 
-          <div className='JoinTitle'>
+          {/* <div className='JoinTitle'>
             Current Opportunities
           </div>
           <div className='JoinDesc'>
@@ -38,7 +38,7 @@ function Join() {
               We are looking for a Master/Undergraduate student to work on a project on developing a chatbot. Please see the <a href="./files/ChatGPT_Job Ads.pdf" className='JoinAdsLink'>ads</a> for more information.
             
             </li>
-          </div>
+          </div> */}
         </div>
         <div className='JoinLabLogo'>
           <img src="./images/LabLogoWhite.png" alt="" />

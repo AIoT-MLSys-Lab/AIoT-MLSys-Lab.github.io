@@ -54,7 +54,7 @@ function News() {
 
               <div className='newsItem'>
                 <NewsCard 
-                imageURL="./images/LabLogoWhite.png" 
+                imageURL="./images/memberPhotos/MiZhang.png" 
                 title="Prof. Zhang receives the 2024 University of Chicago Outstanding Educator Award." 
                 date="Sep. 2024"
                 content="Prof. Zhang receives the 2024 University of Chicago Outstanding Educator Award."
@@ -72,7 +72,7 @@ function News() {
 
               <div className='newsItem'>
                 <NewsCard 
-                imageURL="./images/LabLogoWhite.png" 
+                imageURL="./images/projects/FambaVLogo.jpg" 
                 title="Famba-V: Fast Vision Mamba with Cross-Layer Token Fusion" 
                 date="Aug. 2024"
                 content="Famba-V, our work on efficient Vision Mamba is the Best Paper Award Candidate of ECCV'24 Workshop on Computational Aspects of Deep Learning."
@@ -81,7 +81,7 @@ function News() {
 
               <div className='newsItem'>
                 <NewsCard 
-                imageURL="./images/LabLogoWhite.png" 
+                imageURL="./images/news/FedAIoT.png" 
                 title="FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things" 
                 date="Aug. 2024"
                 content="FedAIoT, our work on developing a dedicated federated learning framework and benchmark for IoT devices is accepted to Journal of Data-centric Machine Learning Research （DMLR）."

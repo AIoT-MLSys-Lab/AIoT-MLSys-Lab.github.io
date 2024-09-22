@@ -83,8 +83,17 @@ function MiZhang() {
           Selected Awards
         </div>
         <div className='mizhangHonors'>
+            <div div className='mizhangHonor'>
+              <div className='mizhangHighlight'>2024</div> &nbsp;University of Chicago Outstanding Educator Award
+            </div>
+
+
+            <div div className='mizhangHonor'>
+              <div className='mizhangHighlight'>2024</div> &nbsp;Best Paper Award Candidate, ECCV'24 Workshop on Computational Aspects of Deep Learning
+            </div>
+
             <div className='mizhangHonor'>
-            <div className='mizhangHighlight'>2022</div> &nbsp;<a href="https://minghsiehece.usc.edu/groups-and-institutes-sipi-sipi-50th-anniversary-awardees/">Inaugural USC ECE SIPI Distinguished Alumni Award in Junior/Academia Category</a>
+            <div className='mizhangHighlight'>2023</div> &nbsp;<a href="https://minghsiehece.usc.edu/groups-and-institutes-sipi-sipi-50th-anniversary-awardees/">Inaugural USC ECE SIPI Distinguished Alumni Award in Junior/Academia Category</a>
             </div>
 
             <div className='mizhangHonor'>

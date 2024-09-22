@@ -62,7 +62,6 @@ function Members() {
                 <div className='card'><a href="https://hyunhoahn.notion.site/Hyunho-Ahn-b1f93fbeb6fb41df9cbfaa21da5fe927"><MemberCard imageURL="./images/memberPhotos/HyunhoAhn.jpg" title="Hyunho Ahn" description="Ph.D. Student   ahn.377@osu.edu"></MemberCard></a></div>
                 <div className='card'><MemberCard imageURL="./images/memberPhotos/XinWang.jpg" title="Xin Wang" description="Ph.D. Student   wang.15980@osu.edu"></MemberCard></div>
                 <div className='card'><a href="https://marcusshen1227.github.io/"><MemberCard imageURL="./images/memberPhotos/MarcusShen.jpg" title="Hui Shen" description="Undergrad Student   shen.1780@osu.edu"></MemberCard></a></div>
-                <div className='card'><MemberCard imageURL="./images/memberPhotos/JakeZhang.jpg" title="Jake Zhang" description=""></MemberCard></div>
               </div>
           </div>
 
@@ -95,6 +94,13 @@ function Members() {
                 <div className='card'><NoPhotoCard title="Polimante Sergio" description="B.S."></NoPhotoCard></div>
                 <div className='card'><NoPhotoCard title="Haochen Sun" description="B.S."></NoPhotoCard></div>
                 <div className='card'><NoPhotoCard title="Jillian Co" description="B.S."></NoPhotoCard></div>
+              </div>
+          </div>
+
+          <div className='memberType'>
+            <div className="memberTitle">Former High School Student</div>
+              <div className='cardSet'>
+                <div className='card'><NoPhotoCard title="Jake Zhang" description=""></NoPhotoCard></div>
               </div>
           </div>
       </div>

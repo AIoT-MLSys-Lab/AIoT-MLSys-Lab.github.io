@@ -7,6 +7,14 @@ function MobileHealth() {
   return (
     <div>
       <ContentTitle title = "Mobile Health" subtitle = "Research"></ContentTitle>
+
+      <ProjectPanel 
+      link = "./#/MobileHealth/MEIT"
+      imageURL = "./images/projects/MEIT.png"
+      title = "MEIT: Multi-Modal Electrocardiogram Instruction Tuning on Large Language Models for Report Generation"
+      content = "Electrocardiogram (ECG) is the primary non-invasive diagnostic tool for monitoring cardiac conditions and is crucial in assisting clinicians. Recent studies have concentrated on classifying cardiac conditions using ECG data but have overlooked ECG report generation, which is time-consuming and requires clinical expertise. To automate ECG report generation and ensure its versatility, we propose the Multimodal ECG Instruction Tuning (MEIT) framework, the first attempt to tackle ECG report generation with LLMs and multimodal instructions. To facilitate future research, we establish a benchmark to evaluate MEIT with various LLMs backbones across two large-scale ECG datasets. Our approach uniquely aligns the representations of the ECG signal and the report, and we conduct extensive experiments to benchmark MEIT with nine open-source LLMs using more than 800,000 ECG reports. MEIT's results underscore the superior performance of instruction-tuned LLMs, showcasing their proficiency in quality report generation, zero-shot capabilities, and resilience to signal perturbation. These findings emphasize the efficacy of our MEIT framework and its potential for real-world clinical application."
+      ></ProjectPanel>
+
       <ProjectPanel 
       link = "./#/MobileHealth/MobileDeepPill"
       imageURL = "./images/projects/MobileDeepPill.svg"

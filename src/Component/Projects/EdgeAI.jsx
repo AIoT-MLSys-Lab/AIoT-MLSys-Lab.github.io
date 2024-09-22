@@ -15,6 +15,13 @@ function EdgeAI() {
       ></ProjectPanel>
 
       <ProjectPanel 
+      link = "./#/EdgeAI/IoTinEraOfGAI"
+      imageURL = "./images/projects/IoTinGAI.svg"
+      title = "IoT in the Era of Generative AI: Vision and Challenges"
+      content = "Equipped with sensing, networking, and computing capabilities, Internet of Things (IoT) such as smartphones, wearables, smart speakers, and household robots have been seamlessly weaved into our daily lives. Recent advancements in Generative AI exemplified by GPT, LLaMA, DALL-E, and Stable Difussion hold immense promise to push IoT to the next level. In this article, we share our vision and views on the benefits that Generative AI brings to IoT, and discuss some of the most important applications of Generative AI in IoT-related domains. Fully harnessing Generative AI in IoT is a complex challenge. We identify some of the most critical challenges including high resource demands of the Generative AI models, prompt engineering, on-device inference, offloading, on-device fine-tuning, federated learning, security, as well as development tools and benchmarks, and discuss current gaps as well as promising opportunities on enabling Generative AI for IoT. We hope this article can inspire new research on IoT in the era of Generative AI."
+      ></ProjectPanel>
+
+      <ProjectPanel 
       link = "./#/EdgeAI/NestDNN"
       imageURL = "./images/projects/NestDNN.svg"
       title = "NestDNN: Resource-Aware Multi-Tenant On-Device Deep Learning for Continuous Mobile Vision"

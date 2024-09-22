@@ -150,6 +150,21 @@ const AIoTSurvey = lazy(
   async () => await import('../Component/Projects/AIoTSurvey')
 );
 
+const FambaV = lazy(
+  async () => await import('../Component/Projects/FambaV')
+);
+
+const SVDLLM = lazy(
+  async () => await import('../Component/Projects/SVDLLM')
+);
+
+const MEIT = lazy(
+  async () => await import('../Component/Projects/MEIT')
+);
+
+const D2O = lazy(
+  async () => await import('../Component/Projects/D2O')
+);
 
 function Index() {
   const element = useRoutes([
@@ -298,12 +313,28 @@ function Index() {
           element: <MobilePhoneSensorCorrelatesofDepressiveSymptomSeverityinDailyLifeBehavior></MobilePhoneSensorCorrelatesofDepressiveSymptomSeverityinDailyLifeBehavior>
         },
         {
-          path: '/LLM/IoTinEraOfGAI',
+          path: '/EdgeAI/IoTinEraOfGAI',
           element: <IoTinEraOfGAI></IoTinEraOfGAI>
         },
         {
           path: '/LLM/EfficientLLM',
           element: <EfficientLLM></EfficientLLM>
+        },
+        {
+          path: '/LLM/FambaV',
+          element: <FambaV></FambaV>
+        },
+        {
+          path: '/LLM/SVDLLM',
+          element: <SVDLLM></SVDLLM>
+        },
+        {
+          path: '/MobileHealth/MEIT',
+          element: <MEIT></MEIT>
+        },
+        {
+          path: '/LLM/D2O',
+          element: <D2O></D2O>
         },
       ]
     },

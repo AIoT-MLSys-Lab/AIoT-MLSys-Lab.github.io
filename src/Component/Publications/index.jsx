@@ -426,16 +426,18 @@ function Publications() {
 }`
 
   const EfficientLLM = `@article{wan2023efficient,
-    title={Efficient Large Language Models: A Survey},
-    author={Wan, Zhongwei and Wang, Xin and others},
-    year={2023},
+    title={Efficient large language models: A survey},
+    author={Wan, Zhongwei and Wang, Xin and Liu, Che and Alam, Samiul and Zheng, Yu and others},
     journal={arXiv preprint arXiv:2312.03863},
+    volume={1},
+    year={2023},
+    publisher={no}
 }`
 
-  const IoTinEraofGAI = `@article{wang2024iot,
+  const IoTinEraofGAI = `@article{iotgenaivision2024ieeeic,
     title={IoT in the Era of Generative AI: Vision and Challenges},
     author={Wang, Xin and Wan, Zhongwei and Hekmati, Arvin and Zong, Mingyu and Alam, Samiul and Zhang, Mi and Krishnamachari, Bhaskar},
-    journal={arXiv preprint arXiv:2401.01923},
+    journal = {IEEE Internet Computing Magazine (IEEE IC)},
     year={2024}
 }`
 
@@ -444,28 +446,36 @@ function Publications() {
     author={Siam, Shakhrul Iman and Ahn, Hyunho and Liu, Li and Alam, Samiul and Shen, Hui and Cao, Zhichao and Shroff, Ness and Krishnamachari, Bhaskar and Srivastava, Mani and Zhang, Mi},
     journal={ACM Transactions on Sensor Networks (TOSN)},
     year={2024}
-  }`
+}`
 
   const ETP = `@inproceedings{etp2024icassp,
     title = {{ETP: Learning Transferable ECG Representations via ECG-Text Pre-Training}},
     author = {Liu, Che and Wan, Zhongwei and Cheng, Sibo and Zhang, Mi and Arcucci, Rossella},
       booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
       year = {2024}
-  }`
+}`
 
   const ChirpTransformer = `@inproceedings{ChirpTransformer2024MobiSys,
     title = {ChirpTransformer: Versatile LoRa Encoding for Low-power Wide-area IoT},
     author = {Li, Chenning and Ren, Yidong and Tong, Shuai and Siam, Shakhrul Iman and Zhang, Mi and Wang, Jiliang and Liu, Yunhao and Cao, Zhichao},
     booktitle = {International Conference on Mobile Systems, Applications and Services (MobiSys)},
     year = {2024}
-  }`
+}`
 
   const Demeter = `@inproceedings{Demeter2024MobiCom,
     title = {Demeter: Reliable Cross-soil LPWAN with Low-cost Signal Polarization Alignment},
     author = {Ren, Yidong and Sun, Wei and Du, Jialuo and Zeng, Huaili and Dong, Younsuk and Zhang, Mi and Chen, Shigang and Liu, Yunhao and Li, Tianxing and Cao, Zhichao},
     booktitle = {International Conference on Mobile Computing and Networking (MobiCom)},
     year = {2024}
-  }`
+}`
+
+  const FambaV = `@inproceedings{fambav2024eccvw,
+	title={Famba-V: Fast Vision Mamba with Sparse Fusion-based Visual Representation},
+	author={Shen, Hui and Wan, Zhongwei and Wang, Xin and Zhang, Mi},
+  	booktitle={European Conference on Computer Vision (ECCV) Workshop on Computational Aspects of Deep Learning},
+  	year={2024}
+}`
+
 
 
   return (
@@ -507,7 +517,7 @@ function Publications() {
         <CodeBlock
           title = "IoT in the Era of Generative AI: Vision and Challenges"
           authors = "Xin Wang, Zhongwei Wan, Arvin Hekmati, Mingyu Zong, Samiul Alam, Mi Zhang, Bhaskar Krishnamachari."
-          paper = "https://mi-zhang.github.io/papers/2024_IoTGenAI.pdf"
+          paper = "https://mi-zhang.github.io/papers/2024_IEEEIC_IoTGenAIVision.pdf"
           conference = "IEEE Internet Computing Magazine (<div class='pubHighlight'>IEEE IC</div>), August 2024."
           bibtex = {IoTinEraofGAI}
         >
@@ -516,7 +526,7 @@ function Publications() {
         <CodeBlock
           title = "Efficient Large Language Models: A Survey"
           authors = "Zhongwei Wan, Xin Wang, Che Liu, Samiul Alam, Yu Zheng, Jiachen Liu, Zhongnan Qu, Shen Yan, Yi Zhu, Quanlu Zhang, Mosharaf Chowdhury, Mi Zhang."
-          paper = "https://mi-zhang.github.io/papers/2023_EfficientLLMSurvey.pdf"
+          paper = "https://mi-zhang.github.io/papers/2024_TMLR_EfficientLLMSurvey.pdf"
           conference = "Transactions on Machine Learning Research (<div class='pubHighlight'>TMLR</div>), May 2024."
           bibtex = {EfficientLLM}
           github = "https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey"
@@ -627,7 +637,7 @@ function Publications() {
           title = "FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things"
           authors = "Samiul Alam, Tuo Zhang, Tiantian Feng, Hui Shen, Zhichao Cao, Dong Zhao, JeongGil Ko, Kiran Somasundaram, Shrikanth S. Narayanan, Salman Avestimehr, Mi Zhang."
           conference = "Journal of Data-centric Machine Learning Research (<div class='pubHighlight'>DMLR</div>), 2024."
-          paper = "https://mi-zhang.github.io/papers/2023_FedAIoT.pdf"
+          paper = "https://mi-zhang.github.io/papers/2024_DMLR_FedAIoT.pdf"
           bibtex = {FedAIoT}
           code = "https://github.com/AIoT-MLSys-Lab/FedAIoT"
         >
@@ -647,6 +657,9 @@ function Publications() {
           authors = "Hui Shen, Zhongwei Wan, Xin Wang, and Mi Zhang."
           conference = "European Conference on Computer Vision (<div class='pubHighlight'>ECCV'24</div>) Workshop on Computational Aspects of Deep Learning."
           honor = "<span class='pubRedHighLight'>Best Paper Award Candidate</span>"
+          paper = "https://mi-zhang.github.io/papers/2024_ECCVW_Famba-V.pdf"
+          bibtex = {FambaV}
+          code = "https://github.com/AIoT-MLSys-Lab/Famba-V"
         >
         </CodeBlock>
 

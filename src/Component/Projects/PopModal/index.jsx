@@ -68,6 +68,9 @@ const PopModal = ( props ) => {
           {props.location && (
             <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.location}</p>
           )}
+          {props.publisher && (
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;{props.publisher}</p>
+          )}
           <p>{'}'}</p>
         </div>
       </Modal>

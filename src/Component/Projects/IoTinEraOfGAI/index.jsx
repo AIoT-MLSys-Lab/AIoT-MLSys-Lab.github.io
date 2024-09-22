@@ -23,10 +23,10 @@ function IoTinEraOfGAI() {
                 &nbsp;Paper
             </a>
 
-            <PopModal inproceeding = {`@article{wang2024iot,`}
+            <PopModal inproceeding = {`@article{iotgenaivision2024ieeeic,`}
                 title = {`title={IoT in the Era of Generative AI: Vision and Challenges},`}
                 author = {`author={Wang, Xin and Wan, Zhongwei and Hekmati, Arvin and Zong, Mingyu and Alam, Samiul and Zhang, Mi and Krishnamachari, Bhaskar},`}
-                journal = {`journal={arXiv preprint arXiv:2401.01923},`}
+                journal = {`journal = {IEEE Internet Computing Magazine (IEEE IC)},`}
                 year = {`year={2024},`}
             />
         </div>
