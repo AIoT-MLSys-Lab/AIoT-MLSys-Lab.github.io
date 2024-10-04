@@ -75,7 +75,7 @@ function News() {
                 imageURL="./images/projects/FambaVLogo.jpg" 
                 title="Famba-V: Fast Vision Mamba with Cross-Layer Token Fusion" 
                 date="Aug. 2024"
-                content="Famba-V, our work on efficient Vision Mamba is the Best Paper Award Candidate of ECCV'24 Workshop on Computational Aspects of Deep Learning."
+                content="Famba-V, our work on efficient Vision Mamba is the Best Paper Award winner of ECCV'24 Workshop on Computational Aspects of Deep Learning."
                 ></NewsCard>
               </div>
 

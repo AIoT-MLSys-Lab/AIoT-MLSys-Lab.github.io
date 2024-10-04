@@ -49,7 +49,7 @@ function Home() {
               Aug. 2024
             </div>
             <div className='newContent'>
-            Famba-V, our work on efficient Vision Mamba is the <div className='missionHighLight'>Best Paper Award Candidate</div> of ECCV'24 Workshop on Computational Aspects of Deep Learning.
+            Famba-V, our work on efficient Vision Mamba is the <div className='missionHighLight'>Best Paper Award</div> winner of ECCV'24 Workshop on Computational Aspects of Deep Learning.
             </div>
           </div>
 

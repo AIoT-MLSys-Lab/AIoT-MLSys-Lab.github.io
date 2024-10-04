@@ -656,7 +656,7 @@ function Publications() {
           title = "Famba-V: Fast Vision Mamba with Cross-Layer Token Fusion"
           authors = "Hui Shen, Zhongwei Wan, Xin Wang, and Mi Zhang."
           conference = "European Conference on Computer Vision (<div class='pubHighlight'>ECCV'24</div>) Workshop on Computational Aspects of Deep Learning."
-          honor = "<span class='pubRedHighLight'>Best Paper Award Candidate</span>"
+          honor = "<span class='pubRedHighLight'>Best Paper Award</span>"
           paper = "https://mi-zhang.github.io/papers/2024_ECCVW_Famba-V.pdf"
           bibtex = {FambaV}
           code = "https://github.com/AIoT-MLSys-Lab/Famba-V"
