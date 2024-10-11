@@ -27,6 +27,17 @@ function Home() {
           <div className='homeNewsTitle'>News</div>
 
           <div className='new'>
+
+            <div className='new'>
+              <div className='newDate'>
+                Sep. 2024
+              </div>
+              <div className='newContent'>
+              Famba-V, our work on efficient Vision Mamba is the <div className='missionHighLight'>Best Paper Award</div> winner of ECCV'24 Workshop on Computational Aspects of Deep Learning.
+              </div>
+            </div>
+
+
             <div className='newDate'>
               Sep. 2024
             </div>
@@ -41,15 +52,6 @@ function Home() {
             </div>
             <div className='newContent'>
             In collaboration with MSU, USC, and UCLA, our <a href="https://mi-zhang.github.io/papers/2024_ACMTOSN_AIoTSurvey.pdf">survey</a> on Artificial Intelligence of Things (AIoT) is accepted to ACM Transactions on Sensor Networks. We also create a GitHub repository where we organize the papers featured in this survey. We hope this survey along with the <a href="https://github.com/AIoT-MLSys-Lab/AIoT-Survey">GitHub repository</a> could serve as valuable resources to help researchers and practitioners gain a comprehensive understanding of AIoT research and inspire them to contribute to this important and exciting field.
-            </div>
-          </div>
-
-          <div className='new'>
-            <div className='newDate'>
-              Aug. 2024
-            </div>
-            <div className='newContent'>
-            Famba-V, our work on efficient Vision Mamba is the <div className='missionHighLight'>Best Paper Award</div> winner of ECCV'24 Workshop on Computational Aspects of Deep Learning.
             </div>
           </div>
 
@@ -73,7 +75,7 @@ function Home() {
       <div className='homeAchievement'>
         <h2 className='homeAchievementTitle'>Our Achievements</h2>
         <div className='homeAchievementContent'>
-        The OSU AIoT and MLSys Lab has been conducting world-class research at the intersection of systems and AI/ML. Our research has been published at top-tier venues in both mobile/wireless/embedded sensor systems (MobiCom, MobiSys, SenSys) and AI/ML (NeurIPS, ICML, ICLR). Our works have received seven best paper awards and nominations, and won the 4th Place (1st Place in U.S. and Canada) of 2019 Google MicroNet Challenge (CIFAR-100 Track), the Third Place of 2017 NSF Hearables Challenge, and the champion of 2016 NIH Pill Image Recognition Challenge. Many of our works have been reported by NSF, NIH, IEEE, ACM, and media such as TIME, MIT Technology Review, WIRED, TechCrunch, and Smithsonian magazine more than one hundred times.
+        The OSU AIoT and MLSys Lab has been conducting world-class research at the intersection of systems and AI/ML. Our research has been published at top-tier venues in both mobile/wireless/embedded sensor systems (MobiCom, MobiSys, SenSys) and AI/ML (NeurIPS, ICML, ICLR). Our works have received eight best paper awards and nominations, and won the 4th Place (1st Place in U.S. and Canada) of 2019 Google MicroNet Challenge (CIFAR-100 Track), the Third Place of 2017 NSF Hearables Challenge, and the champion of 2016 NIH Pill Image Recognition Challenge. Many of our works have been reported by NSF, NIH, IEEE, ACM, and media such as TIME, MIT Technology Review, WIRED, TechCrunch, and Smithsonian magazine more than one hundred times.
         </div>
       </div>
       {/* <div className='collection'>

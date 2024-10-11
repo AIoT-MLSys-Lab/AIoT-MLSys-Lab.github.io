@@ -54,6 +54,15 @@ function News() {
 
               <div className='newsItem'>
                 <NewsCard 
+                imageURL="./images/projects/FambaVLogo.jpg" 
+                title="Famba-V: Fast Vision Mamba with Cross-Layer Token Fusion" 
+                date="Sep. 2024"
+                content="Famba-V, our work on efficient Vision Mamba is the Best Paper Award winner of ECCV'24 Workshop on Computational Aspects of Deep Learning."
+                ></NewsCard>
+              </div>
+
+              <div className='newsItem'>
+                <NewsCard 
                 imageURL="./images/memberPhotos/MiZhang.png" 
                 title="Prof. Zhang receives the 2024 University of Chicago Outstanding Educator Award." 
                 date="Sep. 2024"
@@ -67,15 +76,6 @@ function News() {
                 title="Artificial Intelligence of Things: A Survey is accepted" 
                 date="Aug. 2024"
                 content="In collaboration with MSU, USC, and UCLA, our survey on Artificial Intelligence of Things （AIoT） is accepted to ACM Transactions on Sensor Networks."
-                ></NewsCard>
-              </div>
-
-              <div className='newsItem'>
-                <NewsCard 
-                imageURL="./images/projects/FambaVLogo.jpg" 
-                title="Famba-V: Fast Vision Mamba with Cross-Layer Token Fusion" 
-                date="Aug. 2024"
-                content="Famba-V, our work on efficient Vision Mamba is the Best Paper Award winner of ECCV'24 Workshop on Computational Aspects of Deep Learning."
                 ></NewsCard>
               </div>
 
